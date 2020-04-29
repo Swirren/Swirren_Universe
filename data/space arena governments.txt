@@ -1,0 +1,7 @@
+government "Space Arena"
+	"player reputation" -1000
+	bribe 0
+
+government "SA Refueling Station"
+	"player reputation" -1000
+	bribe 0

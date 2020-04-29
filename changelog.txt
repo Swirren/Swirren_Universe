@@ -1,0 +1,265 @@
+v1.6.0 - SA Debug
+	Changes
+		Missions
+			- Space Arena
+				- Fixed a bug where new Wave systems didn't show up on the map
+		
+
+v1.5.0 - SAExp (Space Arena Expansion)
+	Additions
+		Ships
+			- "Kupoint"
+				- The final boss and reward for completing SA. Upgrade from a baccy, a little worse than the Leaf.
+		Outfits
+			- "Allkey"
+				- For description, read "v1.4.1/To Come/Outfits/Allkey"
+		Missions
+			- Space Arena
+				- Boy, am I excited for this. I've got mission, fleet, variant, and event mechanics in the bag. We gucci.
+		Fleets
+			- Space Arena
+				- Added a bunch of ND fleets just so I can add them into the waves. Not sure if I'll even be able to use them all, so does that mean I add all the ships below "Light Warship" and a few "Medium/Heavy Warships"? Idk yet. We'll see. Right now I'm just scrolling down `ships.txt`
+		Images
+			- Space Arena
+				- Found a bunch of assorted stock images that I'll use Paint 3D to edit properly. They WILL replace some existing `images/planet` images etc, and I have a few in mind for the actual space arena `images/ui`, instead of using the Ubuntu logo (although it looks dope, the new image is MUCH simpler and not copyrighted).
+	Changes
+		Map
+			- Space Arena
+				- Gave SA more systems, resulting from a UII change. Also means more waves. In fact, there's a total of 18 (!) waves, then a boss fight with a special ship (It won't be sold anywhere. If the player wants the ship (they will) they'll have to make sure to not destroy it. Since it'll be the only ship in the system, it shouldn't be too hard. The ship, then, becomes the trophy of beating SA (alongside the 25,000,000 credits you'll get).).
+	To Come
+		Map
+			- Space Arena
+				- Originally wasn't going to, but: personal note to add a refueling station in the Wave 9/10 system. 9 as midway, or 10 as achievement?
+		Root Files
+			- Plugin Icon
+				- Thinking of changing the plugin icon. It doesn't really support what the plugin is about.
+
+v1.4.1
+	Changes
+		Root Files
+			Added an icon for the in-game plugin menu
+		Missions
+			- Space Arena
+				- Made some modifications with the help of Derpy Horse to get the first SA mission working. I can, from there, copy and paste the base text.
+		Outfits
+			- Photosynthetic Generator
+				- Guess I never recorded the change that I made awhile ago. Instead of it having 40.2 energy gen, it has 20.1 energy gen and 20.1 solar collection. Thanks to @Nameson2#0245 for the suggestion.
+		Fleets
+			- Adding custom fleets for each wave.
+		Events
+			- Added a test event for a hyperspace link opening, like the FW Deneb stuff.
+	To Come
+		Ships
+			- I don't have proper names yet, but I've come to the conclusion that the Tuxen need more ships. I've got four new sprites to work with.
+		Outfits
+			- "Allkey"
+				- Basically self-descriptive. Combines all the different keys included in the plugin.
+		Root Files
+			- I will, eventually, separate the SA and Tuxen missions. This means that if someone wants one but not the other, they can (Interrupted my own thought process here. Do I really need to do this? I'm not forcing the player to find the Tuxen, nor fight in Space Arena. I mind as well leave them together. With that said, when I'm done with the plugin, should I merge the SA and Tuxen files into one (such as missions and names)? With THAT said, what about when I create new content for the plugin (Because I'm not going to spread everything out)? If the files were separated, that would mean I could update or create each unique root folder, like so: Swiren Plugin/SA or Tuxen or [New content]/data,images, etc. This means that there's one .zip to download, but several plugins contained within. Or is the fun in having multiple different things in one? Will consider.) (Also, considering the previous, I don't really have any ideas on what I'll do after SA and the Tuxen. Maybe something will jump out at me? But, other than adding ships/outfits (like every other plugin known to man) I don't know what special angle I can work on. The Tuxen were the brainchild of my first attempt at making an outfit, then writing missions, and so forth. SA is the culmination of that knowledge, and a unique take on ES mechanics that I personally haven't yet seen.
+		Missions
+			- Add a mission, that, even with both plugins separated (Have duplicate mission files), give the Allkey. This requires that both plugins are installed and have been completed (If I do separate the files).
+			- Is it possible to add a `landing` sequence that adds the Waves back into their systems, once you've beaten SA? 
+
+v1.4.0 - Space Arena
+	Changes
+		Map
+			- Tuxen space
+				- Actually made my own UII for Tuxen space. With the help of Paint 3D, I managed to make it blend in pretty good. Moved the Tuxen space worlds around for the third time but it's finally done.
+			- Swiren Station
+				- Added the Developer Drive to the station's outfitter. Honestly, I'll probably remove this outfit once I'm done with the plugin, because it's not necessary and only made for my own convienience.
+	Additions
+		Map
+			- Hub World
+				- Phase 1 of the Space Arena. I've got the images and most of the know-how to get this process started.
+				- Along with the addition of the actual systems for SA, I have a UII set up as well
+			- Various Tuxen worlds, just to fill a little bit more of Tuxen space up. Also added the planet where the Leaf is grown, and also a refueling planet
+		Root Files
+			- Added a Space Arena disclaimer on how it works etc.
+		Outfits
+			- "Developer Drive"
+				- Pretty self-explanatory. Was getting annoyed at traveling to Helheim every time I wanted to test the Tuxen missions.
+	Notes
+		- Personal reminder to re-do README.txt since I'm adding a whole other aspect to the plugin (the Space Arena). Just incorporate readme and disclaimer? probs make more sense ngl
+	To Come
+		- Got some feedback on the Tuxen storyline. Looks like I'm going to have to greatly expand the length at which you're introduced to them. Also, mlerp (the tester) hated going to Helheim and back. I thought it made a subtle point, being on the other side of the galaxy, but I guess not. Will probably place it on a Syndicate world. It would make sense for them to keep quiet about the Tuxen, as they make good money from the Tuxen buying weapons from human space.
+
+
+v1.3.0 - Tuxen Missions
+	Changes
+		Outfits
+			- "Tuxen Biofuel Capsule"
+				- Renamed to just "Biofuel Capsule"
+		Licenses
+			- Made all Tuxen outfits and ships require the Tuxen license, made available after the Tuxen mission chain.
+		Map
+			- Pushed back all the custom systems just in case an official map update happens in the NE quadrant of the map.
+	Additions
+		Missions
+			- There is finally a mission chain available for Letaga and the Tuxen. It took me forever to figure out (including some unwanted compromise) but the mission chain includes getting the outfit required to get through the Nuclear Wormhole. I'll definitely be adding more content to this, but for now, I'm done. It's 3:21 AM for me right now. I'm tired.
+		Outfits
+			- "Tuxen License"
+			- "Tuxen Spacebender" - Used in place of Nuclear Keystone, may have future use
+			- "Biocooler"
+			- "Keys 1, 2, and 3" - Will be used in a space arena later, stay tuned
+			- "Biochemical Identifier" - used to access rest of Tuxen space
+		Ships
+			- "Dilapidated Sun Striker" - used by the Shunned Tuxen
+		Map
+			- "Sagittarius Tuxen Wormhole"
+			- "Raywar Tuxen Wormhole"
+	To Come
+		Missions
+			- I'm really starting to get the hang of mission building. So far, I have a short mission chain that introduces you to Bi'tux, a Tuxen scout, on Letaga. You go to Helheim and retrieve a Nuclear Keystone, which gives you access to the initial 'collapsing' wormhole. You then proceed to L'nux for the rest of the intro, which will eventually lead into finding the Shunned Tuxen on Ritala, then reconciling with them. Everyone's happy, yay! After that, you get the Tuxen License. Then you can buy Tuxen outfits and ships. That's the plan so far.
+		Ships
+			- I, at some point, plan to add outfit variations to the Tuxen fleets. Not sure if I want to do it to the Shunned Tuxen, or just the Sun Strikers, or all of them?
+		Hails
+			- Just a personal reminder to add Shunned Tuxen hails and the like, to give them a personality.
+			
+		Map
+			- Will be using the Keys and making a space arena of some sort
+
+v1.2.0 - Tuxen Setup
+	Additions
+		Outfits
+			- "Nuclear Keystone" - As of right now, it is impossible to obtain this, as it is sold in Tuxen space. This outfit gives you access to Tuxen space. Catch my drift? (This will be remedied when I write the First Contact missions)
+			- "Windscoop"
+			- "Small Stomata Thrusters"
+			- "Small Stomata Steering"
+			- "Large Stomata Thrusters"
+			- "Large Stomata Steering"
+				- No Medium Stomata because there's really no need
+		Map
+			- Added so many new systems (with planets to come) that I don't really want to list them all. Besides, it'd be more fun to explore them yourself!
+			- This one is the exception to the above - planet "Ritala", where I will have the Shunned Tuxen introduced
+	Changes
+		Map
+			- Redid Swiren Station to only sell the "Top Hat" outfit, and to have the "Basic Ships" shipyard, just so you can sell your own ships
+	To Come
+		Outfits
+			- Considering renaming the Stomata Thrusters to fit some sort of class (like the Korath engines etc). But what would I name them?
+		Map
+			- Add habitable planets to most of the new systems, but only one that has a spaceport
+			- Make system "109846709823" house the extreme endgame outfits - and set up a **fleet** of dilapidated Sun Strikers to fight the player
+			- Also make it so missions are required to get objects to land on different wormholes, all leading up to Ritala
+			- Tuxen as hive mind? hmm
+
+v1.1.1
+	Changes
+		Ships
+			- Sun Striker
+				- Added 100 more outfit space after accidentally making it have -45 outfit space (extra 55 for the versatility aspect) for a total of 305 outfit space
+		Governments
+			- Tuxen
+				- Changed the frequency at which they appear in Tuxenburg, along with how many appear. Also fixed their ship names
+		Persons
+			- Swiren
+				- After finally(!!) finding my custom ship, I realized just how bad I messed up the hail messages. Fixed them, but when I rebooted the game for precache, the ship was gone. We'll never know if I truly fixed it.
+		Missions
+			- Tuxen Warning
+				- Added a line to clarify the warning.
+	To Come
+		Outfits
+			- Since the only thrusters I have now are way too overpowered for the Sun Striker, I'll be making Small thrusters, since the ones now were designed for the Leaf.
+
+v1.1.0 - I Ship It
+	Changes
+		Ships
+			- "Tuxen 'Leaf'"
+				- Changed name (again) to just 'Leaf'
+	Additions
+		Ships
+			- Sun Striker
+	Notes
+		- A big boi thanks to @Nameson2#0245 for general help, and pointing out various plot holes etc.
+
+v1.0.0 - On the Map - First Official Release
+	Changes
+		Ships
+			- "Paos 'Leaf'"
+				- Changed name to "Tuxen 'Leaf'"
+		Outfits
+			- "Paos Biofuel Capsule"
+				- Changed name to "Tuxen Biofuel Capsule"
+		Missions
+			- Renamed the Ca'ti to Paos, then to Tuxen. We'll see how this stays for now.
+	Additions
+		Map
+			- "Tuxenburg" system, with "L'nux" planet
+			- "Warden Diamond" system, with "Lilith", "Charon", "Cerberus", and "Medusa" planets
+		Governments
+			- "Tuxen" government, along with appropriate hails, names, and frequency
+			- "Confederacy" government, used in the "Warden Diamond" system. 
+				- Read Jack L. Chalker's 'The Four Lords of the Diamond' book to get the reference. (An absolute must-have if you like 1950s-style SF.)
+	To Come
+		Ships
+			- "Sun Striker"
+
+v0.2.0 - Foliage Technology
+	Changes
+		Ships
+			- "Ca'ti Leaf"
+				- Balanced the cost.
+				- Changed name to "Paos 'Leaf'"
+		Outfits
+			- "Radial Hex Field"
+				- Balanced some of its extra attributes.
+			- Balanced the Leaf-specific outfits' costs alongside the Leaf's cost
+	Additions
+		Outfits
+			- "Stomata Thrusters" (Thanks to Ember369 in the ES Discord for the idea)
+			- "Photosynthetic Generator"
+			- "Bioquadrilateral Shield Generator"
+			- "Sequential Solar Array"
+			- "Metabolic Waste Battery"
+			- "Compressed Dung Storage"
+			- "Paos Biofuel Capsule"
+		Map
+			- "Letaga" - a planet in the Sagittarius A system.
+			- "Swiren Station" - a space station above Mars in the Sol system.
+		Missions
+			- Began the process of introducing the Ca'ti (read the To Come section below). First Contact is on Legata in the Sagittarius A system, although the storyline is as of now nonexistent. Still trying to figure out how to code certain things.
+			- Make the Leaf your ultimate reward for the Ca'ti missions? Make them the devs of Leaf? Ca'ti homeworld on that giant forest planet?
+	To Come
+		Outfits
+			- "Stomata Thrusters"
+				- Considering making small, medium, and large variations. Might name them after leaves or branches, in respective scaling order.
+			- Custom outfits
+				- Going to start the transition of moving Leaf and Leaf-specific outfits to Tuxen-label worlds
+		Missions
+			- Rethinking the "Ca'ti" name. First random idea is "Paos/Paosians." (This is awhile later. Paos is very similar to the Naos system. Not my intent. Next name. Tuxen?)
+	
+v0.1.1
+	Bug Fixes
+		Ships
+			- "Leaf"
+				- Fixed a coding issue where the hardpoints weren't showing up correctly on the ship.
+	To Come
+		Ships
+			- "Leaf"
+				- Will lower Leaf price. Mega high right now. 157 million? 
+		Outfits
+			- Considering making outfits specific to the Leaf.
+			- Will lower custom outfit prices (Done)
+			- Might look up or make a sound for the Radial Hex Field, to further ensure that yes, it is doing something.
+		Map
+			- A "Swiren Station" is in the works. Sell custom outfits here, or in alien space?
+		Missions
+			- New species? Humans? Or a new one altogether? You'd find them through a wormhole at Sagittarius A and only one world out of many would be friendly. Upon landing they'd be like "Help the wormhole's collapsing because of the black hole's gravity, can you help us?" And GET THIS: That guy that wanted 50 qks would publish his findings and it would conveniently show that many of them in one area holds a hyperspace connection together. And the player's kinda like, "huh that's cool."
+
+v0.1.0 - In the Beginning
+	Additions
+		Ships
+			- "Leaf"
+		Outfits
+			- "Radial Hex Field"
+			- "Multipurpose Fractal Engine"
+			- "LENS"
+			- "Black Box"
+			- "The Major"
+			- "Top Hat"
+		Persons
+			- "Swiren"
+	To Come
+		Ships
+			- "Leaf"
+				- Working on fixing Leaf hardpoints.

@@ -1,0 +1,39 @@
+ship "Kupoint"
+	sprite ship/saboss
+	thumbnail thumbnail/saboss
+	attributes
+		category "Heavy Warship"
+		"cost" 27600000
+		"shields" 20000
+		"hull" 30400
+		"required crew" 18
+		"bunks" 145
+		"mass" 840
+		"drag" 9.1
+		"heat dissipation" 0.7
+		"fuel capacity" 900
+		"cargo space" 130
+		"outfit space" 830
+		"weapon capacity" 350
+		"engine capacity" 225
+	outfits
+# Weapons
+		"Particle Cannon" 4
+		"Heavy Anti-Missile Turret" 4
+#Engines
+		"A860 Atomic Thrusters" 1
+		"A865 Atomic Steering" 1
+# Systems
+		"Liquid Helium Cooler" 1
+		"Large Radar Jammer"
+		"Blue Sun Reactor"
+		"Dark Storm Shielding" 3
+		"LP288a Battery Pack"
+# Hand to Hand
+		"Laser Rifle" 18
+# Special
+		"Space Arena Key" 1
+
+	engine etc
+
+	description "Having this ship available for purchase means you've conquered the challenge of the Space Arena! Good job! Enjoy having an upgrade to that rust bucket you were flying earlier."

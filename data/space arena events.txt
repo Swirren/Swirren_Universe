@@ -1,0 +1,67 @@
+event "Link 1-2"
+	link "Wave One" "Wave Two"
+	visit "Wave Two"
+
+event "Link 2-3"
+	link "Wave Two" "Wave Three"
+	visit "Wave Three"
+
+event "Link 3-4"
+	link "Wave Three" "Wave Four"
+	visit "Wave Four"
+
+event "Link 4-5"
+	link "Wave Four" "Wave Five"
+	visit "Wave Five"
+
+event "Link 5-6"
+	link "Wave Five" "Wave Six"
+	visIt "Wave Six"
+
+event "Link 6-7"
+	link "Wave Six" "Wave Seven"
+	visit "Wave Seven"
+
+event "Link 7-8"
+	link "Wave Seven" "Wave Eight"
+	visit "Wave Eight"
+
+event "Link 8-9"
+	link "Wave Eight" "Wave Nine"
+	visit "Wave Nine"
+
+event "Link 9-10"
+	link "Wave Nine"  "Wave Ten"
+	visit "Wave Ten"
+
+event "Link 10-11"
+	link "Wave Ten" "Wave Eleven"
+	visit "Wave Eleven"
+
+event "Link 11-12"
+	link "Wave Eleven" "Wave Twelve"
+	visit "Wave Twelve"
+
+event "Link 12-13"
+	link "Wave Twelve" "Wave Thirteen"
+	visit "Wave Thirteen"
+
+event "Link 13-14"
+	link "Wave Thirteen" "Wave Fourteen"
+	visit "Wave Fourteen"
+
+event "Link 14-15"
+	link "Wave Fourteen" "Wave Fifteen"
+	visit "Wave Fifteen"
+
+event "Link 15-16"
+	link "Wave Fifteen" "Wave Sixteen"
+	visit "Wave Sixteen"
+
+event "Link 16-17"
+	link "Wave Sixteen" "Wave Seventeen"
+	visit "Wave Seventeen"
+
+event "Link 17-18"
+	link "Wave Seventeen" "Wave Eighteen - Final Boss"
+	visit "Wave Eighteen - Final Boss"

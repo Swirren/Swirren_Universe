@@ -1,0 +1,98 @@
+person "Swiren"
+	government "Author"
+	personality
+		plunders
+	phrase
+			"Bet you wish you could have this beauty, huh?"
+	phrase
+			"Life motto: never refuse free food."
+	phrase
+			"If you repeatedly hail this ship, you'll get a new response each time! Well, almost every time."
+	phrase
+			"I'm too lazy to write any more responses."
+	phrase
+			"Find me @ swiftrender#8897! Let me know if you found this message; include a screenshot if you can!"		
+	phrase
+			"It's time to kick bubblegum and chew ass. And I'm all out of-- wait, that's not right..."
+	phrase
+			"As much as I'd like to stay, I really must toodle my doo."
+	phrase
+			"TRON Legacy: best movie ever, hands down."
+	phrase
+			"They are out there, with the perfect system. It's in their grasp!"
+	phrase
+			"Out there... out there, is our destiny."
+	phrase
+			"If you eat 10 trillion volts, it'll give you 0.0000000038 calories! Motto of the story: volts are good for you."
+	phrase
+			"Portal 3 when?"
+	phrase
+			"The rest of this message is by John Cena:`                                              `"
+	phrase
+			"Quite epic, if I do say so myself."
+	phrase
+			"Hope you're enjoying the plugin!"
+	phrase
+			"Model 512 gang. For life."
+	phrase
+			"Tell MZ to make writing missions easier."
+	ship "Model 512"
+	"never disabled"
+	swizzle 3
+	attributes
+		category "Heavy Warship"
+		cost 40375000
+		mass 1150
+		automaton 1
+		"cargo space" 107
+		drag 17.4
+		"engine capacity" 161
+		"fuel capacity" 400
+		"gun ports" 2
+		"heat dissipation" 0.8
+		hull 34200
+		"outfit space" 994
+		ramscoop 3
+		"self destruct" 0.8
+		shields 86400
+		"turret mounts" 7
+		"weapon capacity" 512
+	outfits
+		"Outfits Expansion" 2
+		Hyperdrive
+		"Bunk Room" 2
+		"Large Heat Shunt"
+		"Thruster (Planetary Class)"
+		"Small Heat Shunt" 2
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Command Center"
+		"Fuel Processor" 3
+		"Korath Disruptor" 3
+		"Korath Slicer Turret" 3
+		"Steering (Stellar Class)"
+		"Wanderer Ramscoop"
+		"Dark Storm Shielding"
+		"Pug Seeker"
+		"Nanotech Battery"
+	crew 7
+	fuel 1000
+	shields 86400
+	hull 34200
+	position -103.55016 -1152.5088
+	engine -145 97 1
+	engine 145 97 1
+	gun -22 -143 "Pug Seeker"
+	gun 22 -143
+	turret -23 -134
+	turret 91 -102 "Korath Disruptor"
+	turret 124 -57 "Korath Slicer Turret"
+	turret -130 -33 "Korath Disruptor"
+	turret 138 20 "Korath Slicer Turret"
+	turret -121 86 "Korath Slicer Turret"
+	turret 54 138 "Korath Disruptor"
+	explode "tiny explosion" 160
+	explode "large explosion" 35
+	explode "small explosion" 115
+	explode "medium explosion" 80
+	"final explode" "final explosion large" 1
