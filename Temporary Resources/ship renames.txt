@@ -1,5 +1,0 @@
-Stem
-Sapling
-Twig
-Branch
-Trunk
