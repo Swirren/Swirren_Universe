@@ -1,15 +1,207 @@
-v1.6.0 - SA Debug
+# Note - I recommend turning Word Wrap off, to make viewing the change heirarchy easier.
+
+v1.6.13
+	Additions
+		Sound
+			Ambient
+				- Added three loop tracks to Swiren Station, Hub World, and Letaga. Their respective mood fits them, I think. Credit goes to Jackbox Games (jackboxgames.bandcamp.com) for the three soundtracks, which are used in the game Word Spud.
+	Changes
+		Assorted
+				- Changed a small integer that had previously set an `interface` image in the wrong place.
+				- Fixed a minor typo relating to Swiren Station.
+	Notes
+		Tuxen
+			- It's been awhile since I've touched these files, so I'm not sure if I've mentioned the following yet, and I'm too lazy to go back and look.
+			- Since Taely is a prefect, it would make sense for her to have a veritable escort. If I don't want to do that, who else has a formidable knowledge of technology and has had alien encounters?
+			- While looking back through the previous plugin versions, it occured to me that I need to remember that your first experience with a Tuxen is with Bi'tux. Even though the original mission sequence is trashed, OGs will remember Bi'tux. "You must hurry, human, with utmost haste!"
+		Random
+			- Note to self to add charity missions to the plugin. All it is is you're paying some planet that's in need, but it slightly boosts the reputation of whatever the presiding government is. I feel like this is something that could be implemented into vanilla?
+
+v1.6.12
+	Additions
+		- Tuxen
+			- Added some more to TX1-2
+	Changes
+		- Tuxen
+			- Renamed the Shunned Tuxen homeworld and linked it with the rest of the surrounding systems. This'll be interesting.
+	Notes
+		- The version numbers for this plugin change so frequently because I transfer the folder between two computers. Renaming versions helps differentiate what's new and what's old.
+v1.6.11
+	Additions
+		- Tuxen
+			- FINALLY (I think) FIGURED OUT HOW TO DO `label` AND `goto` STUFF! Honestly, I think it was just me not paying enough attention to how the vanilla missions were spaced and tabbed, and my missions were confusing the parser. I'd like to thank mission "Remnant: Learn Sign 1" for being the mission that helped me figure it all out. When I'm rich and famous, I'll remember you.
+			- Just did a complicated `choice` sequence that involves 9 potential choices (funneling into one outcome). I think I'm safe in saying I've gotten the hang of mission writing. I forgive you, MZ!
+			- As much as the player will hate this, the only logical way to get into the Tuxen computer is by contacting Taely. She's head of reverse engineering blah blah blah, and is really the only person that could deal with this kind of alien tech.
+				- Maybe make different branches where the player can choose between Taely, x,y, and z characters? And have unique storylines up until you return them to where you picked them up.
+
+v1.6.10
+	Additions
+		- Tuxen
+			- Working on a new `missions.txt` file to replace the hurried, incomplete current one.
+				- Am pretty much set on making them a hive mind (interruption - while the Kor Sestor and Mereti are technically hive minds, it's not sentient)
+					- Wondering how obtaining a license will be possible - unless the main point of this storyline is to be at war with them - no outfitters etc and stealing their ships
+					- Is this unique? I personally haven't seen it before
+			- NTS that Letaga eventually needs to dip and be "sucked in" by the black hole, in an `event`
+	Changes
+		- Various
+			- Took a brief look through some files and made corrections.
+	Notes
+		- Space Arena
+			- Wondering if adding ships like the Kupoint and Tlano are really necessary. While they look cool, they don't really add anything to the plugin, and don't really have any kind of explanation as to why they're added.
+				- I really like those names, so I'll keep them in mind for anything else I might add.
+		- I've been in constant doubt about the update numbering. Was v1.0.0 really the best I could offer for a first release? Might start renaming the updates? Or will v2.0.0 be the start of a new update numbering system, once I have the individual plugin aspects fully written?
+		- Reminding myself to take a breath and re-do the Tuxen storyline. It may seem like a daunting task, but one I must undertake nonetheless. It's way too rushed right now. Instead of having the Tuxen pop out of nowhere, maybe make them shy at first?
+			- Maybe having them as a hive mind isn't so crazy now. I haven't forgotten.
+			- Also personal reminder to make the 'ui' for Tuxen space something that only shows up when you first go through the wormhole.
+
+v1.6.9
+	- Ha ha yes funny number
+	Additions
+		- Assorted
+			- This file now contains much more than a few misc planets - it's where `interface` code is placed among other things. Now, when the player starts up the game, a customized main menu appears. The only thing beside this is the `boarding panel` ui interface, but I'll probably add more to this later.
+	Notes
+		- Had a revalation. Was always so starstruck at people that made mods for other games, like Minecraft, for example - but I'm now realizing that all these other games that support mods/plugins are JUST THE SAME as what I'm doing here. ES is the foundation, Swiren Universe is just another floor built upon the ES building. This property applies to Minecraft and all the other games. Actually considering making a Forge mod now lol
+		- Wondering what attribute an outfit needs to be unsellable.
+
+v1.6.8
+	Additions
+		Drak Zoo
+			- Struggling my way through DZ5. Making multiple options in the form of `labels` and `gotos` still somehow elude me. And looking in existing vanilla mission files DOES not help, because it's almost never written consistently. Weird.
+	To Come
+		- Personal reminder to make use of the random image files I've collected. Maybe actually do something with them?
+
+v1.6.7
+	Additions
+		Root Files
+			- Added some fun `ui` and `_menu` additions.
+	Notes
+		- What makes a jump drive a jump drive? In what file is the "lets you jump to any nearby system" located? Trying to make a "Warp Drive." Grrr this is annoying.
+			- Found it! Of course(!), it's in the .exe, so it'd be impossible to add to the plugin. Wish this could be remedied.
+
+v1.6.6
+	Additions
+		Drak Zoo
+			- Missions written:
+				- DZ4
+			- Missions WIP:
+				- DZ5
+	To Come
+		Drak Zoo
+			- I've got to figure out how to write a mission chain that makes it appear as if you're asking a question from a menu, that question is answered, then you return to the menu with one less option, as if you're proceeding through the options. This is done in a mission chain I can't remember...
+
+v1.6.5
+	Additions
+		Quarg
+			- Added some short descriptions to the Quarg outfits that normally don't have one. Might make a PR for the vanilla game.
+		Drak Zoo
+			- Missions written:
+				- DZ3
+			- Missions WIP:
+				- DZ4
+	Notes
+		- Got some feedback on the Drak Zoo missions. Seems like this would never be implemented into the vanilla game? I can sort of understand that, but I feel like SOMETHING needs to happen with the Drak, instead of them always being a mystery species.
+		- Also now thinking what else I could do, however minor, that would fit in, be canon, whatever.
+
+v1.6.4
+	Additions
+		Drak Zoo
+			- Started a whole new mission sequence. Read the README.txt entry to learn more.
+				- Missions written:
+					- DZ1
+					- DZ2
+				- Missions WIP:
+					- DZ3
+					- DZ4
+	Changes
+		Root Files
+			- Not technically an update, but I've sorted the data files and renamed the plugin to Swiren Universe. It's now inspired by Shields Up, in a way.
+
+v1.6.3
+	Additions
+		Space Arena
+			- Wrote Waves:
+				- 14
+	Notes
+		- Changed version to 1.6.3 to differentiate between older versions.
+
+v1.6.2
+	Additions
+		Root Files
+			- Piled all the loose outfits, planets, etc (such as Top Hat, Confederacy, etc) into `assorted.txt`
+			- Also added the proper copyright files. If you want to shoot me an email, go ahead! I'm always willing to take feedback and constructive criticism.
+			- Re-did `icon.png` for the third time. It's now my official icon, one I recently developed.
+	Changes
+		Space Arena
+			- Slight tweaks and alterations for a better experience.
+				- This includes DOUBLING the number of ships in each wave except for final boss. Through my testing, the first thirteen waves that I coded were supremely easy for the tester ship I used. My shields never got below 75%.
+	To Come
+		Space Arena
+			- Y'know, it'd be helpful if I actually made a refueling station in Wave Nine, wouldn't it?
+		Effects
+			- Note to self to redo the plugins' ship's explosion file to the `cartoon` one.
+		Map
+			- Here's a thought - make "Helpful Wormholes" that connect one end of the galaxy to the next
+v1.6.1
+	Additions
+		Governments
+			- Added a "Hub World" government so the player doesn't have any trouble landing repeatedly, but still gets attacked by the waves.
+		Missions
+			- Added a warning in case the player doesn't read the about or README files.
+	Changes
+		Map
+			- Finally copied the Tuxen and SA systems to their own respective map.txt files. A lot of people had been wanting this, and while I had planned to do it in the future, just got over myself and did it.
+		Root Files
+			- Changed the plugin icon to the Top Hat outfit image, because I was lazy and thought it looked neat. Still might change it again, who knows.
+		Outfits
+			- Developer Drive
+				- Finally removed it since it was too much of a pain to use in the various tester ships I created during the course of SA
+	To Come
+		Ships
+			- Tlano
+				- I already have most of the components together for this ship, but there's still a few thing I have to work out.
+		Missions
+			- Not technically a mission, but it's coded as such. Make a `landing` mission that explains the basics of both aspects of the plugin, if the player hasn't read README.txt or about.txt. It's kind of important.
+		Space Arena
+			- Considering splitting each wave's mission in to two parts, to make it so players can click on the mission and have it autonav to the system, instead of the player having to do it manually. I don't think it would be too hard to do this?
+			- Also, I should probably make the `galaxy` icons for SA appear procedurally, like the alien faction ones - kinda ruins the effect a bit maybe of seeing all the systems at once
+			- Because of that one plugin I found that gives reputation etc, maybe make missions available on Hub World that reopen the waves? Very small profit but I think I should do it - or make them all open at once (by default or by a singular mission)?
+	Notes
+			- There wasn't too much significant reason to move to a new version, but complications with duplicate files arose, after sticking with v1.6.0 for too long.
+			- I've noticed a potential bug in ship pricing. What I have in `tuxen ships.txt` does not at all correspond to what's shown in game. Conflicting data/files, or 0.9.12 bug?
+
+v1.6.0 - Ships Expansion
+	Additions
+		Ships
+			- "Bush" - Tuxen cargo freighter
+		Root Files
+			- Sounds
+				- Added a sound for the Radial Hex Field
+	To Come
+		Missions
+			- After a good deal of feedback from the ES Discord, I've decided to completely revamp the Tuxen First Contact missions. Mainly, I'll make it so the introduction isn't so rushed.
+			- Note to self to make sure that you can't complete Tuxen missions if you have a negative reputation with them, to prevent you from obtaining their ships and outfits legit early on
+		Outfits
+			- Am also considering actually making Medium Stomata Thrusters now. There was a point where they would have been irrelevant, but it's becoming an increasing issue, as I'm going to be making more Tuxen ships.
+
+v1.5.1
 	Changes
 		Missions
 			- Space Arena
-				- Fixed a bug where new Wave systems didn't show up on the map
-		
+				- Fixed a bug where new Wave systems didn't show up on the map		
+	Additions
+		Events
+			- Space Arena
+				- Added a `visit` trigger to each event so the player can find each new wave system
+	To Come
+		Ships
+			- Several new Tuxen ships are in the works.
 
 v1.5.0 - SAExp (Space Arena Expansion)
 	Additions
 		Ships
 			- "Kupoint"
-				- The final boss and reward for completing SA. Upgrade from a baccy, a little worse than the Leaf.
+				- The final boss and reward for completing SA. Upgrade from a baccy, a little worse than the Leaf (I think lol).
+				- Note to self to credit the guy in the ES Discord that made the ship sprite
 		Outfits
 			- "Allkey"
 				- For description, read "v1.4.1/To Come/Outfits/Allkey"
@@ -180,7 +372,7 @@ v1.0.0 - On the Map - First Official Release
 		Outfits
 			- "Paos Biofuel Capsule"
 				- Changed name to "Tuxen Biofuel Capsule"
-		Missions
+		Governments
 			- Renamed the Ca'ti to Paos, then to Tuxen. We'll see how this stays for now.
 	Additions
 		Map
@@ -263,3 +455,4 @@ v0.1.0 - In the Beginning
 		Ships
 			- "Leaf"
 				- Working on fixing Leaf hardpoints.
+}

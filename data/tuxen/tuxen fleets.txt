@@ -1,0 +1,34 @@
+fleet "Tuxen Warships"
+	government "Tuxen"
+	names "tuxen"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 1
+		"Leaf" 
+fleet "Tuxen Interceptors"
+	government "Tuxen"
+	names "tuxen"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 1
+		"Sun Striker"
+
+fleet "Tuxen Cargo"
+	government "Tuxen"
+	names "tuxen"
+	cargo 5
+	personality
+		heroic opportunistic
+	variant 1
+		"Bush"
+
+fleet "Shunned Tuxen"
+	government "Shunned Tuxen"
+	names "shunned tuxen"
+	cargo 1
+	personality
+		plunders harvest
+	variant 1
+		"Dilapidated Sun Striker" 5

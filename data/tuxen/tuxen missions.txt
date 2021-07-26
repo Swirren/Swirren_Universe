@@ -1,0 +1,181 @@
+{
+mission "TX0"
+	landing
+	name "Mysterious Technology"
+	description "After finding an alien bunker with unfamiliar technology, you've decided it'd be best to visit Taely on <planet> and see if she can help at all."
+	source Letaga
+	destination Viminal
+#to offer
+#	"has: main plot completed"
+#	"has: Remnant: Tech Retrieval"
+	on offer
+		conversation
+			`This planet is desolated; in complete ruin. Apparently, given the craters and terrible atmosphere, the destruction is artificial; but your scanners indicate no sign of life, or even any sign of civilization. However, just to be sure, you could fly to the other side of the planet and make scans there.`
+			choice
+				`	(Head back to your ship and scan the rest of the planet.)`
+				`	(Not right now.)
+					defer
+			`	You've almost given up when your scanner beeps noisily at you. It's detected a small metal square on the surface. Check it out?`
+			choice
+				`	(Check it out.)`
+				`	(Nah. It's probably nothing.)`
+					defer
+			`	You figure it wouldn't be too much trouble to take a few minutes and inspect the metal square.`
+			`	Upon landing a few yards away from the square, you realize it is an access hatch; with enough strength behind it that it's probably a blast door, flat on the dusty surface.`
+			choice
+				`	(Knock on the door.)`
+				`	(Figure that the door's locked for a reason, and depart.)`
+					defer
+				`	(Use your blaster pistol and break in.)`
+					goto break
+			`You knock on the door. After several minutes of waiting, you begin to feel silly.`
+			label break
+			`You opt to use your pistol to blast the door off. Doing so reveals nothing more than a rusty ladder, of which you can't see the bottom of. Climb down?`
+			choice
+				`	(Climb down.)`
+				`	(Chicken out.)`
+					defer
+			`	You brace your shoulders, and decide that you'll figure out what's going on and persevere to the end.`
+			` 	Climbing down into the stifling darkness, however, makes you doubt your choice, but you're already here.`
+			`	You finally reach the bottom, and look up. The surface, your ship, and safety are a long way off. Armed only with the blaster pistol you figured would be helpful, you tentatively step into the darkness that lies ahead of you. As you take the first step into whatever room is there, an automatic sensor flips the lights on. Before you get a solid grip of what's in the room, your brain makes an impulse decision:`
+			choice
+				`	(Fire willy nilly and hope for the best.)
+					goto willy
+				`	(Cower on the floor.)
+					goto cower
+				`	(Freeze in place.)
+					goto freeze
+
+			label willy
+			`	Your finger automatically spams the trigger on your blaster pistol, and shots go everywhere. When the considerable dust settles, you're left with an empty, pock-marked control room of some sorts.`
+				goto embarassment
+
+			label cower
+			`	You duck and cower on the floor. When nothing happens, you slowly raise your head, to find a empty control room of sorts.`
+				goto embarassment
+
+			label freeze
+			`	You freeze in place, hoping for the best. When your brain and eyes catch up, you're faced with an empty control room of sorts.`
+				goto embarassment
+
+			label embarassment
+			`	When you finally get over your embarassment, you carefully inspect the room. It's fairly spartan; surprising for a bunker that seems built to last a nuclear explosion or two. Some average-looking server banks are stacked up against a wall, with some computers and desks on the opposite wall. Thick bundles of fiber optic cables connect the two sides. A side door leads to another room; darkened like the present one, but will probably light up when you enter it.`
+			`	But strangest of all is a prevailing, nauseating smell of dead fish. There are no oceans nearby, or even at all on this planet, so why the smell is here is beyond you.
+			` You contemplate your next move, with more consideration than when you first arrived.`
+			choice
+				`	(Check out the side room.)`
+				`	(Inspect the computers.)`
+					goto inspect
+			`	You enter the side room with a bit of trepidation. Doing so flips on the overhead lights, just like before. Instantly, you detect the source of the horrific smell. A freezer chest has been left open, and even though the chest has power still, it is not able to keep up with the overall tropical temperatures. You're sure that all the chest has been able to do is slow down the smell from getting worse.`
+			`	Holding your nose, you shut the freezer and look around. This room is much smaller, and appears to only be a break room, but instead of a refridgerator or the like, there is only the freezer instead. Odd.`
+			` You return to the main room.`
+			label inspect
+				`You inspect the server banks first. Nothing out of the ordinary; just a slightly messy mesh of fiber optics.`
+			`	Those fiber optics strung on the ceiling lead to the computers opposite you. Walking over and looking at the computers, they too seem normal. Upon a scrutinous observation, though, there appears to be a plant growing from one of the computers. Incredible as it may be, when you pry off the side of the housing box, there is indeed an overgrown plant of some sort. What's even more incredible is that this alone seems to be the computer. The plant is more intricately weaved then you ever knew a plant could be; apart from the fact that gentle prodding finds that there are no actual circuit boards in the computer tower. Except for one thing. The power button, you presume.`
+			`	Wasting no time, you press the button. You're glad you opened the housing - pressing the button has an effect similar to a spark plug in a car - a bright bolt of electricity and the plant miraculously begins to glow, something you probably wouldn't have seen with the housing on. Sitting back, you can only admire the creation before you. Oh, yeah - you haven't forgotten that this technology is certainly alien, unlike any alien tech you've seen thus far.`
+			`	Eventually the strange plant-computer boots up and presents you with a profoundly alien interface. There's no desktop, no music player, nothing that usually presents itself on a human computer. There's just a box with an entry field. The language is unfamiliar: "Kylu tana rito?" it asks. It's probably asking for a password. What should you enter? The keyboard is printed with English letters (weirdly enough):`
+			choice
+				`	(letmein)`
+					goto l1
+				`	(password123)`
+					goto p1
+				`	(drowssap)`
+					goto d1
+			
+			label l1
+			`	The computer denies you access. Try another password?`
+			choice
+				`	(password123)`
+					goto l2
+				`	(drowssap)`
+					goto l3
+			label l2
+			`	The computer denies you access. Try another password?`
+			choice
+				`	(drowssap)`
+					goto failed
+			label l3
+			`	The computer denies you access. Try another password?`
+			choice
+				`	(password123)`
+					goto failed
+
+			label p1
+			`	The computer denies you access. Try another password?`
+			choice
+				`	(letmein)`
+					goto l2
+				`	(drowssap)`
+					goto d2
+
+			label d1
+			`	The computer denies you access. Try another password?`
+			choice
+				`	(letmein)`
+					goto l3
+				`	(password123)`
+					goto d2
+			label d2
+			`	The computer denies you access. Try another password?`
+			choice
+				`	(letmein)`
+					goto failed
+
+			label failed
+			`	Unsurprisingly, the computer locks you out after too many failed attempts.`
+# Just tested out the passwords coding in-game. It works, yo!
+			`	What is surprising is that your mobile device makes a noise. It's linked with your ship's sensors, and a message from your ship's computer tells you that it is detecting strong levels of radio activity within your vicinity. You tune into the radio stream:`
+			`		"Klush bana, hokeohyo ditylu af keno! Klush bana, hokeohyo ditylu af keno!"`
+			`	It repeats like this, a strange alien voice droning on and on. You dearly wish you knew what it was saying, but you think it must be related to your failed password-guessing attempts.`
+			`You head back up the ladder to your ship and access your ship's logs. According to those logs, a high-powered radio signal began broadcasting just a few minutes ago, presumably the same time that the alien computer locked you out. After a quick scan, you are also able to determine that the signal is directed at an object in this system. Other than that, you've deduced nothing else that helps you figure out what species built this bunker.`
+			`	Downtrodden, you prepare your ship to leave the system. There's nothing for you here. Until an idea flowers in your head. What if you visited Taely on <planet> and asked her about the technology? You decide that that's your next feasible course of action.`
+			`	You contemplate bringing the plant-computer along, but because it's organic life, it might perish outside of the bunker. You'll have to ask Taely to come with you back here.`
+				accept
+
+mission "TX1"
+	landing
+	name "Return to Letaga"
+	description "With Taely on board, return to Letaga to figure out what kind of technology is in that alien bunker."
+	source Viminal
+	destination Letaga
+	to offer
+		"has TX0: done"
+	on offer
+		conversation
+			`	As you suspected, Taely is working in the shipyard when you arrive. She acknowledges you with a wave, dusts off her hands, then meets you outside.`
+			`"What can I do for you, <first>?"`
+			choice
+				`	"I've discovered an alien hidden base."`
+				`	"There's some interesting technology I'd like you to see."`
+			`"Wow! That sounds cool!" she signs. "Where is it?"`
+			choice
+				`	"It's on a planet called Letaga; near the center of the galaxy."`
+			`Taely eyes you incredously.`
+			`"And you came all the way to me? I'm honored!"`
+			`"Do you have any of this technology with you?" she chants.`
+			choice
+				`"The technology appears to be organic, so I didn't risk bringing it to a foreign place."`
+			`"I completely understand. Are you ready to go?"`
+			choice
+				`	"Yep! Let's go!"`
+				`	"I've still got a few things to do, but you can come along until I'm ready."`
+			`"Great! I'm excited to see this!"`
+				accept
+
+# mission "TX2"
+#	landing
+#	name ""
+#	description ""
+#	source Letaga
+#	destination ""
+#	to offer
+#		"has TX1: done"
+#	on offer
+#		conversation
+#			`The excitement that Taely brings with her is palpable, and you've picked up on it slightly as well. You retrace your steps to the metal hatch and open it once more, and follow her down the ladder. This time, you're expecting the automatic lights, and you direct her to the plant-computer at once.
+
+
+			
+# As much as the player is going to hate it - visit Taely (remnant) about hacking into the pc - she's head of reverse engineering and "salvaging technology blah blah"
+# Your radio sensors are screaming at you - there's definitely something being broadcasted
+}

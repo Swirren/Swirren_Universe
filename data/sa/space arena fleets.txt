@@ -1,0 +1,158 @@
+fleet "Wave One"
+	government "Space Arena"
+	names "Wave One"
+	variant 1
+		"BounderND" 2
+		"SparrowND" 2
+		"BarbND" 2
+
+fleet "Wave Two"
+	government "Space Arena"
+	names "Wave Two"
+	variant 1
+		"HawkND" 2
+		"SparrowND" 4
+		"BarbND" 4
+
+fleet "Wave Three"
+	government "Space Arena"
+	names "Wave Three"
+	variant 1
+		"FuryND" 2
+		"BounderND" 4
+		"BarbND" 6
+		"SparrowND" 6
+
+fleet "Wave Four"
+	government "Space Arena"
+	names "Wave Four"
+	variant 1
+		"BerserkerND" 2
+		"FuryND" 4
+		"BarbND" 8
+		"SparrowND" 8
+
+fleet "Wave Five"
+	government "Space Arena"
+	names "Wave Five"
+	variant 1
+		"BlackbirdND" 2
+		"BerserkerND 4
+		"BarbND" 8
+		"SparrowND" 8
+
+fleet "Wave Six"
+	government "Space Arena"
+	names "Wave Six"
+	variant 1
+		"ClipperND" 2
+		"BlackbirdND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Seven"
+	government "Space Arena"
+	names "Wave Seven"
+	variant 1
+		"AerieND" 2
+		"ClipperND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Eight"
+	government "Space Arena"
+	names "Wave Eight"
+	variant 1
+		"CorvetteND" 2
+		"AerieND" 2
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Nine"
+	government "Space Arena"
+	names "Wave Nine"
+	variant 1
+		"FirebirdND" 2
+		"CorvetteND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Ten"
+	government "Space Arena"
+	names "Wave Ten"
+	variant 1
+		"HeadhunterND" 2
+		"FirebirdND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Eleven"
+	government "Space Arena"
+	names "Wave Eleven"
+	variant 1
+		"QuicksilverND" 2
+		"HeadhunterND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Twelve"
+	government "Space Arena"
+	names "Wave Twelve"
+	variant 1
+		"MantaND" 2
+		"QuicksilverND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Thirteen"
+	government "Space Arena"
+	names "Wave Thirteen"
+	variant 1
+		"OspreyND" 2
+		"MantaND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Fourteen"
+	government "Space Arena"
+	names "Wave Fourteen"
+	variant 1
+		"ArgosyND" 2
+		"OspreyND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Fifteen"
+	government "Space Arena"
+	names "Wave Fifteen"
+	variant 1
+		"BastionND" 2
+		"ArgosyND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Sixteen"
+	government "Space Arena"
+	names "Wave Sixteen"
+	variant 1
+		"FalconND" 2
+		"BastionND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Seventeen"
+	government "Space Arena"
+	names "Wave Seventeen"
+	variant 1
+		"NestND" 2
+		"FalconND" 4
+		"BarbND" 10
+		"SparrowND" 10
+
+fleet "Wave Eighteen - Final Boss"
+	government "Space Arena"
+	names "Wave Eighteen - Final Boss"
+	variant 1
+		"Kupoint" 1
+		"SparrowND" 4
+		"BarbND" 4

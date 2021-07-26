@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://github.com/endless-sky/endless-sky/wiki/CreatingMissions -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <link rel="dns-prefetch" href="https://github.githubassets.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-FG+rXqMOivrAjdEQE7tO4BwM1poGmg70hJFTlNSxjX87grtrZ6UnPR8NkzwUHlQEGviu9XuRYeO8zH9YwvZhdg==" rel="stylesheet" href="./CreatingMissions · endless-sky_endless-sky Wiki · GitHub_files/frameworks-146fab5ea30e8afac08dd11013bb4ee0.css">
+  <link crossorigin="anonymous" media="all" integrity="sha512-iXrV/b4ypc1nr10b3Giikqff+qAx5osQ0yJRxHRDd8mKFefdMtEZ0Sxs1QysJxuJBayOKThjsuMjynwBJQq0aw==" rel="stylesheet" href="./CreatingMissions · endless-sky_endless-sky Wiki · GitHub_files/site-897ad5fdbe32a5cd67af5d1bdc68a292.css">
+    <link crossorigin="anonymous" media="all" integrity="sha512-whtr9xYX7utnpWsNSLW7XLm7eJONfryMwfwxIH2SpIRKCZbx4aryDfn/HGMFI5Fee7dogmqmtqvPPh13+2HW2Q==" rel="stylesheet" href="./CreatingMissions · endless-sky_endless-sky Wiki · GitHub_files/github-c21b6bf71617eeeb67a56b0d48b5bb5c.css">
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>CreatingMissions · endless-sky/endless-sky Wiki · GitHub</title>
+    <meta name="description" content="Space exploration, trading, and combat game. Contribute to endless-sky/endless-sky development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://avatars2.githubusercontent.com/u/11450262?s=400&amp;v=4"><meta name="twitter:site" content="@github"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="endless-sky/endless-sky"><meta name="twitter:description" content="Space exploration, trading, and combat game. Contribute to endless-sky/endless-sky development by creating an account on GitHub.">
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/11450262?s=400&amp;v=4"><meta property="og:site_name" content="GitHub"><meta property="og:type" content="object"><meta property="og:title" content="endless-sky/endless-sky"><meta property="og:url" content="https://github.com/endless-sky/endless-sky"><meta property="og:description" content="Space exploration, trading, and combat game. Contribute to endless-sky/endless-sky development by creating an account on GitHub.">
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  
+
+  <meta name="request-id" content="F4CB:64D1:4E820E:7E6891:5E89651B" data-pjax-transient="true"><meta name="html-safe-nonce" content="c72132dc7052ae1c1ed346eb00caa3b72bc4ca1c" data-pjax-transient="true"><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGNENCOjY0RDE6NEU4MjBFOjdFNjg5MTo1RTg5NjUxQiIsInZpc2l0b3JfaWQiOiIyMjYwNDM2Nzk0MDI4OTgzNTgiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"><meta name="visitor-hmac" content="7a90d53ad2baf36c7f327d026827d1694fd27038ad134e8523da43af0b6c960b" data-pjax-transient="true">
+
+
+
+  <meta name="github-keyboard-shortcuts" content="repository" data-pjax-transient="true">
+
+  
+
+  <meta name="selected-link" value="repo_wiki" data-pjax-transient="">
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+<meta name="octolytics-host" content="collector.githubapp.com"><meta name="octolytics-app-id" content="github"><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event"><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id">
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/wiki/show" data-pjax-transient="true">
+
+
+
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+
+
+    <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES">
+
+  <meta http-equiv="x-pjax-version" content="80ebc3286fe9d88acaddc1320106dfc2">
+  
+
+      <link href="https://github.com/endless-sky/endless-sky/commits/master.atom" rel="alternate" title="Recent Commits to endless-sky:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/endless-sky/endless-sky git https://github.com/endless-sky/endless-sky.git">
+
+  <meta name="octolytics-dimension-user_id" content="11450262"><meta name="octolytics-dimension-user_login" content="endless-sky"><meta name="octolytics-dimension-repository_id" content="32231207"><meta name="octolytics-dimension-repository_nwo" content="endless-sky/endless-sky"><meta name="octolytics-dimension-repository_public" content="true"><meta name="octolytics-dimension-repository_is_fork" content="false"><meta name="octolytics-dimension-repository_network_root_id" content="32231207"><meta name="octolytics-dimension-repository_network_root_nwo" content="endless-sky/endless-sky"><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false">
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <link rel="manifest" href="https://github.com/manifest.json" crossorigin="use-credentials">
+
+  <style type="text/css"></style></head>
+
+  <body class="logged-out env-production page-responsive">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+      <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+
+    
+    
+
+
+
+        <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2 cc_cursor" role="banner">
+  <div class="container-lg d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </a>
+
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
+              <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+    <a class="Header-link" href="https://github.com/endless-sky">endless-sky</a>
+    /
+    <a class="Header-link" href="https://github.com/endless-sky/endless-sky">endless-sky</a>
+
+
+          </div>
+
+        <div class="d-flex flex-items-center">
+            <a href="https://github.com/join?source=header-repo" class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/endless-sky/endless-sky/wiki/CreatingMissions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="43454ace2aa85d00e20f3de7d69774e4515d9d85fc7e32ce3b9f68ac76281707" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+              Sign&nbsp;up
+            </a>
+
+          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path></svg>
+          </button>
+        </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="https://github.com/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="https://github.com/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features/packages" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Packages">Packages</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features#hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="https://github.com/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="https://github.com/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="https://github.com/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="https://github.com/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="https://github.com/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com/" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="https://github.com/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="https://github.com/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="https://github.com/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="https://github.com/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com/" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex mb-3 mb-lg-0">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to" role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox" aria-expanded="false">
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="32231207" data-scoped-search-url="/endless-sky/endless-sky/search" data-unscoped-search-url="/search" action="https://github.com/endless-sky/endless-sky/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text" class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable" data-hotkey="s,/" name="q" value="" placeholder="Search" data-unscoped-placeholder="Search GitHub" data-scoped-placeholder="Search" autocapitalize="off" aria-autocomplete="list" aria-controls="jump-to-results" aria-label="Search" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" spellcheck="false" autocomplete="off">
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="dzQ3rs3c3E6FLcXWUeskzymO+1mTTh8u3jTjMpdeGxfuNedY/PdJrk+Y/su9WqKdR5Rznuukt8Uv1lomiLkxDw==">
+          <input type="hidden" class="js-site-search-type-field" name="type">
+            <img src="./CreatingMissions · endless-sky_endless-sky Wiki · GitHub_files/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="https://github.com/login?return_to=%2Fendless-sky%2Fendless-sky%2Fwiki%2FCreatingMissions" class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/endless-sky/endless-sky/wiki/CreatingMissions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="59f7a335886563e28347c08902ac5f6891bc20189493c1881c2e7a65625226ca" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+          <a href="https://github.com/join?source=header-repo&amp;source_repo=endless-sky%2Fendless-sky" class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/endless-sky/endless-sky/wiki/CreatingMissions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="59f7a335886563e28347c08902ac5f6891bc20189493c1881c2e7a65625226ca" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+            Sign&nbsp;up
+          </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+    <div id="js-flash-container">
+
+
+  <template class="js-flash-template"></template>
+</div>
+
+
+      
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled="">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main>
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-0 pt-lg-3">
+
+    <div class="d-flex container-lg mb-4 p-responsive d-none d-lg-flex">
+
+      <div class="flex-auto min-width-0 width-fit mr-3">
+        <h1 class="public  d-flex flex-wrap flex-items-center break-word float-none ">
+    <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author ml-1 flex-self-stretch" itemprop="author">
+    <a class="url fn cc_pointer" rel="author" data-hovercard-type="user" data-hovercard-url="/users/endless-sky/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/endless-sky">endless-sky</a>
+  </span>
+  <span class="path-divider flex-self-stretch">/</span>
+  <strong itemprop="name" class="mr-2 flex-self-stretch">
+    <a data-pjax="#js-repo-pjax-container" href="https://github.com/endless-sky/endless-sky">endless-sky</a>
+  </strong>
+  
+</h1>
+
+
+      </div>
+
+      <ul class="pagehead-actions flex-shrink-0 ">
+
+
+
+
+  <li>
+    
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/endless-sky/endless-sky/wiki/CreatingMissions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3dc076a8d4fa8ed8eace6b2ee59efce99466bab38ae2ab6482aae3ad8a62c61f" href="https://github.com/login?return_to=%2Fendless-sky%2Fendless-sky">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+    Watch
+</a>    <a class="social-count" href="https://github.com/endless-sky/endless-sky/watchers" aria-label="154 users are watching this repository">
+      154
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:32231207,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/endless-sky/endless-sky/wiki/CreatingMissions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1ef0e4460bfc425fd589511dbe176684b65cae71977ef4cb2c991bc46975b56d" href="https://github.com/login?return_to=%2Fendless-sky%2Fendless-sky">
+      <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+
+      Star
+</a>
+    <a class="social-count js-social-count" href="https://github.com/endless-sky/endless-sky/stargazers" aria-label="2391 users starred this repository">
+      2.4k
+    </a>
+
+  </li>
+
+  <li>
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:32231207,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/endless-sky/endless-sky/wiki/CreatingMissions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6d94fe1aa31cf87884ac1cddbc1bf896857299e485062f294720c725ca29a41e" href="https://github.com/login?return_to=%2Fendless-sky%2Fendless-sky">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+        Fork
+</a>
+    <a href="https://github.com/endless-sky/endless-sky/network/members" class="social-count" aria-label="556 users forked this repository">
+      556
+    </a>
+  </li>
+</ul>
+
+    </div>
+      
+<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax clearfix container-lg p-responsive d-none d-lg-block" itemscope="" itemtype="http://schema.org/BreadcrumbList" aria-label="Repository" data-pjax="#js-repo-pjax-container">
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /endless-sky/endless-sky" href="https://github.com/endless-sky/endless-sky">
+      <div class="d-inline"><svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg></div>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /endless-sky/endless-sky/issues" href="https://github.com/endless-sky/endless-sky/issues">
+        <div class="d-inline"><svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></div>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">504</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" data-skip-pjax="true" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /endless-sky/endless-sky/pulls" href="https://github.com/endless-sky/endless-sky/pulls">
+      <div class="d-inline"><svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg></div>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">107</span>
+      <meta itemprop="position" content="4">
+</a>  </span>
+
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="position-relative float-left">
+      <a data-hotkey="g w" data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /endless-sky/endless-sky/actions" href="https://github.com/endless-sky/endless-sky/actions">
+        <div class="d-inline"><svg class="octicon octicon-play" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8A7 7 0 110 8a7 7 0 0114 0zm-8.223 3.482l4.599-3.066a.5.5 0 000-.832L5.777 4.518A.5.5 0 005 4.934v6.132a.5.5 0 00.777.416z"></path></svg></div>
+        Actions
+</a>
+    </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /endless-sky/endless-sky/projects" href="https://github.com/endless-sky/endless-sky/projects">
+      <div class="d-inline"><svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg></div>
+      Projects
+      <span class="Counter">2</span>
+</a>
+    <a class="js-selected-navigation-item selected reponav-item" data-hotkey="g w" aria-current="page" data-selected-links="repo_wiki /endless-sky/endless-sky/wiki" href="https://github.com/endless-sky/endless-sky/wiki">
+      <div class="d-inline"><svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg></div>
+      Wiki
+</a>
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security overview alerts policy token_scanning code_scanning /endless-sky/endless-sky/security" href="https://github.com/endless-sky/endless-sky/security">
+      <div class="d-inline"><svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"></path></svg></div>
+      Security
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /endless-sky/endless-sky/pulse" href="https://github.com/endless-sky/endless-sky/pulse">
+      <div class="d-inline"><svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg></div>
+      Insights
+</a>
+
+</nav>
+
+  <div class="reponav-wrapper reponav-small d-lg-none">
+  <nav class="reponav js-reponav text-center no-wrap" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a class="js-selected-navigation-item reponav-item" itemprop="url" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /endless-sky/endless-sky" href="https://github.com/endless-sky/endless-sky">
+        <span itemprop="name">Code</span>
+        <meta itemprop="position" content="1">
+</a>    </span>
+
+      <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /endless-sky/endless-sky/issues" href="https://github.com/endless-sky/endless-sky/issues">
+          <span itemprop="name">Issues</span>
+          <span class="Counter">504</span>
+          <meta itemprop="position" content="2">
+</a>      </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /endless-sky/endless-sky/pulls" href="https://github.com/endless-sky/endless-sky/pulls">
+        <span itemprop="name">Pull requests</span>
+        <span class="Counter">107</span>
+        <meta itemprop="position" content="4">
+</a>    </span>
+
+
+      <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /endless-sky/endless-sky/projects" href="https://github.com/endless-sky/endless-sky/projects">
+          <span itemprop="name">Projects</span>
+          <span class="Counter">2</span>
+          <meta itemprop="position" content="5">
+</a>      </span>
+
+      <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /endless-sky/endless-sky/actions" href="https://github.com/endless-sky/endless-sky/actions">
+          <span itemprop="name">Actions</span>
+          <meta itemprop="position" content="6">
+</a>      </span>
+
+      <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item selected reponav-item" aria-current="page" data-selected-links="repo_wiki /endless-sky/endless-sky/wiki" href="https://github.com/endless-sky/endless-sky/wiki">
+          <span itemprop="name">Wiki</span>
+          <meta itemprop="position" content="7">
+</a>      </span>
+
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security overview alerts policy token_scanning code_scanning /endless-sky/endless-sky/security" href="https://github.com/endless-sky/endless-sky/security">
+        <span itemprop="name">Security</span>
+        <meta itemprop="position" content="8">
+</a>
+      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /endless-sky/endless-sky/pulse" href="https://github.com/endless-sky/endless-sky/pulse">
+        Pulse
+</a>
+
+  </nav>
+</div>
+
+
+  </div>
+
+  
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+<div class="container-lg clearfix new-discussion-timeline  p-responsive">
+  <div class="repository-content ">
+
+    
+    
+  <div id="wiki-wrapper" class="page cc_cursor">
+    <div class="d-flex flex-column flex-md-row gh-header">
+      <h1 class="flex-auto min-width-0 mb-2 mb-md-0 mr-0 mr-md-2 gh-header-title cc_cursor">CreatingMissions</h1>
+
+        <div class="mt-0 mt-lg-1 flex-shrink-0 gh-header-actions">
+          <a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#wiki-pages-box" class="d-md-none ">Jump to bottom</a>
+
+        </div>
+    </div>
+
+    <div class="mt-2 mt-md-1 pb-3 gh-header-meta">
+      Amazinite edited this page <relative-time datetime="2020-01-28T02:28:36Z" class="no-wrap" title="Jan 27, 2020, 9:28 PM EST">on Jan 27</relative-time>
+      ·
+      <a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions/_history" class="muted-link">
+        44 revisions
+      </a>
+    </div>
+
+  <div id="wiki-content" class="mt-4">
+    <div class="gutter-condensed gutter-lg d-flex flex-column flex-md-row">
+
+  <div class="flex-shrink-0 col-12 col-md-9 mb-5 mb-md-0 cc_cursor">
+            <div id="wiki-body" class="gollum-markdown-content">
+            <div class="markdown-body cc_cursor">
+              <h1>
+<a id="user-content-table-of-contents" class="anchor" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#table-of-contents" aria-hidden="true"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h1>
+<ul>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#intro">Introduction</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#replacement">Text replacements</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#basics">Basic mission characteristics</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#conditions">Conditions</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#filters">Source and destination filters</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#npcs">Non-Player Characters (NPCs)</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#triggers">Triggers</a></li>
+</ul>
+<a name="user-content-intro">
+</a><h1><a name="user-content-intro">
+</a><a id="user-content-introduction" class="anchor cc_pointer" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#introduction" aria-hidden="true"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction</h1>
+
+<p>The basic syntax of a mission description is:</p>
+<div class="highlight highlight-text-html-basic"><pre>mission &lt;<span class="pl-ent">name</span>&gt;
+    name &lt;<span class="pl-ent">name</span>&gt;
+    description &lt;<span class="pl-ent">text</span>&gt;
+    blocked &lt;<span class="pl-ent">message</span>&gt;
+    deadline [&lt;<span class="pl-ent">days</span>&gt; [&lt;<span class="pl-ent">multiplier</span>&gt;]]
+    cargo (random | &lt;<span class="pl-ent">name</span>&gt;) &lt;<span class="pl-ent">number</span>&gt; [&lt;<span class="pl-ent">number</span>&gt; [&lt;<span class="pl-ent">probability</span>&gt;]]
+        illegal &lt;<span class="pl-ent">fine</span>&gt; [&lt;<span class="pl-ent">message</span>&gt;]
+        stealth
+    passengers &lt;<span class="pl-ent">number</span>&gt; [&lt;<span class="pl-ent">number</span>&gt; [&lt;<span class="pl-ent">probability</span>&gt;]]
+    illegal &lt;<span class="pl-ent">fine</span>&gt; [&lt;<span class="pl-ent">message</span>&gt;]
+    stealth
+    invisible
+    (priority | minor)
+    (job | landing | assisting | boarding)
+    repeat [&lt;<span class="pl-ent">number</span>&gt;]
+    clearance [&lt;<span class="pl-ent">message</span>&gt;]
+        ...
+    infiltrating
+    waypoint &lt;<span class="pl-ent">system</span>&gt;
+    stopover [&lt;<span class="pl-ent">planet</span>&gt;]
+        ...
+    to (offer | complete | fail)
+        &lt;<span class="pl-ent">condition</span>&gt; &lt;<span class="pl-ent">comp</span>&gt; &lt;<span class="pl-ent">value</span>&gt;
+        (has | not) &lt;<span class="pl-ent">condition</span>&gt;
+        never
+        (and | or)
+            ...
+    (source | destination) &lt;<span class="pl-ent">planet</span>&gt;
+    (source | destination)
+        [(not | neighbor)] planet &lt;<span class="pl-ent">name</span>&gt;...
+            &lt;<span class="pl-ent">name</span>&gt;...
+        [(not | neighbor)] system &lt;<span class="pl-ent">name</span>&gt;...
+            &lt;<span class="pl-ent">name</span>&gt;...
+        [(not | neighbor)] government &lt;<span class="pl-ent">name</span>&gt;...
+            &lt;<span class="pl-ent">name</span>&gt;...
+        [(not | neighbor)] attributes &lt;<span class="pl-ent">name</span>&gt;...
+            &lt;<span class="pl-ent">name</span>&gt;...
+        [(not | neighbor)] outfits &lt;<span class="pl-ent">name</span>&gt;...
+            &lt;<span class="pl-ent">name</span>&gt;...
+        [(not | neighbor)] category &lt;<span class="pl-ent">name</span>&gt;...
+        [(not | neighbor)] near &lt;<span class="pl-ent">system</span>&gt; [[&lt;<span class="pl-ent">min</span>&gt;] &lt;<span class="pl-ent">max</span>&gt;]
+        [(not | neighbor)] distance [[&lt;<span class="pl-ent">min</span>&gt;] &lt;<span class="pl-ent">max</span>&gt;]
+        neighbor
+            ...
+        not
+            ...
+    npc (save | kill | board | assist | disable | "scan cargo" | "scan outfits" | evade | accompany)...
+        government &lt;<span class="pl-ent">name</span>&gt;
+        personality &lt;<span class="pl-ent">type</span>&gt;...
+            &lt;<span class="pl-ent">type</span>&gt;...
+            confusion &lt;<span class="pl-ent">amount</span>&gt;
+        system &lt;<span class="pl-ent">system</span>&gt;
+        system
+            system &lt;<span class="pl-ent">name</span>&gt;...
+                &lt;<span class="pl-ent">name</span>&gt;...
+            government &lt;<span class="pl-ent">name</span>&gt;...
+                &lt;<span class="pl-ent">name</span>&gt;...
+            near &lt;<span class="pl-ent">system</span>&gt; [[&lt;<span class="pl-ent">min</span>&gt;] &lt;<span class="pl-ent">max</span>&gt;]
+            distance [&lt;<span class="pl-ent">min</span>&gt;] &lt;<span class="pl-ent">max</span>&gt;
+        dialog &lt;<span class="pl-ent">text</span>&gt;
+            &lt;<span class="pl-ent">text</span>&gt;...
+        conversation &lt;<span class="pl-ent">name</span>&gt;
+        conversation
+            ...
+        ship &lt;<span class="pl-ent">model</span>&gt; &lt;<span class="pl-ent">name</span>&gt;
+        fleet &lt;<span class="pl-ent">name</span>&gt; [&lt;<span class="pl-ent">count</span>&gt;]
+        fleet [&lt;<span class="pl-ent">count</span>&gt;]
+            ...
+    on (offer | complete | accept | decline | defer | fail | visit | stopover | enter [&lt;<span class="pl-ent">system</span>&gt;])
+        dialog &lt;<span class="pl-ent">text</span>&gt;
+            &lt;<span class="pl-ent">text</span>&gt;...
+        conversation &lt;<span class="pl-ent">name</span>&gt;
+        conversation
+            ...
+        outfit &lt;<span class="pl-ent">outfit</span>&gt; [&lt;<span class="pl-ent">number</span>&gt;]
+        require &lt;<span class="pl-ent">outfit</span>&gt; [&lt;<span class="pl-ent">number</span>&gt;]
+        payment [&lt;<span class="pl-ent">base</span>&gt; [&lt;<span class="pl-ent">multiplier</span>&gt;]]
+        &lt;<span class="pl-ent">condition</span>&gt; (= | += | -=) &lt;<span class="pl-ent">value</span>&gt;
+        &lt;<span class="pl-ent">condition</span>&gt; (++ | --)
+        (set | clear) &lt;<span class="pl-ent">condition</span>&gt;
+        event &lt;<span class="pl-ent">name</span>&gt; [&lt;<span class="pl-ent">delay</span>&gt; [&lt;<span class="pl-ent">max</span>&gt;]]
+        fail [&lt;<span class="pl-ent">name</span>&gt;]</pre></div>
+<p>Each of these parts of the mission description is described in detail below.</p>
+<a name="user-content-replacement">
+</a><h1><a name="user-content-replacement">
+</a><a id="user-content-text-replacements" class="anchor" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#text-replacements" aria-hidden="true"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Text replacements</h1>
+
+<p>Certain characteristics of a mission, such as the cargo or the destination planet, may be chosen at random. In order to refer to those randomly chosen elements  in descriptive text, you can use the following placeholders:</p>
+<ul>
+<li>
+<code>&lt;commodity&gt;</code> = name of commodity being carried</li>
+<li>
+<code>&lt;tons&gt;</code> = "1 ton" or "N tons"</li>
+<li>
+<code>&lt;cargo&gt;</code> = "<code>&lt;tons&gt;</code> of <code>&lt;commodity&gt;</code>"</li>
+<li>
+<code>&lt;bunks&gt;</code> = the number of passengers</li>
+<li>
+<code>&lt;passengers&gt;</code> = "passenger" or "passengers"</li>
+<li>
+<code>&lt;fare&gt;</code> = "a passenger" or "N passengers"</li>
+<li>
+<code>&lt;origin&gt;</code> = planet (or ship) where mission was offered</li>
+<li>
+<code>&lt;planet&gt;</code> = destination planet</li>
+<li>
+<code>&lt;system&gt;</code> = destination system</li>
+<li>
+<code>&lt;destination&gt;</code> = "<code>&lt;planet&gt;</code> in the <code>&lt;system&gt;</code> system"</li>
+<li>
+<code>&lt;stopovers&gt;</code> = a list of all stopover destinations</li>
+<li>
+<code>&lt;waypoints&gt;</code> = a list of all waypoint systems</li>
+<li>
+<code>&lt;payment&gt;</code> = "1 credit" or "N credits"</li>
+<li>
+<code>&lt;date&gt;</code> = the deadline for the mission (in the format "Day, DD Mon YYYY")</li>
+<li>
+<code>&lt;day&gt;</code> = the deadline in conversational form ("the DDth of Month")</li>
+<li>
+<code>&lt;npc&gt;</code> = the name of the first ship in the last <code>npc</code> block in the mission description</li>
+<li>
+<code>&lt;first&gt;</code> = your first name</li>
+<li>
+<code>&lt;last&gt;</code> = your last name</li>
+<li>
+<code>&lt;ship&gt;</code> = the name of your flagship</li>
+</ul>
+<p>These placeholders will be substituted in any text in the following places:</p>
+<ul>
+<li>the mission name</li>
+<li>the mission description</li>
+<li>dialog messages contained in the mission</li>
+<li>conversations contained in the mission</li>
+</ul>
+<p>For example, the mission description might be, "Deliver <code>&lt;cargo&gt;</code> to <code>&lt;destination&gt;</code> by <code>&lt;date&gt;</code>."</p>
+<a name="user-content-basics">
+</a><h1><a name="user-content-basics">
+</a><a id="user-content-basic-mission-characteristics" class="anchor" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#basic-mission-characteristics" aria-hidden="true"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Basic mission characteristics</h1>
+
+<div class="highlight highlight-text-html-basic"><pre>mission &lt;<span class="pl-ent">name</span>&gt;</pre></div>
+<p>The mission name must be unique. Missions are stored by the game in alphabetical order (more specifically, ASCII lexical ordering), meaning that missions will also offer in alphabetical order if multiple are able to be offered at the same time. Therefore, if you have multiple missions with similar names and the same offer conditions, whichever one you want to offer first should come first alphabetically. An example of this in game is with the set of missions prefixed "FW Pug 2C", where the jump drive variant of the mission is named "FW Pug 2C: <strong>A</strong> Jump Drive" to force it to offer before "FW Pug 2C: <strong>H</strong>yperdrive", as otherwise without the "A" the hyperdrive variant of the mission would have priority.</p>
+<div class="highlight highlight-text-html-basic"><pre>name &lt;<span class="pl-ent">name</span>&gt;</pre></div>
+<p>Because the mission name must be unique, if you want to have the same name displayed for two different missions, you can specify the display name separately. This is useful, for example, if you want to have multiple jobs that all get displayed as "ferry passengers to <code>&lt;planet&gt;</code>".</p>
+<div class="highlight highlight-text-html-basic"><pre>description &lt;<span class="pl-ent">text</span>&gt;</pre></div>
+<p>This is a short description of the mission, with enough detail to make it clear to the player what they need to do to complete the mission, and what could cause the mission to fail.</p>
+<div class="highlight highlight-text-html-basic"><pre>blocked &lt;<span class="pl-ent">message</span>&gt;</pre></div>
+<p>This is a short message that is displayed to the player if this mission cannot be offered, but only because they do not have enough cargo space or bunks available. (This does not count cargo space occupied by ordinary commodities, or bunks occupied by crew, because you will automatically sell / fire them if a special mission is offered.) The message uses all the standard text substitutions given above, as well as <code>&lt;capacity&gt;</code>, which is a string describing how much additional capacity you need (e.g. "another bunk and 14 more tons of cargo space").</p>
+<div class="highlight highlight-text-html-basic"><pre>deadline [&lt;<span class="pl-ent">days</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">multiplier</span><span class="pl-e">#</span>&gt;]]</pre></div>
+<p>The number of days you have to complete the mission. If the number of days is left out (i.e. the line is just the word <code>deadline</code>), a default deadline is calculated. If you specify a "multiplier", the number of hyperspace jumps between the mission source and the mission destination is used to pick a sane deadline. The default multiplier value is <code>2</code>, and the default days value is <code>0</code>. The mission's deadline is then calculated using the formula:</p>
+<p><code>days + multiplier * (number of hyperspace jumps to the destination)</code></p>
+<p>You can also combine multiple deadline statements; for example to set the deadline to the default with 2 additional days, one can write:</p>
+<div class="highlight highlight-source-c++"><pre>deadline
+deadline <span class="pl-c1">2</span></pre></div>
+<p><em>Note: any missions requiring non-hyperspace travel (i.e. via wormhole or jump drive) are classified as having 0 hyperspace jumps</em> in the above formula.</p>
+<div class="highlight highlight-text-html-basic"><pre>cargo (random | &lt;<span class="pl-ent">name</span>&gt;) &lt;<span class="pl-ent">number</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">number</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">probability</span><span class="pl-e">#</span>&gt;]]
+    illegal &lt;<span class="pl-ent">fine</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">message</span>&gt;]
+    stealth</pre></div>
+<p>This specifies the cargo that you are carrying. If <code>&lt;name&gt;</code> is one of the standard commodity names defined in the "trade" data, it will be replaced by a random one of the specific names for that commodity, e.g. "Food" might be replaced by "canned fruit" or "evaporated milk".</p>
+<p>If the given cargo name is the word <code>random</code>, a basic commodity type will be chosen based on the relative commodity prices at the source and destination system. That is, it will attempt to pick a commodity that would make sense as an export from the one system to the other.</p>
+<p>If two amounts are given instead of one, that means that a random amount should be chosen in between those two numbers (inclusive).</p>
+<p>If three numbers are given, a random number will be chosen by adding the first number to a random number chosen from a negative binomial distribution with the given number of successes needed and probability. This produces numbers that are generally somewhat low but can occasionally be quite high, if you want to every once in a while have massive cargo missions, for example. You can experiment with values using a tool like <a href="https://homepage.divms.uiowa.edu/~mbognar/applets/nb1.html" rel="nofollow">this one</a> and supplying values for <code>r</code> (the second value) and <code>p</code> (the third value). Smaller values of probability result in larger average cargo sizes.</p>
+<p><strong>Prior to v. 0.9.9</strong>, the <code>illegal</code> and <code>stealth</code> attributes apply only to cargo and should be children of the <code>cargo</code> definition. Starting in <strong>v. 0.9.9</strong>, they are attributes of the mission itself and apply both to cargo and to passengers:</p>
+<div class="highlight highlight-text-html-basic"><pre>illegal &lt;<span class="pl-ent">fine</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">message</span>&gt;]</pre></div>
+<p>If the mission is marked as <code>illegal</code>, governments that care about such things will levy the given fine against you if you are caught carrying its cargo (or, <strong>starting in v. 0.9.9</strong>, its passengers as well). If the fine is negative, being caught with this cargo while in flight is counted as an "atrocity" (the government that catches you immediately becomes your enemy, no matter how good your reputation was previously), and if you are caught in a spaceport with the cargo the result is a death sentence (game over).</p>
+<p>If the fine amount in the <code>illegal</code> line is followed by another token, that token is displayed as a message when you are caught with this cargo.</p>
+<div class="highlight highlight-text-html-basic"><pre>stealth</pre></div>
+<p>If the mission is marked as <code>stealth</code>, it will fail if you are caught with the mission cargo (or, <strong>starting in v. 0.9.9</strong>, with the passengers as well).</p>
+<div class="highlight highlight-text-html-basic"><pre>passengers &lt;<span class="pl-ent">number</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">number</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">probability</span><span class="pl-e">#</span>&gt;]]</pre></div>
+<p>This specifies the number of passengers. As with the <code>cargo</code> specification, if there are two or three numbers they are used to pick a random number.</p>
+<div class="highlight highlight-text-html-basic"><pre>invisible</pre></div>
+<p>This specifies that the mission does not show up in the player's list of missions, and cannot be aborted.</p>
+<div class="highlight highlight-text-html-basic"><pre>(priority | minor)</pre></div>
+<p>If a mission is marked with <code>priority</code>, only other "priority" missions can be offered alongside it.</p>
+<p>If a mission is marked with <code>minor</code>, it will be offered only if no other missions are being offered at the same time.<br>
+In general, any mission that starts a completely new mission string, and that could instead be offered at a later date, should be marked "minor." Missions continuing a string should not be marked "minor." The <code>priority</code> marker is only used for the "intro" missions, to suppress all other missions while the player is just learning the ropes.</p>
+<p>Note that <code>priority</code> and <code>minor</code> will only affect missions that offer from the spaceport.</p>
+<div class="highlight highlight-text-html-basic"><pre>(job | landing | assisting | boarding)</pre></div>
+<p>This specifies where this mission will be shown, if someplace other than the spaceport. If it is a <code>job</code>, it will appear only if included in the job board (which only happens if the current planet matches the <a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#filters">destination filter</a>).</p>
+<p>If this mission is to be shown at <code>landing</code>, it shows up as soon as you land instead of waiting for you to visit the spaceport. This can be used, for example, to show a special conversation the first time you land on a particular planet or on any planet belonging to a certain species. It can also be used for a continuation of an active mission.</p>
+<p>A mission shown when <code>assisting</code> or <code>boarding</code> will be shown when you repair a friendly ship or plunder a hostile ship, respectively. <strong>These missions are never shown when boarding a ship that you have boarded before, that belongs to you, or that is an NPC in an active mission.</strong> In either case, if the <code>on offer</code> conversation results in a conversation exit code of <code>launch</code> or <code>flee</code>, the ship in question will be destroyed.</p>
+<div class="highlight highlight-text-html-basic"><pre>repeat [&lt;<span class="pl-ent">times</span><span class="pl-e">#</span>&gt;]</pre></div>
+<p>If the word <code>repeat</code> appears by itself, this mission can be offered any number of times. If a number is given, that is the maximum number of times this mission can be offered. By default, each mission can only be offered once, so having specifying <code>repeat 1</code> is unnecessary.</p>
+<p>If you want a mission to be offered any number of times but to limit the number of instances of the mission that can be active concurrently, you can decrement the <code>"&lt;mission name&gt;: offered"</code> condition (described <a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#conditions">below</a>) whenever the mission is completed, failed, or declined.</p>
+<div class="highlight highlight-text-html-basic"><pre>clearance [&lt;<span class="pl-ent">message</span>&gt;]
+    ...</pre></div>
+<p>This gives you landing clearance on the destination planet, even if normally you would not be allowed to land there, or would have to pay a bribe.</p>
+<p>If a <code>clearance</code> tag appears followed by a message, if you hail your destination planet that message will be shown as the initial text, landing permission will be granted, and you will not have to pay a bribe. The message will be shown even for friendly planets so that this can be used to customize their hail, e.g. "Welcome back, Captain <code>&lt;last&gt;</code>! Everyone's waiting for you at the spaceport."</p>
+<p>If a <code>clearance</code> tag appears with no message, clearance is automatically granted without needing to hail the planet. You can use this, for example, if the mission involves secretly landing on a planet under the cover of darkness and the last thing you want to do is inform the authorities that you're coming.</p>
+<p>If a specific destination is given (i.e. <code>destination &lt;planet&gt;</code>) and no clearance is included in the mission, you must pay a bribe if you are not allowed to land on that planet. (Sometimes bribing the authorities could be part of the mission plot.)</p>
+<p>If the destination is specified via a filter, the filter will not match planets you cannot land on unless this mission contains a <code>clearance</code> tag. <em>Omitting the tag may make it impossible for a particular mission to be offered.</em></p>
+<p>The <code>clearance</code> tag may have child entries that specify a <a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#filters">location filter</a>, the same as the <code>source</code> and <code>destination</code> tags described below. In this case, you have clearance on all planets that match that filter, in addition to on the destination planet.</p>
+<div class="highlight highlight-text-html-basic"><pre>infiltrating</pre></div>
+<p>This indicates that you do not have access to any of the services on the destination planet, including refueling or repairing; all you can do is complete your mission and then leave. This is useful for missions that involve you landing secretly somewhere other than the spaceport; it wouldn't make sense to then allow the player to then walk around the spaceport or purchase things.</p>
+<div class="highlight highlight-text-html-basic"><pre>waypoint &lt;<span class="pl-ent">system</span>&gt;</pre></div>
+<p>This specifies a system which you must fly through in order to complete the mission. You do not have to land on any planets or spend any amount of time there. Waypoints are marked on the map in red until they have been visited; then they are marked by a faint circle (<strong>v. 0.9.9</strong>) for the duration of the mission.</p>
+<div class="highlight highlight-text-html-basic"><pre>stopover [&lt;<span class="pl-ent">planet</span>&gt;]
+    ...</pre></div>
+<p>This specifies a planet that you must visit in order to complete the mission. The planet can either be named explicitly, or selected using a "filter" in the same format as the <code>source</code> and <code>destination</code> filters. As with waypoints, any number of stopovers may be specified. After completing a stopover, its system will be marked with a faint circle for the remainder of the mission.</p>
+<a name="user-content-conditions">
+</a><h1><a name="user-content-conditions">
+</a><a id="user-content-conditions" class="anchor" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#conditions" aria-hidden="true"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conditions</h1>
+
+<p><a href="https://github.com/endless-sky/endless-sky/wiki/Player-Conditions">"Conditions"</a> are named values that represent things the player has done. Conditions start out with a value of zero, and can only have integer values. Conditions can have almost any name you want, as long as you make sure not to use the same name in two places. A few names are reserved for special purposes:</p>
+<ul>
+<li>
+<code>"&lt;mission name&gt;: offered"</code>, where <code>&lt;mission name&gt;</code> is replaced with the name of any mission. This is incremented whenever a mission is offered to you, and is used by the "repeat" check to make sure a mission is not offered too many times.</li>
+<li>
+<code>"&lt;mission name&gt;: active"</code>, where <code>&lt;mission name&gt;</code> is replaced with the name of any mission. This is incremented when you accept a mission, and decremented when you complete, or fail it.</li>
+<li>
+<code>"&lt;mission name&gt;: done"</code> is set when a mission is successfully completed.</li>
+<li>
+<code>"&lt;mission name&gt;: declined"</code> is set when a mission is declined.</li>
+<li>
+<code>"&lt;mission name&gt;: failed"</code> is set when a mission is failed.</li>
+<li>
+<code>"reputation: &lt;government&gt;"</code> is set to your current reputation with the given government, rounded down to a whole number. These conditions can be changed to alter your reputation with a government.</li>
+<li>
+<code>"ships: &lt;category&gt;"</code> is the number of ships you have of each category (Transport, Light Freighter, Heavy Freighter, Interceptor, Light Warship, Heavy Warship, Fighter, Drone).</li>
+<li>
+<code>"cargo space"</code> and <code>"passenger space"</code> are your fleet's total cargo and passenger space (not reduced by the amount you are carrying already).</li>
+<li>
+<code>"flagship crew"</code>, <code>"flagship required crew"</code>, and <code>"flagship bunks"</code> are the current crew, required crew, and bunks of your flagship only (ignoring any passengers you're carrying). <strong>(v. 0.9.11)</strong>
+</li>
+<li>
+<code>"net worth"</code> is your net worth, limited to the range of +- 2 billion.</li>
+<li>
+<code>"combat rating"</code> is your current combat rating (based on the strength of all the ships your fleet has disabled).</li>
+<li>
+<code>"cargo attractiveness"</code> is how attractive the size of your cargo hold(s) is to pirates. Lots of small ships are more attractive than one large one. Values for single human ships range from -2 for ships with no cargo to 8 for bulk freighters.</li>
+<li>
+<code>"armament deterrence"</code> is how effective your weapons are at discouraging pirates. Values for single human ships range from 0 for unarmed ships to 8 for the Dreadnought.</li>
+<li>
+<code>"pirate attraction"</code> is how attractive your fleet is to pirates, calculated as (<code>"cargo attractiveness"</code> - <code>"armament deterrence"</code>). A value of 3 results in raids 5% of the time, and a value of 10 results in raids 34% of the time.</li>
+<li>
+<code>"day"</code>, <code>"month"</code>, and <code>"year"</code> are the current date, given as individual variables so you can check for holidays, etc.</li>
+<li>
+<code>"random"</code> is a random number between 0 and 99. This can be used to make a mission only sometimes appear even when all other conditions are met.</li>
+</ul>
+<p>Conditions are checked at several times when processing a mission: when determining whether the mission can be offered right now (in the <code>to offer</code> tag), and when determining whether it has been completed (in the <code>to complete</code> tag) or failed (in the <code>to fail</code> tag):</p>
+<div class="highlight highlight-text-html-basic"><pre>to (offer | complete | fail)
+    &lt;<span class="pl-ent">condition</span>&gt; &lt;<span class="pl-ent">comp</span>&gt; &lt;<span class="pl-ent">value</span>&gt;
+    (has | not) &lt;<span class="pl-ent">condition</span>&gt;
+    never
+    (and | or)
+        ...</pre></div>
+<p>The <code>&lt;comp&gt;</code> comparison operator can be <code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, or <code>&gt;=</code>. As a special shortcut, you can write <code>has &lt;condition&gt;</code> instead of <code>&lt;condition&gt; != 0</code>, or <code>not &lt;condition&gt;</code> instead of <code>&lt;condition&gt; == 0</code>. The <code>never</code> condition always evaluates to false, so it can be used to create a mission that can never succeed.</p>
+<p>Conditions can be changed when you are offered a mission or when you accept, decline, fail, or complete it, as described later in this document. You can "chain" missions together by having one depend on the <code>"&lt;mission name&gt;: done"</code> condition that is automatically set by a previous mission upon completion. Since all your existing missions complete before new ones are offered, that condition will be set before the check is done for what new missions are available.</p>
+<p>A mission will not be offered if any of the <code>to fail</code> conditions are met, and will fail if it is active and one of those conditions changes so that it is satisfied. Using the <code>random</code> keyword in a <code>to fail</code> tag is possible, but not recommended.</p>
+<p>The condition set is satisfied only if every condition listed is true. If instead you want it to succeed if any of the listed conditions are true (e.g. you have completed mission A <em>or</em> mission B), you can use an <code>or</code> sub-clause. Within an <code>or</code> clause you can have <code>and</code> clauses (and so on), allowing you to check any arbitrary logical combination. For example, if you want a mission to be offered if "(has A or (has B and has C)) and (has D)":</p>
+<div class="highlight highlight-text-html-basic"><pre>to offer
+    or
+        has A
+        and
+            has B
+            has C
+    has D</pre></div>
+<a name="user-content-filters">
+</a><h1><a name="user-content-filters">
+</a><a id="user-content-source-and-destination-filters" class="anchor" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#source-and-destination-filters" aria-hidden="true"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Source and destination filters</h1>
+
+<p>A mission can be offered from a planet or ship, but all missions must have a destination planet. For missions offered on a planet, if no destination is given that same planet is used. This can be useful for missions that should end on the same planet they start on, such as "Kill pirate ship 'X' and return here for payment."</p>
+<p>For missions offered by a ship, you must always specify a destination, even if the mission is designed to always be "declined" - e.g. a message where the pilot thanks you for repairing them but asks for no further help.</p>
+<p>If no source is specified, the mission will be offered whenever its <code>to offer</code> conditions are satisfied; this can be used to create a mission that is offered as soon as you complete another.</p>
+<p>For the source and destination, you can either specify one particular planet, or give a set of constraints that the planet must match:</p>
+<div class="highlight highlight-text-html-basic"><pre>(source | destination) &lt;<span class="pl-ent">planet</span>&gt;
+(source | destination)
+    [&lt;<span class="pl-ent">modifier</span>&gt;] planet &lt;<span class="pl-ent">name</span>&gt;...
+        &lt;<span class="pl-ent">name</span>&gt;...
+    [&lt;<span class="pl-ent">modifier</span>&gt;] system &lt;<span class="pl-ent">name</span>&gt;...
+        &lt;<span class="pl-ent">name</span>&gt;...
+    [&lt;<span class="pl-ent">modifier</span>&gt;] government &lt;<span class="pl-ent">name</span>&gt;...
+        &lt;<span class="pl-ent">name</span>&gt;...
+    [&lt;<span class="pl-ent">modifier</span>&gt;] attributes &lt;<span class="pl-ent">name</span>&gt;...
+        &lt;<span class="pl-ent">name</span>&gt;...
+    [&lt;<span class="pl-ent">modifier</span>&gt;] outfits &lt;<span class="pl-ent">name</span>&gt;...
+        &lt;<span class="pl-ent">name</span>&gt;...
+    [&lt;<span class="pl-ent">modifier</span>&gt;] category &lt;<span class="pl-ent">name</span>&gt;...
+    [&lt;<span class="pl-ent">modifier</span>&gt;] near &lt;<span class="pl-ent">system</span>&gt; [[&lt;<span class="pl-ent">min</span>&gt;] &lt;<span class="pl-ent">max</span>&gt;]
+    [&lt;<span class="pl-ent">modifier</span>&gt;] distance [[&lt;<span class="pl-ent">min</span>&gt;] &lt;<span class="pl-ent">max</span>&gt;]
+    neighbor
+        ...
+    not
+        ...    </pre></div>
+<p>Each entry in the source or destination specification acts as a filter. Two "modifier" tokens are introduced in <strong>v. 0.9.9</strong>, <strong><code>not</code></strong> and <strong><code>neighbor</code></strong>. The <code>neighbor</code> modifier indicates that the associated filter must match a system that is hyperlinked with the system in question, and the <code>not</code> modifier indicates that the associated filter must not match the system in question. These modifiers cannot be used in the same line, but can be "children" of each other.</p>
+<div class="highlight highlight-text-html-basic"><pre>[(not | neighbor)] planet &lt;<span class="pl-ent">name</span>&gt;...
+    &lt;<span class="pl-ent">name</span>&gt;...</pre></div>
+<p>This says that the planet must be (or must not be, if the <code>not</code> keyword is used) one of the named planets. If <code>neighbor</code> is used, at least one of the named planets must be in a hyperlinked system. The list of names can either be all on one line, or split between multiple lines if it is particularly long; the subsequent lines must be indented so that they are "children" of the <code>planet</code> node. As with most of these filters, you can also have more than one <code>planet</code> entry, in which case the planet chosen must be in any one of the lists.</p>
+<div class="highlight highlight-text-html-basic"><pre>[(not | neighbor)] system &lt;<span class="pl-ent">name</span>&gt;...
+    &lt;<span class="pl-ent">name</span>&gt;...</pre></div>
+<p>The system must be (or must not be, or must neighbor) one of the items in this list. You can use this if you do not want to bother to look up what planets are in the system, but its intended use is for the NPC location filter as described later.</p>
+<div class="highlight highlight-text-html-basic"><pre>[(not | neighbor)] government &lt;<span class="pl-ent">name</span>&gt;...
+    &lt;<span class="pl-ent">name</span>&gt;...</pre></div>
+<p>The planet must be in (or must not be in, or must neighbor) a system owned by the given government(s). Again, the list can be all on one line, or multiple indented lines.</p>
+<p>If this is a source filter and the mission is being offered when <code>assisting</code> or <code>boarding</code> a ship, the government in this filter refers to the ship's government, not the government of the current star system. This allows you, for example, to create a mission that is only offered by merchant ships. If the <code>neighbor</code> modifier is used, at least one neighboring system's government must be in the list of named governments.</p>
+<div class="highlight highlight-text-html-basic"><pre>[(not | neighbor)] attributes &lt;<span class="pl-ent">name</span>&gt;...
+    &lt;<span class="pl-ent">name</span>&gt;...</pre></div>
+<p>The system or planet must have (or must not have, or must link to a system with) one of the given attributes (e.g. "dirt belt", "urban", "rich", "tourism", etc.). If applied to a system (<strong>v. 0.9.9</strong>), at least one of the given attributes must be found in either the system's own attributes, or the attributes of any of its orbiting objects. If applied to a ship (<strong>v. 0.9.9</strong>), the attribute must be positive, after taking into account any adjustments that are made by all of its installed outfits.</p>
+<p>Unlike the other filters, if multiple <code>attributes</code> tags appear, the system or planet must contain at least one attribute from each of the lists. For example, this means the planet must be urban or rich:</p>
+<div class="highlight highlight-source-shell"><pre>attributes <span class="pl-s"><span class="pl-pds">"</span>urban<span class="pl-pds">"</span></span> <span class="pl-s"><span class="pl-pds">"</span>rich<span class="pl-pds">"</span></span></pre></div>
+<p>but this means it must be urban <em>and</em> rich:</p>
+<div class="highlight highlight-source-shell"><pre>attributes <span class="pl-s"><span class="pl-pds">"</span>urban<span class="pl-pds">"</span></span>
+attributes <span class="pl-s"><span class="pl-pds">"</span>rich<span class="pl-pds">"</span></span></pre></div>
+<p>This matches anything that is not urban or not rich:</p>
+<div class="highlight highlight-source-shell"><pre>not attributes <span class="pl-s"><span class="pl-pds">"</span>urban<span class="pl-pds">"</span></span>
+not attributes <span class="pl-s"><span class="pl-pds">"</span>rich<span class="pl-pds">"</span></span></pre></div>
+<p>whereas this matches anything that is not <em>both</em> urban <em>and</em> rich:</p>
+<div class="highlight highlight-source-shell"><pre>not
+    attributes <span class="pl-s"><span class="pl-pds">"</span>urban<span class="pl-pds">"</span></span>
+    attributes <span class="pl-s"><span class="pl-pds">"</span>rich<span class="pl-pds">"</span></span></pre></div>
+<p>Beginning with <strong>v. 0.9.9</strong>, similar to <code>attributes</code>, ships (<code>source</code>) and planets (<code>source</code>, <code>destination</code>) can be matched according to available outfits. For ships, these outfits may be installed or in cargo, while for planets they must be for sale. This would match a ship that has at least one "Beam Laser" or "Meteor Missile Launcher" installed or in its cargo, or a planet that sells either one of the outfits:</p>
+<div class="highlight highlight-source-c++"><pre>source
+    outfits <span class="pl-s"><span class="pl-pds">"</span>Beam Laser<span class="pl-pds">"</span></span> <span class="pl-s"><span class="pl-pds">"</span>Meteor Missile Launcher<span class="pl-pds">"</span></span></pre></div>
+<p>whereas this would match ships or planets that only have both:</p>
+<div class="highlight highlight-source-c++"><pre>source
+    outfits <span class="pl-s"><span class="pl-pds">"</span>Beam Laser<span class="pl-pds">"</span></span>
+    outfits <span class="pl-s"><span class="pl-pds">"</span>Meteor Missile Launcher<span class="pl-pds">"</span></span></pre></div>
+<p><strong>V. 0.9.9</strong> also allows matching ships based on the specified category, e.g. "Light Warship" or "Interceptor". Any filter that defines a ship category will not match to systems or planets. Since a ship can have only one category, the following are both equivalent filters:</p>
+<div class="highlight highlight-source-c++"><pre>source
+    category <span class="pl-s"><span class="pl-pds">"</span>Heavy Freighter<span class="pl-pds">"</span></span> <span class="pl-s"><span class="pl-pds">"</span>Light Warship<span class="pl-pds">"</span></span>
+
+source
+    category <span class="pl-s"><span class="pl-pds">"</span>Heavy Freighter<span class="pl-pds">"</span></span>
+    category <span class="pl-s"><span class="pl-pds">"</span>Light Warship<span class="pl-pds">"</span></span></pre></div>
+<p>There are also ways of specifying how far the system is from a particular location, or from the current location:</p>
+<div class="highlight highlight-text-html-basic"><pre>[(not|neighbor)] near &lt;<span class="pl-ent">system</span>&gt; [[&lt;<span class="pl-ent">min</span><span class="pl-e">#</span>&gt;] &lt;<span class="pl-ent">max</span><span class="pl-e">#</span>&gt;]</pre></div>
+<p>If one number is given, the planet must be within (or must not be within, or must link to a system) that number of jumps from the given system (which includes the given system itself). If two numbers are given, the distance from the given system must be at least as high as the first number, and no more than the second. If no numbers are given, the planet must be in the given system or one of the systems it is linked to; this is equivalent to giving distances of 0 and 1.</p>
+<div class="highlight highlight-text-html-basic"><pre>[(not|neighbor)] distance [&lt;<span class="pl-ent">min</span><span class="pl-e">#</span>&gt;] &lt;<span class="pl-ent">max</span><span class="pl-e">#</span>&gt;</pre></div>
+<p>This is the same as the <code>near</code> tag, but gives distances relative to the origin planet. (So, this tag only makes sense within a <code>destination</code> filter, not within a <code>source</code> filter or a <code>clearance</code> filter.)</p>
+<div class="highlight highlight-text-html-basic"><pre>not
+    ...
+neighbor
+    ...</pre></div>
+<p>A <code>not</code> or <code>neighbor</code> tag by itself, with filters as its children, defines a more complicated filter that must not match. For example, this filter matches a system whose neighbor must neighbor a Republic system and not be a Republic system:</p>
+<div class="highlight highlight-source-shell"><pre>neighbor
+    neighbor government <span class="pl-s"><span class="pl-pds">"</span>Republic<span class="pl-pds">"</span></span>
+    not government <span class="pl-s"><span class="pl-pds">"</span>Republic<span class="pl-pds">"</span></span></pre></div>
+<p>while this filter additionally requires the matched system to belong to a government other than Republic:</p>
+<div class="highlight highlight-source-shell"><pre>not government <span class="pl-s"><span class="pl-pds">"</span>Republic<span class="pl-pds">"</span></span>
+neighbor
+    neighbor government <span class="pl-s"><span class="pl-pds">"</span>Republic<span class="pl-pds">"</span></span>
+    not government <span class="pl-s"><span class="pl-pds">"</span>Republic<span class="pl-pds">"</span></span></pre></div>
+<p>Filters combining <code>not</code> and <code>neighbor</code> can become quite complex and difficult to reason, but offer functionality not otherwise available. For example, to find a source system that is not Republic (1), does not neighbor a Republic system (2), but has a neighbor that does neighbor a Republic system (3), you could use this filter:</p>
+<div class="highlight highlight-source-java"><pre>source
+<span class="pl-c1">1</span>)  not government <span class="pl-s"><span class="pl-pds">"</span>Republic<span class="pl-pds">"</span></span>
+<span class="pl-c1">2</span>)  not
+        neighbor government <span class="pl-s"><span class="pl-pds">"</span>Republic<span class="pl-pds">"</span></span>
+<span class="pl-c1">3</span>)  neighbor
+        neighbor government <span class="pl-s"><span class="pl-pds">"</span>Republic<span class="pl-pds">"</span></span></pre></div>
+<a name="user-content-npcs">
+</a><h1><a name="user-content-npcs">
+</a><a id="user-content-non-player-characters-npcs" class="anchor" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#non-player-characters-npcs" aria-hidden="true"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Non-Player Characters (NPCs)</h1>
+
+<p>NPCs are ships that are associated with the mission in some way. This includes friendly ships the player must protect, and hostile ships the player must fight off or destroy:</p>
+<div class="highlight highlight-text-html-basic"><pre>npc (save | kill | board | assist | disable | "scan cargo" | "scan outfits" | evade | accompany)...
+    government &lt;<span class="pl-ent">name</span>&gt;
+    personality &lt;<span class="pl-ent">type</span>&gt;...
+        &lt;<span class="pl-ent">type</span>&gt;...
+        confusion &lt;<span class="pl-ent">amount</span><span class="pl-e">#</span>&gt;
+    system (&lt;<span class="pl-ent">system</span>&gt; | destination)
+    system
+        system &lt;<span class="pl-ent">name</span>&gt;...
+            &lt;<span class="pl-ent">name</span>&gt;...
+        government &lt;<span class="pl-ent">name</span>&gt;...
+            &lt;<span class="pl-ent">name</span>&gt;...
+        near &lt;<span class="pl-ent">system</span>&gt; [[&lt;<span class="pl-ent">min</span><span class="pl-e">#</span>&gt;] &lt;<span class="pl-ent">max</span><span class="pl-e">#</span>&gt;]
+        distance [[&lt;<span class="pl-ent">min</span><span class="pl-e">#</span>&gt;] &lt;<span class="pl-ent">max</span><span class="pl-e">#</span>&gt;]
+    planet &lt;<span class="pl-ent">name</span>&gt;
+    dialog &lt;<span class="pl-ent">text</span>&gt;
+        &lt;<span class="pl-ent">text</span>&gt;...
+    conversation &lt;<span class="pl-ent">name</span>&gt;
+    conversation
+        ...
+    ship &lt;<span class="pl-ent">model</span>&gt; &lt;<span class="pl-ent">name</span>&gt;
+    fleet &lt;<span class="pl-ent">name</span>&gt; [&lt;<span class="pl-ent">count</span><span class="pl-e">#</span>&gt;]
+    fleet [&lt;<span class="pl-ent">count</span><span class="pl-e">#</span>&gt;]
+        ...</pre></div>
+<p>Each <code>npc</code> tag may have one or more tags following it, specifying what the player must do with the given NPC:</p>
+<ul>
+<li>
+<code>save</code>: The mission fails if the given NPC is destroyed.</li>
+<li>
+<code>kill</code>: To complete the mission, the given NPC must be dead.</li>
+<li>
+<code>board</code>: To complete the mission, the player must board the given NPC. If the ship is destroyed before being boarded, the mission fails. (Note that if the ship is friendly, you will "assist" it instead of boarding it, and this condition will not be satisfied.)</li>
+<li>
+<code>assist</code>: To complete the mission, the player must assist the given NPC (i.e. board it while it is disabled and the player is friendly with it, thus repairing it).</li>
+<li>
+<code>disable</code>: To complete the mission, the player must disable the given NPC.</li>
+<li>
+<code>"scan cargo"</code>: To complete the mission, the player must scan the given NPC's cargo. If the NPC is destroyed before being scanned, the mission fails.</li>
+<li>
+<code>"scan outfits"</code>: Same, but the player must use an outfit scanner instead of a cargo scanner.</li>
+<li>
+<code>evade</code>: you cannot complete the mission if any members of this NPC are in the same system as you.</li>
+<li>
+<code>accompany</code>: you can only complete the mission if all members of this NPC are in the same system as you.</li>
+</ul>
+<div class="highlight highlight-text-html-basic"><pre>government &lt;<span class="pl-ent">name</span>&gt;</pre></div>
+<p>This specifies what government all the ships connected to this NPC specification will have. If no government is given, they are set to the player's government, as escorts.</p>
+<div class="highlight highlight-text-html-basic"><pre>personality &lt;<span class="pl-ent">type</span>&gt;...
+    &lt;<span class="pl-ent">type</span>&gt;...
+    confusion &lt;<span class="pl-ent">amount</span><span class="pl-e">#</span>&gt;</pre></div>
+<p>This defines the NPC's <a href="https://github.com/endless-sky/endless-sky/wiki/ShipPersonalities">personality</a>. The <code>confusion</code> tag is a special value, giving the inaccuracy in pixels of the ship's targeting systems; the default value is 10 pixels.</p>
+<p>If an NPC is specified as starting out in your current system and its personality is <em>not</em> <code>staying</code> or <code>waiting</code>, it will take off from the planet along with you (e.g. a ship you are escorting). A ship that is <code>entering</code> the current system might, for example, be a pirate raid chasing the fleet you are escorting, and a ship <code>staying</code> in a certain system might be a target you must locate for a "bounty hunting" mission. (Any ship that is not <code>staying</code> will actively seek the player out if it is in a different system, unless it is also <code>uninterested</code>.)</p>
+<div class="highlight highlight-text-html-basic"><pre>system (&lt;<span class="pl-ent">system</span>&gt; | destination)</pre></div>
+<p>This specifies the exact system the NPC will start in: either the named system, or the mission's destination system if the given name is literally the word <code>destination</code>. (The <code>destination</code> keyword is only supported in <strong>0.9.1 and up.</strong>) Note that if no system is specified, either in this way or using a filter (below), the NPC will start in the current system.</p>
+<div class="highlight highlight-text-html-basic"><pre>system
+    system &lt;<span class="pl-ent">name</span>&gt;...
+        &lt;<span class="pl-ent">name</span>&gt;...
+    government &lt;<span class="pl-ent">name</span>&gt;...
+        &lt;<span class="pl-ent">name</span>&gt;...
+    near &lt;<span class="pl-ent">system</span>&gt; [[&lt;<span class="pl-ent">min</span><span class="pl-e">#</span>&gt;] &lt;<span class="pl-ent">max</span><span class="pl-e">#</span>&gt;]
+    distance [[&lt;<span class="pl-ent">min</span><span class="pl-e">#</span>&gt;] &lt;<span class="pl-ent">max</span><span class="pl-e">#</span>&gt;]</pre></div>
+<p>This specifies a location filter for choosing what system the NPC starts out in. The <code>system</code>, <code>government</code>, <code>near</code>, and <code>distance</code> filters operate the same way they do in the descriptions in the previous section, and can be used instead of naming a particular system. For example, you could have the NPC start out in any "Pirate" system, or within two jumps of the current system. The other location filter options are also available, including <code>not</code> and <code>neighbor</code>.</p>
+<div class="highlight highlight-text-html-basic"><pre>planet &lt;<span class="pl-ent">name</span>&gt;</pre></div>
+<p>This specifies the exact name of the starting planet for all ships in the NPC definition. A specified starting planet allows the NPCs to depart from a planet other than that which the player is landed on. If the NPCs do not start in the system in which the named planet is located, or the NPCs have an "entering" personality, this value is ignored.</p>
+<div class="highlight highlight-text-html-basic"><pre>dialog &lt;<span class="pl-ent">text</span>&gt;
+    &lt;<span class="pl-ent">text</span>&gt;...
+conversation &lt;<span class="pl-ent">name</span>&gt;
+conversation
+    ...</pre></div>
+<p>This defines a dialog or conversation to be shown when you have first satisfied all the requirements of a given NPC. For more details on the syntax, see the "Triggers" section below. Beginning with <strong>v. 0.9.9</strong>, conversations shown when completing an NPC can also use special keywords to influence the player's flagship or the NPC ship.</p>
+<p>If you want to retrieve passengers or cargo by boarding a ship, set up the mission so that you are considered to be carrying them from the very start (for example, the cargo might be called "reserved mission space" or "mission cargo"). Otherwise, it would be possible for the player to board a ship and then discover they do not have enough cargo or passenger space to complete the mission.</p>
+<div class="highlight highlight-text-html-basic"><pre>ship &lt;<span class="pl-ent">model</span>&gt; &lt;<span class="pl-ent">name</span>&gt;</pre></div>
+<p>This specifies a single ship as an NPC. The first argument is the model type (or named variant), such as "Falcon", or "Star Barge (Armed)". The second is the ship's name.</p>
+<p>If you want to customize an NPC (for example, having it start out with a particular cargo), you will need to define a variant of the ship and then reference that variant here. Placing the entire ship definition within the NPC definition is supported (because that is how NPC ships are loaded from a saved game) but will not work properly if the ship definition contains any outfits that are not defined yet when the mission definition is parsed. When loading NPCs from saved games, the rest of the game data has finished loading, but this is not otherwise guaranteed.</p>
+<div class="highlight highlight-text-html-basic"><pre>fleet &lt;<span class="pl-ent">name</span>&gt; [&lt;<span class="pl-ent">count</span><span class="pl-e">#</span>&gt;]
+fleet [&lt;<span class="pl-ent">count</span><span class="pl-e">#</span>&gt;]
+    ...</pre></div>
+<p>This specifies an entire fleet of ships. The first format refers to one or the standard fleets, such as "pirate raid" or "Small Republic". The second format gives a custom fleet, using the same syntax as normal <code>fleet</code> data entry. Every ship in the fleet will have the requirements given in the first line (such as <code>kill</code> or <code>save</code>). Optionally, you can specify a count to create more than one copy of the fleet.</p>
+<a name="user-content-triggers">
+</a><h1><a name="user-content-triggers">
+</a><a id="user-content-triggers" class="anchor" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions#triggers" aria-hidden="true"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Triggers</h1>
+
+<p>A mission can also specify what happens at various key parts of the mission:</p>
+<div class="highlight highlight-text-html-basic"><pre>on (offer | complete | accept | decline | defer | fail | visit | stopover | enter [&lt;<span class="pl-ent">system</span>&gt;])
+    dialog &lt;<span class="pl-ent">text</span>&gt;
+        &lt;<span class="pl-ent">text</span>&gt;...
+    conversation &lt;<span class="pl-ent">name</span>&gt;
+    conversation
+        ...
+    outfit &lt;<span class="pl-ent">outfit</span>&gt; [&lt;<span class="pl-ent">count</span><span class="pl-e">#</span>&gt;]
+    require &lt;<span class="pl-ent">outfit</span>&gt;
+    payment [&lt;<span class="pl-ent">base</span>&gt; [&lt;<span class="pl-ent">multiplier</span>&gt;]]
+    &lt;<span class="pl-ent">condition</span>&gt; (= | += | -=) &lt;<span class="pl-ent">value</span><span class="pl-e">#</span>&gt;
+    &lt;<span class="pl-ent">condition</span>&gt; (++ | --)
+    (set | clear) &lt;<span class="pl-ent">condition</span>&gt;
+    event &lt;<span class="pl-ent">name</span>&gt; [&lt;<span class="pl-ent">delay</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">max</span><span class="pl-e">#</span>&gt;]]
+    fail [&lt;<span class="pl-ent">name</span>&gt;]</pre></div>
+<p>There are eight events that can trigger a response of some sort:</p>
+<ul>
+<li>
+<code>offer</code>: when the initial mission is offered. This is the place to put the conversation or dialog that introduces the mission.</li>
+<li>
+<code>complete</code>: when the mission is completed. This is when the player gets paid.</li>
+<li>
+<code>accept</code>: if the player agrees to accept a mission.</li>
+<li>
+<code>decline</code>: if the player decides to decline a mission.</li>
+<li>
+<code>defer</code>: if the player decides to defer a mission.</li>
+<li>
+<code>fail</code>: if the mission fails.</li>
+<li>
+<code>visit</code>: you land on the mission's destination, and it has not failed, but you have also not yet done whatever is needed for it to succeed.</li>
+<li>
+<code>stopover</code>: you have landed on the last of the planets that are specified as a "stopover" point for this mission.</li>
+<li>
+<code>enter [&lt;system&gt;]</code>: your ship enters the given system for the first time since this mission was accepted. If no system is specified, this triggers as soon as your ship takes off from the current planet.</li>
+</ul>
+<p>Beginning with <strong>v. 0.9.9</strong>, the <code>enter</code> action supports determining the system with a location filter:</p>
+<div class="highlight highlight-text-html-basic"><pre>on enter
+    [system &lt;<span class="pl-ent">name</span>&gt;...]
+    ...</pre></div>
+<p>Some of the events below usually only make sense for certain triggers. In particular, dialogs and conversations can be shown when a mission is offered, but not in response to it being accepted or declined; just add the appropriate text to the offer conversation instead.</p>
+<div class="highlight highlight-text-html-basic"><pre>dialog &lt;<span class="pl-ent">text</span>&gt;
+    &lt;<span class="pl-ent">text</span>&gt;...</pre></div>
+<p>This gives a message to be displayed in a dialog message to the user. If the trigger is <code>on offer</code>, the dialog will have "accept" and "decline" buttons. Otherwise, it is a purely informational message and only an "okay" button is shown.</p>
+<p>Each token following the <code>dialog</code> tag will be a separate paragraph. The first token may appear either on the same line or indented on a subsequent line.</p>
+<p>As mentioned previously, text replacement is done on keywords like "<code>&lt;destination&gt;</code>" and "<code>&lt;payment&gt;</code>" within the dialog text.</p>
+<div class="highlight highlight-text-html-basic"><pre>conversation &lt;<span class="pl-ent">name</span>&gt;
+conversation
+    ...</pre></div>
+<p>This specifies that a conversation will be shown to the player at this point in the mission. When a mission is being offered, the conversation can return <code>accept</code> or <code>decline</code>; conversations can also return special values like <code>die</code> or <code>explode</code> (if the conversation ends with the player dying or their flagship exploding) or <code>launch</code> (if the player should take off from the planet immediately).</p>
+<p>For conversations that are offered when boarding a ship or completing an NPC, if the conversation ends with <code>launch</code>, <code>flee</code>, or <code>depart</code>, the ship in question will die.</p>
+<p>As with the dialogs, text substitution is done throughout the conversation.</p>
+<p>The syntax for conversations is described <a href="https://github.com/endless-sky/endless-sky/wiki/WritingConversations">here</a>.</p>
+<div class="highlight highlight-text-html-basic"><pre>outfit &lt;<span class="pl-ent">outfit</span>&gt; [&lt;<span class="pl-ent">number</span><span class="pl-e">#</span>&gt;]
+require &lt;<span class="pl-ent">outfit</span>&gt; [&lt;<span class="pl-ent">number</span><span class="pl-e">#</span>&gt;]</pre></div>
+<p>At this point in the mission, the named ship outfit (or some number of them, if a number is given) is installed in the player's flagship, or placed in the player's cargo if the flagship has no outfit space for it. If the number is negative, outfits are taken away. If a mission removes outfits in its "complete" phase, it cannot be completed unless that outfit exists. This makes it possible to loan the player an outfit for the duration of a mission, or to require that the player disable a non-NPC ship and steal a particular piece of technology from it.</p>
+<p>If the outfit cannot be installed due to lack of space, a warning message will be shown so the player knows that the outfit is not actually active (and may in fact be lost if they leave the planet).</p>
+<p>The <code>require</code> keyword checks that the player has at least one of the named outfit, but does not take it away. For example, this could be used in the <code>on offer</code> phase to only offer a mission to players who have a "Jump Drive". Starting with <strong>v. 0.9.9</strong>, a specific quantity can be required, including 0 (i.e. the player cannot have any).</p>
+<div class="highlight highlight-text-html-basic"><pre>payment [&lt;<span class="pl-ent">base</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">multiplier</span><span class="pl-e">#</span>&gt;]]</pre></div>
+<p>This specifies the payment for a mission, which depends on the number of jumps and the amount of cargo and passengers:</p>
+<div class="highlight highlight-source-c++"><pre>base + multiplier * (jumps + <span class="pl-c1">1</span>) * (<span class="pl-c1">10</span> * (# of passengers) + (tons of cargo))</pre></div>
+<p>If no base or multiplier is given, the default is base = 0, multiplier = 150. If a single value is given, it denotes a flat payment (i.e. multiplier = 0).</p>
+<p>Normally, a <code>payment</code> value would only be given in the "on complete" section, but you can also have a negative value to be subtracted if the player fails the mission, or you could use a "payment" to advance the player some money when they first accept a mission. If the "on complete" payment is negative, the player cannot complete the mission if they have fewer than that number of credits.</p>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">condition</span>&gt; (= | += | -=) &lt;<span class="pl-ent">value</span><span class="pl-e">#</span>&gt;
+&lt;<span class="pl-ent">condition</span>&gt; (++ | --)
+(set | clear) &lt;<span class="pl-ent">condition</span>&gt;</pre></div>
+<p>This is used to adjust the "conditions" described previously, which form the requirements for other missions. You can either set the condition to a certain value (using the <code>=</code> operator), or add or subtract a value using <code>+=</code> or <code>-=</code>. As a shortcut, <code>++</code> means <code>+= 1</code> and <code>--</code> means <code>-= 1</code>. <strong>You must place a space between the condition, the operator, and the value in order for the parser to interpret it correctly.</strong></p>
+<p>The <code>set</code> and <code>clear</code> tags are shortcuts for <code>= 1</code> and <code>= 0</code>, respectively.</p>
+<p>To change the player's reputation or combat rating, you may alter the <code>"reputation: &lt;government&gt;"</code>, or <code>"combat rating"</code> conditions. For example, a "bounty hunting" mission might automatically alter your reputation on whatever planet the mission ends on ("reputation"), and a mission for the Navy might improve your reputation with the Republic but reduce your reputation with the Free Worlds.</p>
+<div class="highlight highlight-text-html-basic"><pre>event &lt;<span class="pl-ent">name</span>&gt; [&lt;<span class="pl-ent">delay</span><span class="pl-e">#</span>&gt; [&lt;<span class="pl-ent">max</span><span class="pl-e">#</span>&gt;]]</pre></div>
+<p>This specifies that the given event happens at this point in the mission. Events may permanently alter planets or solar systems. If a delay is given, the event will occur that number of days from now, instead of happening immediately. If both a minimum and a maximum delay is given, the number of days from now will be chosen randomly from within that interval.</p>
+<div class="highlight highlight-text-html-basic"><pre>fail [&lt;<span class="pl-ent">name</span>&gt;]</pre></div>
+<p>This causes the named mission (or this mission, if no name is given) to fail immediately. The name should be the unique mission name that is used in condition strings, etc., not the "display name" that is shown to the player. This can be used, for example, to create a mission which gives you an item or payment if it is accepted, but is not actually added to your mission list.</p>
+
+            </div>
+
+        </div>
+
+</div>
+
+    <div class="flex-shrink-0 col-12 col-md-3 cc_cursor">
+              <div id="wiki-rightbar">
+          <div id="wiki-pages-box" class="mb-4 wiki-pages-box js-wiki-pages-box" role="navigation">
+            
+<div class="Box Box--condensed box-shadow">
+  <div class="Box-header js-wiki-toggle-collapse" style="cursor: pointer">
+    <h3 class="Box-title">
+      <svg class="octicon octicon-triangle-down js-wiki-sidebar-toggle-display d-none" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"></path></svg>
+      <svg class="octicon octicon-triangle-right js-wiki-sidebar-toggle-display" viewBox="0 0 6 16" version="1.1" width="6" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 14l6-6-6-6v12z"></path></svg>
+      Pages <span class="Counter Counter--gray">31</span>
+    </h3>
+  </div>
+  <div class="d-none js-wiki-sidebar-toggle-display">
+    <div class="filter-bar">
+      <input type="text" id="wiki-pages-filter" class="form-control input-sm input-block js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…" autocomplete="off">
+    </div>
+
+    <ul class="m-0 p-0 list-style-none" data-filterable-for="wiki-pages-filter" data-filterable-type="substring">
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki">Home</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/AnimationTweening">AnimationTweening</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/BlendingModes">BlendingModes</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/BuildInstructions">BuildInstructions</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CollisionDetection">CollisionDetection</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/ContributingCode">ContributingCode</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CreatingEffects">CreatingEffects</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CreatingEvents">CreatingEvents</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CreatingGovernments">CreatingGovernments</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions">CreatingMissions</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CreatingNews">CreatingNews</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CreatingOutfits">CreatingOutfits</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CreatingPersons">CreatingPersons</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins">CreatingPlugins</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/CreatingShips">CreatingShips</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/DataFormat">DataFormat</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/DevelopmentRoadmap">DevelopmentRoadmap</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/HelpWanted">HelpWanted</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/HistoricalTimeline">HistoricalTimeline</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/HumanSpace">HumanSpace</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/MajorOrganizations">MajorOrganizations</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/MotionBlur">MotionBlur</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/PlanetSprites">PlanetSprites</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/Player-Conditions">Player Conditions</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/PlayersManual">PlayersManual</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/QualityChecklist">QualityChecklist</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/ShipPersonalities">ShipPersonalities</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/Story-Ideas">Story Ideas</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/StyleGoals">StyleGoals</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/TiledAsteroids">TiledAsteroids</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="https://github.com/endless-sky/endless-sky/wiki/WritingConversations">WritingConversations</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages-link">
+          <button type="button" class="f6 mx-auto btn-link muted-link js-wiki-more-pages-link">
+            Show 16 more pages…
+          </button>
+        </li>
+    </ul>
+  </div>
+</div>
+
+          </div>
+
+            <div class="gollum-markdown-content">
+              <div class="Box Box--condensed mb-4">
+                <div class="Box-body wiki-custom-sidebar markdown-body">
+                  <ul>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/PlayersManual#new">Starting a new game</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/PlayersManual#planets">Planets</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/PlayersManual#navigation">Flying your ship</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/PlayersManual#travel">Traveling to other stars</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/PlayersManual#outfits">Upgrading your ship</a></li>
+<li><a href="https://github.com/endless-sky/endless-sky/wiki/PlayersManual#combat">Combat</a></li>
+</ul>
+
+                </div>
+              </div>
+            </div>
+
+          <h5 class="mt-0 mb-2">Clone this wiki locally</h5>
+          <div class="width-full input-group">
+            <input id="wiki-clone-url" type="text" data-autoselect="" class="form-control input-sm text-small text-gray input-monospace" aria-label="Clone URL for this wiki" value="https://github.com/endless-sky/endless-sky.wiki.git" readonly="">
+            <span class="input-group-button">
+              <clipboard-copy for="wiki-clone-url" aria-label="Copy to clipboard" class="btn btn-sm zeroclipboard-button" tabindex="0" role="button">
+                <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg>
+              </clipboard-copy>
+            </span>
+          </div>
+        </div>
+
+</div>
+</div>
+
+
+  </div>
+
+
+  </div>
+</div>
+
+
+    </div></main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full p-responsive" role="contentinfo">
+  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      <li class="mr-3 mr-lg-0">© 2020 GitHub, Inc.</li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com/">Help</a></li>
+
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog/" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" async="async" integrity="sha512-WcQmT2vhcClFVOaaAJV/M+HqsJ2Gq/myvl6F3gCVBxykazXTs+i5fvxncSXwyG1CSfcrqmLFw/R/bmFYzprX2A==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-59c4264f.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-6XBdUZGib4aqdruJTnLMOLpIh0VJsGlgQ7M3vndWJIH6YQNv+zqpo1TbCDzjHJ+YYEm4xkEinaY0VsemDUfi9A==" type="application/javascript" src="./CreatingMissions · endless-sky_endless-sky Wiki · GitHub_files/environment-bootstrap-e9705d51.js.download"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-EDN3kiqMVKpDXq6euD9tcIPeh3xqtWzCcm8mqqLAZOkXwdMo0hSA8Bfg0NqZ8c2n51yU4SlSal3hqgdrus+M2A==" type="application/javascript" src="./CreatingMissions · endless-sky_endless-sky Wiki · GitHub_files/vendor-10337792.js.download"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-CcKFBqQZKOCZU5otP6R8GH2k+iJ3zC9r2z2Iakfs/Bo9/ptHy6JIWQN3FPhVuS3CR+Q/CkEOSfg+WJfoq3YMxQ==" type="application/javascript" src="./CreatingMissions · endless-sky_endless-sky Wiki · GitHub_files/frameworks-09c28506.js.download"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-7Evx/cY3o6cyoeTQc+OX5n6X4k+wTJkQnAyjtmpge6F3Hgw511TPF+N0BFvn3IZLaQro6kyC/f0dqhklyssNow==" type="application/javascript" src="./CreatingMissions · endless-sky_endless-sky Wiki · GitHub_files/github-bootstrap-ec4bf1fd.js.download"></script>
+    
+      <script crossorigin="anonymous" async="async" integrity="sha512-+cY1xO8pOWEJI+rxX+gnsLRUlqAGY6Q8suk7FpTS7cPkFNq+mgGWXncb1zFBUSqIWSYI2gvBxJ6b0CR7AAfABg==" type="application/javascript" src="./CreatingMissions · endless-sky_endless-sky Wiki · GitHub_files/wiki-f9c635c4.js.download"></script>
+
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden="">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <span class="js-stale-session-flash-signed-in" hidden="">You signed in with another tab or window. <a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden="">You signed out in another tab or window. <a href="https://github.com/endless-sky/endless-sky/wiki/CreatingMissions">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog"></template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;"></div>
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  
+
+
+</body></html>

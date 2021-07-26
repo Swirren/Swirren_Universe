@@ -1,12 +1,21 @@
 shipyard "Tuxen"
 	"Leaf"
 	"Sun Striker"
+	"Bush"
 
 shipyard "Shunned Tuxen"
 	"Dilapidated Sun Striker"
 
 shipyard "Space Arena"
 	"Kupoint"
+
+shipyard "Swiren"
+	"Kupoint"
+	"Tlano"
+	"Bush"
+	"Leaf"
+	"Sun Striker"
+	"Dilapidated Sun Striker"
 
 outfitter "Tuxen"
 	"Small Stomata Thrusters"
@@ -34,8 +43,9 @@ outfitter "Shunned Tuxen"
 
 outfitter "Swiren"
 	"Top Hat"
-	"Developer Drive"
 	"Jump Drive"
+	"The Major"
+	"Warp Drive"
 
 outfitter "Syndicate Advanced"
 	"The Major"

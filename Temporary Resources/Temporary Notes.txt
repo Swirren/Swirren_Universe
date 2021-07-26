@@ -1,0 +1,13 @@
+Government: Ca'ti/Paos(Paosian)/Tuxen
+Intro Planet: Letaga
+
+Old Leaf Thrusters: description "The crazies that turned the Leaf into a ship went one step further and designed outfits for it. These are a pair of thrusters designed specifically for making sure the Leaf doesn't burst into flame from overheating."
+
+Leaf Cooling: description "Even though the Leaf's outfits are organic and extremely efficient, thus giving off virtually no heat, some artificial outfits might give off more heat than what the built-in cooling can handle."
+
+Don't forget to re-do sales.txt since I'm introducing the Ca'ti/Paos
+
+hub, ritap, refuel
+Hub world
+Place tuxen mission continuation on ritap, so future updates can work seamlessly
+Place a refueling world close to Shunned Tuxen world

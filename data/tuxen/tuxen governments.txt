@@ -1,0 +1,34 @@
+# The "Tuxen" and "Shunned Tuxen" governments are for main plugin storyline
+
+government "Tuxen"
+	swizzle 0
+# Green
+#	color .27 1.95 .14
+# Yellow
+#	color 2.17 2.08 .61
+# Light Blue
+	color .91 2.10 2.17
+	"crew attack" 1.5
+	"crew defense" 3
+	"player reputation" -1000
+	"attitude toward"
+		"Shunned Tuxen" -1
+	"friendly hail" "friendly tuxen"
+	"friendly disabled hail" "friendly disabled tuxen"
+	"hostile hail" "hostile tuxen"
+	"hostile disabled hail" "hostile disabled tuxen"
+	"bribe" 0
+
+government "Shunned Tuxen"
+	swizzle 0
+	color .73 1.68 1.73
+	"crew attack" 1.7
+	"crew defense" 2
+	"player reputation" -1000
+	"attitude toward"
+		"Tuxen" -1
+	"friendly hail" "friendly shunned tuxen"
+	"friendly disabled hail" "friendly disabled shunned tuxen"
+	"hostile hail" "hostile shunned tuxen"
+	"hostile disabled hail" "hostile disabled shunned tuxen"
+	"bribe" 0

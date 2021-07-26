@@ -1,0 +1,77 @@
+# This file gives descriptions to the Quarg outfits that don't normally have descriptions.
+
+outfit "Nanotech Battery"
+	plural "Nanotech Batteries"
+	category "Power"
+	cost 3000000
+	thumbnail "outfit/quarg nanotech battery"
+	"mass" 50
+	"outfit space" -50
+	"energy capacity" 30000
+	description "This Quarg battery contains trillions of small energy-carrying nanobots that can recharge, providing unparalled battery storage."
+	description "	The extreme few captains that have obtained one of these incredible feats of technology often only have this as their energy source."
+
+outfit "Antimatter Core"
+	category "Power"
+	cost 100000000
+	thumbnail "outfit/quarg antimatter core"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 80
+	"heat generation" 20
+	"unplunderable" 1
+	description "This generator harnesses the incredible power of antimatter, in the quaintly small and efficient Quarg method."
+
+outfit "Quarg Anti-Missile"
+	category "Turrets"
+	cost 6000000
+	thumbnail "outfit/quarg anti missile"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		"hit effect" "quarg anti-missile"
+		"hardpoint sprite" "hardpoint/quarg anti missile"
+		"hardpoint offset" 4
+		"anti-missile" 25
+		"velocity" 500
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 50
+	description "Drawing upon their Skylance beam weapon technology, the Quarg invented a remarkably powerful anti-missile capable of destroying most missiles with rapid efficiency."
+
+outfit "Medium Graviton Thruster"
+	category "Engines"
+	"cost" 20000000
+	thumbnail "outfit/medium quarg thruster"
+	"mass" 70
+	"outfit space" -70
+	"engine capacity" -70
+	"thrust" 80
+	"thrusting energy" 20
+	"thrusting heat" 10
+	"flare sprite" "effect/medium graviton flare"
+	description "These relatively small thrusters somehow manage to contain almost the same thrust as the largest Korath thruster."
+
+outfit "Medium Graviton Steering"
+	category "Engines"
+	"cost" 16000000
+	thumbnail "outfit/medium quarg steering"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"turn" 1600
+	"turning energy" 10
+	"turning heat" 5
+	description "These steering thrusters are easily beaten out by the best human alternatives, but are a significantly reduced outfit size for what they do offer." 
+
+outfit "Quantum Shield Generator"
+	category "Systems"
+	cost 30000000
+	thumbnail "outfit/quarg quantum shield generator"
+	"mass" 120
+	"outfit space" -120
+	"shield generation" 10
+	"shield energy" 10
+	description "One of the greatest Quarg inventions is their ability to use quantum physics in their favor. This generator takes your ship's depleted shield ions and almost instantly replaces them, refreshed and ready to take another beating."

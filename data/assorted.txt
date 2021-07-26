@@ -1,0 +1,390 @@
+interface "main menu"
+	sprite "_menu/compass"
+		center 0 0
+	sprite "_menu/title"
+		center 0 -170
+	sprite "_menu/side panel"
+		center -360 0
+	sprite "_menu/side panel"
+		center 360 0
+	sprite "_menu/swiren"
+		center -360 -15
+	
+	visible if "pilot loaded"
+	button e "_Enter Ship"
+		center 435 155
+		dimensions 90 30
+	visible if "!pilot loaded"
+	button n "_New Pilot"
+		center 435 155
+		dimensions 90 30
+	
+	visible
+	button l "_Load / Save..."
+		center 300 155
+		dimensions 120 30
+	
+	# Left panel (credits):
+	button q "_Quit"
+		center -285 155
+		dimensions 90 30
+	button p "_Preferences..."
+		center -420 155
+		dimensions 120 30
+
+interface "planet"
+	image "land"
+		center -60 -140
+	sprite "ui/planet dialog"
+		center -60 0
+	sprite "ui/swiren"
+		center 189 328
+	button l
+		center -60 -140
+		dimensions 720 360
+	
+	visible if "has shipyard"
+	sprite "ui/planet dialog button"
+		center 280 90
+	button s "_Shipyard"
+		center 280 90
+		dimensions 140 40
+		size 18
+		align right
+		pad 10 0
+	
+	visible if "has outfitter"
+	sprite "ui/planet dialog button"
+		center 280 150
+	button o "_Outfitter"
+		center 280 150
+		dimensions 140 40
+		size 18
+		align right
+		pad 10 0
+	
+	visible if "is inhabited"
+	sprite "ui/planet dialog button"
+		center -400 150
+	button j "_Job Board"
+		center -400 150
+		dimensions 140 40
+		size 18
+		align left
+		pad 10 0
+	sprite "ui/planet dialog button"
+		center 280 210
+	button h "_Hire Crew"
+		center 280 210
+		dimensions 140 40
+		size 18
+		align right
+		pad 10 0
+	
+	visible if "has trade"
+	sprite "ui/planet dialog button"
+		center -400 90
+	button t "_Trading"
+		center -400 90
+		dimensions 140 40
+		size 18
+		align left
+		pad 10 0
+	
+	visible if "has bank"
+	sprite "ui/planet dialog button"
+		center -400 210
+	button b "_Bank"
+		center -400 210
+		dimensions 140 40
+		size 18
+		align left
+		pad 10 0
+	
+	visible if "has spaceport"
+	sprite "ui/planet dialog button"
+		center -400 270
+	button p "Space_port"
+		center -400 270
+		dimensions 140 40
+		size 18
+		align left
+		pad 10 0
+	
+	visible if "has ship"
+	sprite "ui/planet dialog button"
+		center 280 270
+	button d "_Depart"
+		center 280 270
+		dimensions 140 40
+		size 18
+		align right
+		pad 10 0
+
+outfit "Top Hat"
+	category "Special"
+	cost 720000000
+	thumbnail "outfit/tophat"
+	"mass" 5
+	"outfit space" -5
+	"turret mounts" -1
+	weapon
+		"anti-missile" 0
+		"hardpoint sprite" "hardpoint/tophat"
+		"turret turn" .00001
+	description "Lookin' rad, dude!"
+
+outfit "The Major"
+	category "Hand to Hand"
+	cost 110000
+	thumbnail "outfit/general"
+	"capture attack" 5
+	"capture defense" 1
+	"bunks" -1
+	description "For a relatively cheap cost, you can employ a retired military veteran to serve and command some of your crew when you take over ships. Considering they would know more than you, this is quite the fair trade."
+	description "     'To the front, and no quarter!'"
+	description "	This outfit IS plunderable - as if the attacking ship has taken a hostage."
+
+planet "Swiren Station"
+	attributes swiren
+	landscape land/sivael0
+	music ambient/loop2
+	description `This is Swiren's personal space station. After much haggling with the Republic central government, the station was granted access to be installed above Mars, to serve as a system-wide defense station.`
+	spaceport `The spaceport is quite spartan. It's pretty much just a cluster of tables and some refridgeration units, with people milling about and chatting with one another; other people that are in good standing with the Republic and have been allowed to dock here.`
+	shipyard "Basic Ships"
+	shipyard "Swiren"
+	outfitter Swiren
+	"required reputation" 1500
+	bribe 0
+	security 1
+
+system Sol
+	pos -400 100
+	government Republic
+	habitable 1080
+	link Vega
+	link "Alpha Centauri"
+	link Altair
+	link Sirius
+	link Denebola
+	link Caph
+	asteroids "small rock" 30 2.691
+	asteroids "large rock" 50 5.0508
+	asteroids "medium metal" 4 2.8566
+	asteroids "large metal" 1 2.2356
+	trade Clothing 282
+	trade Electronics 745
+	trade Equipment 491
+	trade Food 505
+	trade "Heavy Metals" 849
+	trade Industrial 635
+	trade "Luxury Goods" 1159
+	trade Medical 480
+	trade Metal 402
+	trade Plastic 272
+	fleet "Small Northern Merchants" 300
+	fleet "Large Northern Merchants" 500
+	fleet "Paradise Merchants" 800
+	fleet "Small Republic" 600
+	fleet "Large Republic" 900
+	fleet "Small Core Merchants" 1000
+	fleet "Large Core Merchants" 2000
+	belt 1529
+	minables iron 8 4.64499
+	object
+		sprite star/g0
+		period 25.38
+		belt 1529
+		minables iron 8 4.64499
+	object
+		sprite planet/mercury
+		distance 289.647
+		period 60
+		belt 1529
+		minables iron 8 4.64499
+	object
+		sprite planet/venus
+		distance 533.534
+		period 150
+		belt 1529
+		minables iron 8 4.64499
+	object Earth
+		sprite planet/earth
+		distance 965.669
+		period 365.25
+		belt 1529
+		minables iron 8 4.64499
+		object Luna
+			sprite planet/luna
+			distance 201.24
+			period 27.3
+			belt 1529
+			minables iron 8 4.64499
+	object Mars
+		sprite planet/mars
+		distance 1567.43
+		period 755.319
+		offset 64.7356
+		belt 1529
+		minables iron 8 4.64499
+		object "Swiren Station"
+			sprite planet/paos2
+			distance 233
+			period 20.499
+			belt 1529
+			minables iron 8 4.64499
+	object
+		sprite planet/jupiter
+		distance 3192
+		period 2195.04
+		offset 21.8444
+		belt 1529
+		minables iron 8 4.64499
+		object
+			sprite planet/io
+			distance 238.221
+			period 10.614
+			belt 1529
+			minables iron 8 4.64499
+		object
+			sprite planet/europa
+			distance 379.078
+			period 21.306
+			belt 1529
+			minables iron 8 4.64499
+		object
+			sprite planet/ganymede
+			distance 604.739
+			period 42.93
+			belt 1529
+			minables iron 8 4.64499
+		object
+			sprite planet/callisto
+			distance 811.717
+			period 66.76
+			belt 1529
+			minables iron 8 4.64499
+
+# The "Confederacy" government is used solely for the "Warden Diamond" system
+government "Confederacy"
+planet Medusa
+	attributes uninhabited
+	landscape land/hills5-sfiera
+	security 0
+planet Lilith
+	attributes uninhabited
+	landscape land/hills5-sfiera
+	security 0
+planet Cerberus
+	attributes uninhabited
+	landscape land/hills5-sfiera
+	security 0
+planet Charon
+	attributes uninhabited
+	landscape land/forest5
+	security 0
+
+person "Swiren"
+	government "Author"
+	personality
+		plunders
+	phrase
+			"Bet you wish you could have this beauty, huh?"
+	phrase
+			"Life motto: never refuse free food."
+	phrase
+			"If you repeatedly hail this ship, you'll get a new response each time! Well, almost every time."
+	phrase
+			"I'm too lazy to write any more responses."
+	phrase
+			"Find me @ swiftrender#8897! Let me know if you found this message; include a screenshot if you can!"		
+	phrase
+			"It's time to kick bubblegum and chew ass. And I'm all out of-- wait, that's not right..."
+	phrase
+			"As much as I'd like to stay, I really must toodle my doo."
+	phrase
+			"TRON Legacy: best movie ever, hands down."
+	phrase
+			"They are out there, with the perfect system. It's in their grasp!"
+	phrase
+			"Out there... out there, is our destiny."
+	phrase
+			"If you eat 10 trillion volts, it'll give you 0.0000000038 calories! Motto of the story: volts are good for you."
+	phrase
+			"Portal 3 when?"
+	phrase
+			"The rest of this message is by John Cena:`                                              `"
+	phrase
+			"Quite epic, if I do say so myself."
+	phrase
+			"Hope you're enjoying the plugin!"
+	phrase
+			"Model 512 gang. For life."
+	phrase
+			"Tell MZ to make writing missions easier."
+	phrase
+			"Hey! Leggo my Eggo!"
+	phrase
+			"Donde es mi padre?"
+	phrase
+			"Waffle House es mi amor!"
+	ship "Model 512" "X.I. Swiren"
+	"never disabled"
+	swizzle 3
+	attributes
+		category "Heavy Warship"
+		cost 40375000
+		mass 1150
+		automaton 1
+		"cargo space" 107
+		drag 17.4
+		"engine capacity" 161
+		"fuel capacity" 400
+		"gun ports" 2
+		"heat dissipation" 0.8
+		hull 34200
+		"outfit space" 994
+		ramscoop 3
+		"self destruct" 0.8
+		shields 86400
+		"turret mounts" 7
+		"weapon capacity" 512
+	outfits
+		"Outfits Expansion" 2
+		Hyperdrive
+		"Bunk Room" 2
+		"Large Heat Shunt"
+		"Thruster (Planetary Class)"
+		"Small Heat Shunt" 2
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Command Center"
+		"Fuel Processor" 3
+		"Korath Disruptor" 3
+		"Korath Slicer Turret" 3
+		"Steering (Stellar Class)"
+		"Wanderer Ramscoop"
+		"Dark Storm Shielding"
+		"Pug Seeker"
+		"Nanotech Battery"
+	crew 7
+	fuel 1000
+	shields 86400
+	hull 34200
+	position -103.55016 -1152.5088
+	engine -145 97 1
+	engine 145 97 1
+	gun -22 -143 "Pug Seeker"
+	gun 22 -143
+	turret -23 -134
+	turret 91 -102 "Korath Disruptor"
+	turret 124 -57 "Korath Slicer Turret"
+	turret -130 -33 "Korath Disruptor"
+	turret 138 20 "Korath Slicer Turret"
+	turret -121 86 "Korath Slicer Turret"
+	turret 54 138 "Korath Disruptor"
+	explode "tiny explosion" 160
+	explode "large explosion" 35
+	explode "small explosion" 115
+	explode "medium explosion" 80
+	"final explode" "final explosion large" 1

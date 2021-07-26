@@ -1,0 +1,245 @@
+mission "DZ1"
+	landing
+	name "A Warning"
+	description "You've just had a similar experience to the telepathic encounter with an Archon ages ago. You should probably find out more."
+	source
+		attributes
+			deep "dirt belt" "human tourism" "near earth" "paradise" swiren
+	destination "Clink"
+	to offer
+		has "main plot completed"
+		has "First Contact: Unfettered: offered"
+		has "Drak guarding Sayaiban: offered"
+	on offer
+		conversation
+			`You're completing errands as usual when a strange voice in your head begins speaking. You recall a similar experience, one that happened ages ago. You know where this mysterious voice is coming from, but it doesn't make it any easier to get used to. As you've been contemplating this, the voice has been talking. You tune in:`
+			` "- time has come. The human race has become too invested in galatic affairs. Prepare for your fate."`
+			`Like the time before, the voice abruptly falls away. Only then do you notice that everyone else around you is looking just as; or even more, confused. It seems as this message was broadcasted to everyone.`
+			`You decide to see what your Free Worlds comrades think. If they heard the message too, a more serious discussion will need to take place.`
+			` Last you heard, Katya and the rest of the council were visiting Clink. Head there now.`
+				accept
+	on accept
+		log "Seems as if the Drak have issued some kind of threat. Headed to Clink to find out if any of the Free Worlds council heard it too."
+
+mission "DZ2"
+	landing
+	name "R&D"
+	description "Find out if anyone outside the Free Worlds heard the Archon's warning."
+	source Clink
+	destination "Earth"
+	to offer
+		has "DZ1: done"
+	on fail
+		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+	on offer
+		conversation
+			`Upon landing on Clink, you can tell already that, presumably, every human on this side of space heard the warning. The spaceport is agitated; bustling like a busy anthill. You notified Katya of your arrival; she and the others are waiting for you as you land. After inviting them in to your ship for privacy and closing the airlock, you briefly catch up, then move on to the topic at hand.`
+			` "So it's for certain, then?" Alondo questioned.`
+			` "Pretty much." Katya says. "No one knows who or what that voice was, or even where it came from."
+			choice
+				` "Actually... I do." you pipe up.`
+			`All eyes turn towards you.`
+			` "What? How?" JJ asks.`
+			` You launch into the story of the Archon that was guarding the Korath nanobots, and also mention the story that the Unfettered Hai tell of their encounter with the Drak from millenia ago.`
+			` "That's... insane." Freya says when you finish. "Well, what are we going to do? We can't not do anything.`
+			` Katya thinks, then says: "I think we should go see if anyone in Republic or Syndicate space heard anything first. If this was a universal threat, then we need to know."`
+			`Everyone agrees on her plan. The council takes a moment to cancel their immediate plans, then boards a specially designed council Dreadnought. You all decided on Earth as your first stop, head there now.`
+				accept
+	on accept
+		log "The Free Worlds, too, have heard the imminent message. Going to see if the Republic has too."
+	npc accompany
+		government "Free Worlds"
+		personality escort
+		ship Dreadnought "F.S. Council"
+	on visit
+		dialog "You've rushed ahead of your escort in your excitement! You'd want them to wait for you. Better depart and wait for them to arrive."
+
+mission "DZ3"
+	landing
+	name "A Warning's Reach"
+	description "Head to Syndicate space to find out if they too heard the Archon's warning."
+	source Earth
+	destination Reunion
+	to offer
+		has "DZ2: done"
+	on offer
+		conversation
+			`Landing on Earth does nothing to quell your fears. And once you meet up with the council, it doesn't appear to have done much for them. It seems that Republic space has heard too.`
+			`You walk up to the administration building and ask to hold an emergency meeting with the Republican government, on behalf of the Free Worlds. You are escorted with haste up a few dozen floors, and emerge from the elevator directly into a conference room. After a brief wait, you meet the Republican government head officials. As everyone is getting settled, a familar face quietly walks in and takes a seat. You wave to Admiral Danforth with a smile, then get to business.`
+			` "Before we get started," Katya begins, "Captain <last> of the <ship> has had the most experience out of anyone in this room."
+			` "How so?" one of the officials replies.`
+			choice
+				`	"I've had direct communication with these creatures before, in a far away system, beyond any human reach."`
+			` "How were you able to get there?" another official asks.`
+			`You glance at Katya before replying. She gives an encouraging nod.`
+			choice
+				`	"I have been able to obtain... well, alien technology that allows me to bypass hyperspace links completely, allowing me to go where no human has gone before."`
+			` "And how did you obtain this technology?"`
+			choice
+				`	"By looting alien ships."`
+				`	"From the Syndicate."`
+					goto syndicate
+			` "Understood. Now, what was your experience?"`
+			label syndicate
+			`	The officials glance at each other. One responds, "Understood. Now, what was your experience?"
+			`You quickly inform them of the oddity of the experience, and how the Archon was guarding an alien technology. You're particularly vague about that.`
+			`	It's clear that this is news to them.`
+			` "That's very intriguing. But how will it help us?"
+			choice
+				`	"I should be able to go back to that system and try to make contact with the Drak."`
+			` "Before we do that," Katya interjects, "We need to find out if all of human space heard, before we take any action. Let's try Syndicate space."`
+			`The Republic officials agree, and call for a ship to travel with you to the chosen Syndicate planet, Reunion. Head there now.`
+				accept
+	on accept
+		log "Republic space, as well, heard the Archon's warning. Hopefully it was localized to these regions of space, but we're going to check Syndicate space next."
+	npc accompany
+		government "Republic"
+		personality escort
+		ship Cruiser "R.N.S. Hologram"
+	npc accompany
+		government "Free Worlds"
+		personality escort
+		ship Dreadnought "F.S. Council"
+	on visit
+		dialog "You've rushed ahead of your escorts in your excitement! You'd want them to wait for you. Better depart and wait for them to arrive."
+
+mission "DZ4"
+	landing
+	name "Syndicate Disrepair"
+	description "With the Syndicate providing no help, head to <destination> to find out what to do next."
+	source Reunion
+	destination Tundra
+	to offer
+		has "DZ3: done"
+	on offer
+		conversation
+			`The panic on this world seems even greater than on Earth. That means your worst fear is confirmed: everyone in human space, at least, heard the Archon's imminent warning.`
+			`Your friends and the officials land a few minutes after you do. As they step out of their ship, they have the same first reaction as you did. You also notice Captain Danforth among the officials that came along. Perhaps they thought his military experience could help.`
+			`The group heads for the administration building close to the spaceport. Upon entering it, however, everything is in chaos. Papers everywhere, alarms going off, and no one in sight. It seems everyone dropped what they were doing and left.`
+			` After some short calls, it seems as if the Syndicate has been scattered. "Every coward for themselves," Katya growls. It looks like you'll be handling this between yourselves.`
+			`You all decide to return to <destination>, a place for moderately neutral ground. Perhaps there you will be able to make a decision on what to do next.`
+				accept
+	on accept
+		log "Syndicate space appears to have fallen into disrepair. Figuring out what to do next."
+	npc accompany
+		government "Republic"
+		personality escort
+		ship Cruiser "R.N.S. Hologram"
+	npc accompany
+		government "Free Worlds"
+		personality escort
+		ship Dreadnought "F.S. Council"
+	on visit
+		dialog "You've rushed ahead of your escorts in your excitement! You'd want them to wait for you. Better depart and wait for them to arrive."
+
+mission "DZ5"
+	landing
+	name "Finding an Archon"
+	description "Travel to the Sayaiban system and attempt to communicate with an Archon."
+	source Tundra
+	waypoint Sayaiban
+	destination Tundra
+	to offer
+		"has DZ4: done"
+	on offer
+		conversation
+			`Upon arriving, the Republic officials look hurried. They inform you: the outer reaches of human space have also gotten the message.`
+			` "It seems as if there's only one thing to do," Danforth stated.
+			choice
+				`	"What's that?"`
+			` Danforth looks at you, midly surprised.`
+			` "Travel to Sayaiban! Hopefully there you will find an answer to this mysterious prophecy."`
+			`The officials nod along as he says this. Apparently this is what they had been so hurried about. There's nothing else to be done, so prepare your ship and make the journey to Sayaiban, then return here to Tundra. Your escorts will wait here for you.`
+				accept
+	on accept
+		log "Travelling to Sayaiban to see if there's an answer to the madness."
+	on enter Sayaiban
+		conversation
+			`That same familiar voice says, "This system is off limits. You should leave."`
+			choice
+				`	"I'm back. Remember me?"
+				`	"I've come to ask you some questions."
+					goto questions
+			`	"Yes. The stubborn human. I recall you well. What are you here for?"`
+			choice
+				`	I've come to ask you some questions."`
+			label questions
+			`	"The human dares engage with an Archon? Very well, what have you?"`
+			` With a gulp, you ask:`
+			choice
+				`	"What is the meaning of the warning sent to human space?"
+			`	"The warning has its place." comes the ever cryptic reply.`
+			choice
+				`	"I once met an Unfettered Hai that said the Drak would one day contain the human race in a galactic cage. Is that what's happening here?"`
+			`You wait for a reply, but none comes. However, you can still sense the presence in your head. You can't believe it, but the Archon is hesitating.`
+			`	"You shall know the answer in time." it eventually says.`
+			choice
+				`	"Give me answers now! Or I'll blow you up!"`
+				`	"Please! We need answers."`
+					goto answers
+				`	(Admit defeat).`
+					goto defeat
+			`Incredibly, you laugh. Though not of your own will. It seems the Archon is flexing its power.`
+			`	"Human, I would like to meet the being that could sucessfully outmatch an Archon. Leave now, or else."`
+			choice
+				`	"Please! We need answers."`
+					goto answers
+				`	(Admit defeat.)`
+					goto defeat
+			label answers
+				`	"Human - I warn you. Your kind are incapable of comprehending the enormity of the scale of the prevailing situation at hand. I shall offer some small comfort - the human race will not go extinct, at least by the Drak."`
+					goto defeat
+			label defeat
+				`	With a sigh, you give up. The presence, however, lingers in your mind, as if it's deciding whether to tell you something. With held breath, you wait - but nothing comes. Your head clears, allowing you to tune your ears back to the present sounds of blaring alarms, warning you about the Korath nanobots. Time to leave.`
+
+mission "DZ6"
+	landing
+	name "Inconclusive Findings"
+	description "While visiting Sayaiban provided no immediate results, perhaps visiting the other Drak-inhabited systems will turn up something"
+	source Tundra
+	destination Tundra
+	waypoint "Drak systems -  Farbuto or whatever - find in `/data/drak/drak.txt.`"
+	to offer
+		has "DZ5: done"
+	on offer
+		conversation
+			`You return to Tundra with a heavy heart, and more questions than answers. Both governmental parties are waiting anxiously for you upon your return. You inform them of the encounter, and their faces fall; similar to yours.`
+			`	"What are we going to do now?" Freya muses."`
+			choice
+				`	"What else is there to do? We need to try to gather humanity into a local area."`
+			`Even as you said that, you felt silly, and the looks everyone gives you says the same. Gather humanity? But, as daunting as a task as that is, what other options do you have?`
+			`As the separate councils join heads and attempt to figure out some sort of solution, you recall seeing other Archons near Korath space. Perhaps you should suggest undergoing a journey to those systems?`
+			choice
+				`	"I've seen Drak in other systems beside Sayaiban. What if I visited them?"`
+				`	(Say nothing, and let the governments handle this.)
+				fail
+			`The relief on your friend's faces is clear.`
+			`	"With all haste, <first>! You are humanity's only hope!`
+			`You all then decide that the next course of action is to visit the systems in which Archons are known to reside, then return once more to Tundra.`
+					accept
+	on fail
+		conversation
+			`You say nothing about the other Archons in Korath space. The Republic and Free Worlds, eventually, run out of potential options, so you return to normal life, with some background apprehension. A week later, more Drak than you knew existed arrive in every human system. They spray something into the atmosphere of the planet you happen to be on. As the gas is inevitably inhaled by every inhabitant, including you, you wonder if things could have been different. Only then do you faintly recall the historical fate of the current Hai. But even that thought is gone. Your only concern now is settling down and starting a family - your conciousness drifts away... forcing your own self back into a remote place in your brain, to watch your new form in silent eternity...............................`
+			die
+		random < 50
+			`You say nothing about the other Archons in Korath space. The Republic and Free Worlds, eventually, run out of potential options, so you return to normal life, with some background apprehension. A week later, more Drak than you knew existed arrive in every human system. They spray something into the atmosphere of every human planet - you can hear the screams from your radio, and you're glad you departed in time. Eventually, you and the remaining few members of the newly founded Unfettered Humans gather together in a remote system the Drak didn't touch, to restart the human race.....................`
+			die
+	on enter
+# Or whatever the trigger is for entering a waypoint system
+		dialog "The Archons are indeed present in the system. But they purposefully, it seems, are ignoring any attempt at conversation you try to make.
+
+mission "DZ7"
+	landing
+	name "Strike Two"
+	description "Since the other known Drak have not offered any knowledge or assitance, travel around and gather as many resources as possible, taking a detour to Earth first to get the word out."
+	source Tundra
+	destination Earth
+	to offer
+		has "DZ6: done"
+
+# random for `on fail` - either option
+# When `meddlesome`, huge government team up and attack Archon - if possible
+#	to offer (DZ1)
+#		"visit: [drak systems]"
+# IF that is even a thing - you have to have had visited a system for this message? It's likely you would have already visited them, if not the whole galaxy - but I can't count on that
+# "One of your kind has been particularly meddlesome. Your time grows yet shorter."

@@ -1,0 +1,83 @@
+ship "Tlano"
+	sprite ship/tlano
+	thumbnail thumbnail/tlano
+	attributes
+		category "Medium Warship"
+		"cost" 14300000
+		"shields" 15000
+		"hull" 17500
+		"required crew" 12
+		"bunks" 98
+		"mass" 655
+		"drag" 7.5
+		"heat dissipation" 0.9
+		"fuel capacity" 700
+		"cargo space" 100
+		"outfit space" 575
+		"weapon capacity" 150
+		"engine capacity" 150
+	outfits
+# Weapons
+		"Particle Cannon" 2
+		"Heavy Anti-Missile Turret" 1
+# Engines
+		"A520 Atomic Thruster" 1
+		"A525 Atomic Steering" 1
+# Systems
+		"Liquid Helium Cooler" 1
+		"Small Radar Jammer" 1
+		"White Sun Reactor" 1
+		"LP144a Battery Pack" 1
+		"Dark Storm Shielding" 1
+		"Bright Cloud Shielding" 2
+# Hand to Hand
+		"Laser Rifle" 12
+	description "I don't really know what to put here..."
+
+ship "Kupoint"
+	sprite ship/saboss
+	thumbnail thumbnail/kupoint
+	attributes
+		category "Heavy Warship"
+		"cost" 27600000
+		"shields" 20000
+		"hull" 30400
+		"required crew" 18
+		"bunks" 145
+		"mass" 840
+		"drag" 9.1
+		"heat dissipation" 0.7
+		"fuel capacity" 900
+		"cargo space" 130
+		"outfit space" 930
+		"weapon capacity" 350
+		"engine capacity" 225
+	outfits
+# Weapons
+		"Particle Cannon" 4
+		"Heavy Anti-Missile Turret" 4
+# Engines
+		"A860 Atomic Thruster" 1
+		"A865 Atomic Steering" 1
+# Systems
+		"Liquid Helium Cooler" 1
+		"Large Radar Jammer"
+		"Blue Sun Reactor"
+		"Dark Storm Shielding" 3
+		"LP288a Battery Pack"
+# Hand to Hand
+		"Laser Rifle" 18
+# Special
+		"Space Arena Key" 1
+
+	engine -13 79
+	engine 13 79
+	turret 38 55
+	turret -38 55
+	turret 31 -18.5
+	turret -31 -18.5
+	gun -29 -37 
+	gun 29 -37
+	gun 15 -54
+	gun -15 -54
+	description "Having this ship available for purchase means you've conquered the challenge of the Space Arena! Good job! Enjoy having an upgrade to that rust bucket you were flying earlier."

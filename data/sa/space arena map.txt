@@ -1,0 +1,602 @@
+galaxy "Space Arena 7 - Final Boss"
+	pos 3750 950
+	sprite ui/hub7
+
+galaxy "Space Arena 6"
+	pos 3250 1100
+	sprite ui/hub6
+
+galaxy "Space Arena 5"
+	pos 3000 900
+	sprite ui/hub5
+
+galaxy "Space Arena 4"
+	pos 2750 1100
+	sprite ui/hub4
+
+galaxy "Space Arena 3"
+	pos 2500 900
+	sprite ui/hub3
+
+galaxy "Space Arena 2"
+	pos 2250 1100
+	sprite ui/hub2
+
+galaxy "Space Arena 1"
+	pos 2000 900
+	sprite ui/hub1
+
+system "Final Boss"
+	pos 3750.23 955.23
+	government "Space Arena"
+	habitable 553.28
+	asteroids "small rock" 9 2.349
+	asteroids "medium rock" 97 2.2275
+	asteroids "large rock" 24 3.645
+	asteroids "small metal" 2 4.7385
+	asteroids "medium metal" 94 4.455
+	asteroids "large metal" 30 4.698
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m0
+		distance 45.1145
+		period 18.8219
+	object
+		sprite star/m4
+		distance 61.8855
+		period 18.8219
+		offset 180
+	object
+		sprite planet/desert7
+		distance 195.325
+		period 46.4222
+	object
+		sprite planet/io
+		distance 345.815
+		period 109.359
+	object
+		sprite planet/gas16
+		distance 844.505
+		period 417.341
+		object
+			sprite planet/rhea
+			distance 217
+			period 16.8262
+		object
+			sprite planet/rock3
+			distance 362
+			period 36.2543
+	object
+		sprite planet/gas15
+		distance 1546.32
+		period 1034.03
+	object
+		sprite planet/tethys
+		distance 3564.57
+		period 3619.07
+
+system "Space Arena - Hub World"
+	pos 169.017 52.4118
+	government "Hub World"
+	habitable 1715
+	asteroids "small rock" 35 2.8405
+	asteroids "medium rock" 9 6.4676
+	asteroids "large rock" 22 3.5834
+	asteroids "medium metal" 2 4.1952
+	asteroids "large metal" 8 4.8507
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		period 10
+	object "Hub World"
+		sprite planet/paos3
+		distance 1622.19
+		period 631.077
+		offset 112.113
+	object "Wave One Wormhole"
+		sprite planet/key1
+		distance 606.05
+		period 3019.4
+		offset nan
+
+system "Wave Eight"
+	pos 2504.38 823.167
+	government "Space Arena"
+	habitable 1566.68
+	asteroids "small rock" 4 5.2432
+	asteroids "medium rock" 4 4.9648
+	asteroids "large rock" 4 4.0368
+	asteroids "medium metal" 11 4.2688
+	asteroids "large metal" 2 5.0576
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		distance 33.5496
+		period 11.3424
+		offset 180
+	object
+		sprite star/k0
+		distance 74.4504
+		period 11.3424
+
+system "Wave Eighteen - Final Boss"
+	pos 3325.38 1153.17
+	government "Space Arena"
+	habitable 553.28
+	asteroids "medium rock" 3 8.8803
+	asteroids "large rock" 6 7.0794
+	asteroids "small metal" 6 9.1908
+	asteroids "medium metal" 26 8.2593
+	asteroids "large metal" 70 6.0858
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m0
+		distance 44.6929
+		period 18.5586
+	object
+		sprite star/m4
+		distance 61.3071
+		period 18.5586
+		offset 180
+
+system "Wave Eleven"
+	pos 2753.38 1021.17
+	government "Space Arena"
+	habitable 1566.68
+	asteroids "medium rock" 82 4.212
+	asteroids "large rock" 2 10.764
+	asteroids "medium metal" 80 10.92
+	asteroids "large metal" 8 4.68
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		distance 36.0347
+		period 12.6257
+		offset 180
+	object
+		sprite star/k0
+		distance 79.9653
+		period 12.6257
+
+system "Wave Fifteen"
+	pos 3075.38 953.167
+	government "Space Arena"
+	habitable 320
+	asteroids "small rock" 5 3.9962
+	asteroids "medium rock" 113 4.8633
+	asteroids "large rock" 8 1.9981
+	asteroids "medium metal" 1 5.6173
+	asteroids "large metal" 4 1.885
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m0
+		period 10
+
+system "Wave Five"
+	pos 2254.38 1023.17
+	government "Space Arena"
+	habitable 912.6
+	asteroids "small rock" 6 4.6172
+	asteroids "medium rock" 20 6.2356
+	asteroids "large rock" 16 2.618
+	asteroids "medium metal" 7 6.902
+	asteroids "large metal" 1 5.5692
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		distance 53.6717
+		period 16.3293
+		offset 180
+	object
+		sprite star/k5
+		distance 61.3283
+		period 16.3293
+
+system "Wave Four"
+	pos 2173.83 1149.56
+	government "Space Arena"
+	habitable 425.92
+	asteroids "small rock" 9 4.3254
+	asteroids "medium rock" 183 7.0956
+	asteroids "large rock" 2 5.4918
+	asteroids "small metal" 14 3.3048
+	asteroids "medium metal" 12 2.7702
+	asteroids "large metal" 1 4.86
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+
+system "Wave Fourteen"
+	pos 3004.38 822.167
+	government "Space Arena"
+	habitable 486.68
+	asteroids "small rock" 4 2.2011
+	asteroids "medium rock" 10 3.2538
+	asteroids "large rock" 7 4.2108
+	asteroids "medium metal" 35 2.4244
+	asteroids "large metal" 11 3.0305
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+
+system "Wave Nine"
+	pos 2575.38 952.167
+	government "Space Arena"
+	habitable 625
+	asteroids "small rock" 3 1.4544
+	asteroids "medium rock" 7 0.7776
+	asteroids "large rock" 7 1.2816
+	asteroids "small metal" 7 1.9728
+	asteroids "medium metal" 1 1.0656
+	asteroids "large metal" 6 1.224
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		period 10
+
+system "Wave One"
+	pos 2002.3 822.754
+	government "Space Arena"
+	habitable 2035
+	asteroids "medium rock" 12 1.2
+	asteroids "large rock" 6 2.448
+	asteroids "small metal" 76 3.432
+	asteroids "medium metal" 113 1.968
+	asteroids "large metal" 3 3.336
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/f5
+		distance 18.2408
+		period 11.0781
+		offset 180
+	object
+		sprite star/m0
+		distance 97.7592
+		period 11.0781
+	object "Wave One Wormhole"
+		sprite planet/key1
+		distance 606.05
+		period 3019.4
+		offset nan
+
+system "Wave Seven"
+	pos 2425.38 949.167
+	government "Space Arena"
+	habitable 320
+	asteroids "small rock" 2 3.388
+	asteroids "medium rock" 3 6.38
+	asteroids "large rock" 1 3.872
+	asteroids "small metal" 52 6.6
+	asteroids "medium metal" 130 2.86
+	asteroids "large metal" 17 4.136
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m0
+		period 10
+
+system "Wave Seventeen"
+	pos 3253.38 1022.17
+	government "Space Arena"
+	habitable 425.92
+	asteroids "small rock" 19 5.1744
+	asteroids "medium rock" 1 4.5936
+	asteroids "large rock" 30 3.168
+	asteroids "small metal" 12 7.2864
+	asteroids "medium metal" 6 6.7056
+	asteroids "large metal" 13 7.2864
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+
+system "Wave Six"
+	pos 2325.38 1153.17
+	government "Space Arena"
+	habitable 945
+	asteroids "medium rock" 7 4.242
+	asteroids "large rock" 1 5.67
+	asteroids "medium metal" 9 5.25
+	asteroids "large metal" 2 5.04
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		distance 29.4603
+		period 10.559
+	object
+		sprite star/m0
+		distance 57.5397
+		period 10.559
+		offset 180
+
+system "Wave Sixteen"
+	pos 3175.38 1149.17
+	government "Space Arena"
+	habitable 486.68
+	asteroids "small rock" 19 7.575
+	asteroids "large rock" 1 4.5
+	asteroids "small metal" 91 9.75
+	asteroids "medium metal" 81 4.35
+	asteroids "large metal" 115 7.8
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+
+system "Wave Ten"
+	pos 2675.38 1149.17
+	government "Space Arena"
+	habitable 1505.92
+	asteroids "small rock" 28 1.326
+	asteroids "medium rock" 34 1.887
+	asteroids "large rock" 55 2.193
+	asteroids "small metal" 8 3.7995
+	asteroids "medium metal" 68 1.9125
+	asteroids "large metal" 96 3.0345
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		distance 29.98
+		period 11.2491
+		offset 180
+	object
+		sprite star/k5
+		distance 76.02
+		period 11.2491
+
+system "Wave Thirteen"
+	pos 2926.38 949.167
+	government "Space Arena"
+	habitable 2795
+	asteroids "small rock" 1 1.656
+	asteroids "medium rock" 16 1.656
+	asteroids "large rock" 6 1.8
+	asteroids "small metal" 1 1.608
+	asteroids "medium metal" 16 1.2
+	asteroids "large metal" 1 2.472
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		distance 50.2326
+		period 11.2146
+	object
+		sprite star/g0
+		distance 79.7674
+		period 11.2146
+		offset 180
+
+system "Wave Three"
+	pos 2073.06 953.25
+	government "Space Arena"
+	habitable 425.92
+	asteroids "small rock" 8 3.3696
+	asteroids "medium rock" 2 6.9264
+	asteroids "large rock" 8 5.9904
+	asteroids "small metal" 2 3.6972
+	asteroids "medium metal" 13 6.1776
+	asteroids "large metal" 1 3.8844
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+
+system "Wave Twelve"
+	pos 2824.38 1153.17
+	government "Space Arena"
+	habitable 625
+	asteroids "small rock" 12 5.6448
+	asteroids "medium rock" 26 4.1832
+	asteroids "large rock" 17 3.8808
+	asteroids "small metal" 2 6.4008
+	asteroids "large metal" 4 5.6952
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		period 10
+
+system "Wave Two"
+	pos 1925.51 949.92
+	government "Space Arena"
+	habitable 233.28
+	asteroids "small rock" 50 3.2076
+	asteroids "medium rock" 9 3.8016
+	asteroids "large rock" 27 4.2174
+	asteroids "small metal" 9 5.4648
+	asteroids "medium metal" 9 4.9896
+	asteroids "large metal" 1 8.1378
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/m4
+		period 10
+
+planet "Hub World"
+	landscape land/hubworld
+	music ambient/loop1
+	description `This planet is primarily for starting the Space Arena battles, but can also be used to refuel.`
+	spaceport `You enter the spaceport to refuel, noting how eerily quiet it is. Guess no one else is brave enough to take on the Space Arena.`
+
+planet "Wave One Wormhole"
+	attributes "requires: SA Key"
+	landscape ""
+	description ""

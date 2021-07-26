@@ -1,0 +1,8 @@
+mission "Warning"
+	landing
+	on offer
+		conversation
+			`Hello there, Captain <last>! I see you've decided to try out Swiren's plugin. If you haven't yet read the about.txt or README.txt files, please do so! Or, for a brief description, continue reading.`
+			`	This plugin contains three main additions. The Tuxen, Space Arena, and Drak Zoo. To access the Tuxen faction and space, head to the Sagittarius A system and land on the planet there. If you'd like to challenge yourself and your ship, head SE of Sagittarius A and find the Space Arena system. For the Drak Zoo storyline, have the Free Worlds (and two other minimal requirements) done, then land on any human planet. Landing on any of the planets in those systems start the mission sequences. That's it! Enjoy!`
+			`	If, for some reason, you have an older version of this plugin in your plugins folder, please delete it, as newer versions will conflict with older versions. Thanks!`
+				decline

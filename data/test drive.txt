@@ -1,0 +1,10 @@
+outfit "Warp Drive"
+	category "Systems"
+	cost 999999999
+	thumbnail "outfit/warp"
+	"mass" 25
+	"outfit space" -25
+	"jump speed" 99
+	"jump fuel" 400
+	"warp drive"
+	description "This drive comes from a forgotten region of space, from another universe, where no living being resides."

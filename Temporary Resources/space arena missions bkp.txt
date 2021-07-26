@@ -1,0 +1,289 @@
+mission "SA1"
+	landing
+	name "Defeat Wave One"
+	description "You've accepted the challenge of the Space Arena. As the first test, defeat Wave One."
+	source "Hub World"
+	destination "Wave One"
+	on offer
+		conversation
+			`You've landed on the hub world of the Space Arena. Accept the challenge? Or are you just here to refuel?`
+			choice
+				`	(I'm just here to refuel. I'll be back later.)`
+					defer
+				`	(Accept.)`
+			`	Good choice. You have been given a key to access the first system, which contains Wave One. Prepare your ship.`
+			`	Be sure to also take a look at the README located in the root folder of this plugin. It contains valuable information about this Space Arena. Thanks, and enjoy!`
+				accept
+	on accept
+		outfit "Space Arena Key" 1
+	npc kill
+		government "Space Arena"
+		system "Wave One"
+		fleet "Wave One"
+		dialog "You have defeated Wave One. Return to Hub World for a bonus payment (100,000 credits) and access to Wave Two."
+	on complete
+		event "Link 1-2"
+		payment 100000
+
+mission "SA2"
+	landing
+	name "Defeat Wave Two"
+	description "You've proven to be a worthy contender in the Space Arena. Now, you're ready for Wave Two. Prepare yourself."
+	source "Hub World"
+	destination "Wave Two"
+	to offer
+		has "SA1: done"
+	on offer
+		conversation
+			`Well done! You conquered the first wave. However, that was just a warmup. Ready for a real challenge? Defeat Wave Two.`
+			`A hyperspace link has been opened between the Wave One system and the Wave Two system. Travel back through the wormhole.`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Two"
+		fleet "Wave Two"
+		dialog "You have defeated Wave Two. Return to Hub World for a bonus payment and access to Wave Three."
+	on complete
+		event "Link 2-3"
+		payment 100000
+
+mission "SA3"
+	landing
+	name "Defeat Wave Three"
+	description "You're making headway in the Space Arena. Ready for Wave Three?"
+	source "Hub World"
+	destination "Wave Three"
+	to offer
+		has "SA2: done"
+	on offer
+		conversation
+			`Getting the feel of the Space Arena? Head back through the wormhole and get ready for Wave Three.
+			`Like before (and every time from now on), a hyperspace link has opened to the next wave's system.`
+			`A ramscoop is also recommended for the Space Arena, but there is a refuel station that is accessed through completing Wave Nine.`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Three"
+		fleet "Wave Three"
+		dialog "You have defeated Wave Three. Return to Hub World for a bonus payment and access to Wave Four."
+	on complete
+		event "Link 3-4"
+		payment 100000
+
+mission "SA4"
+	landing
+	name "Defeat Wave Four"
+	description "Ready for your first real challenge?"
+	source "Hub World"
+	destination "Wave Four"
+	to offer
+		has "SA3: done"
+	on offer
+		conversation
+			`To have come this far, you must be dedicated. Or, you just really want extra money. Ready for Wave Four?`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Four"
+		fleet "Wave Four"
+		dialog "You have defeated Wave Four. Return to Hub World for a bonus payment and access to Wave Five."
+	on complete
+		event "Link 4-5"
+		payment 100000
+
+mission "SA5"
+	landing
+	name "Defeat Wave Five"
+	description "Onwards you fight..."
+	source "Hub World"
+	destination "Wave Five"
+	to offer
+		has "SA4: done"
+	on offer
+		conversation
+			`The battles will soon start ramping up. Are you ready for Wave Five?"
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Five"
+		fleet "Wave Five"
+		dialog "You have defeated Wave Five. Return to Hub World for a bonus payment and access to Wave Six."
+	on complete
+		event "Link 5-6"
+		payment 100000
+
+mission "SA6"
+	landing
+	name "Defeat Wave Six"
+	description "The heat is ramping up..."
+	source "Hub World"
+	destination "Wave Six"
+	to offer
+		has "SA5: done"
+	on offer
+		conversation
+			`Feeling the pressure yet? If not, go defeat Wave Six.`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Six"
+		fleet "Wave Six"
+		dialog "You have defeated Wave Six. Return to Hub World for a bonus payment and access to Wave Seven."
+	on complete
+		event "Link 6-7"
+		payment 100000
+
+mission "SA7"
+	landing
+	name "Defeat Wave Seven"
+	description "The first true contender approaches..."
+	source "Hub World"
+	destination "Wave Seven"
+	to offer
+		has "SA6: done"
+	on offer
+		conversation
+			`If Wave Six was too easy for you. try Wave Seven on for size.`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Seven"
+		fleet "Wave Seven"
+		dialog "You have defeated Wave Seven. Return to Hub World for a bonus payment and access to Wave Eight."
+	on complete
+		event "Link 7-8"
+		payment 100000
+
+mission "SA8"
+	landing
+	name "Defeat Wave Eight"
+	description "Getting harder?"
+	source "Hub World"
+	destination "Wave Eight"
+	to offer
+		has "SA7: done"
+	on offer
+		conversation
+			`Reconsidering your choice? Too late.`
+			`	You know the drill.`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Eight"
+		fleet "Wave Eight"
+		dialog "You have defeated Wave Eight. Return to Hub World for a bonus payment and access to Wave Nine."
+	on complete
+		event "Link 8-9"
+		payment 100000
+
+mission "SA9"
+	landing
+	name "Defeat Wave Nine"
+	description "Halfway there..."
+	source "Hub World"
+	destination "Wave Nine"
+	to offer
+		has "SA8: done"
+	on offer
+		conversation
+			`Good job on surviving this far. You're almost halfway there! But it's all downhill from here.`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Nine"
+		fleet "Wave Nine"
+		dialog "You have defeated Wave Nine. Return to Hub World for a slightly bigger bonus payment, and access to Wave Nine. You'll also get access to the Refueling Station local to the Wave Nine system; for future use."
+	on complete
+		reputation
+			"SA Refueling Station" = 1
+		event "Link 9-10"
+		payment 200000
+
+mission "SA10"
+	landing
+	name "Defeat Wave Ten"
+	description "Your ship's hull cries out for you to stop..."
+	source "Hub World"
+	destination "Wave Ten"
+	to offer
+		has "SA9: done"
+	on offer
+		conversation
+			`You're officially halfway through conquering the Space Arena. How does that feel?`
+			`	Hopefully, you noticed that after you landed on here, you'd get access to the Refueling Station in the Wave Nine system. Now, you won't have to wait as long to use your ramscoop.`
+			`	You also got double the typical bonus payment. Don't spend it all in one place, now.`
+					accept
+	npc kill
+		government "Space Arena"
+		system "Wave Ten"
+		fleet "Wave Ten"
+		dialog "You have defeated Wave Ten. Return to Hub World for a bonus payment and access to Wave Eleven. Make sure to stop by the Refueling Station on your way back!"
+	on complete
+		event "Link 10-11"
+		payment 100000
+
+mission "SA11"
+	landing
+	name "Defeat Wave Eleven"
+	description "You don't know how you're pushing through..."
+	source "Hub World"
+	destination "Wave Eleven"
+	to offer
+		has "SA10: done"
+	on offer
+		conversation
+			`It must be getting boring, if not tough, right? Tough. Push through it, you've got 8 waves left.`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Eleven"
+		fleet "Wave Eleven"
+		dialog "You have defeated Wave Eleven. Return to Hub World for a bonus payment and access to Wave Twelve."
+	on complete
+		event "Link 11-12"
+		payment 100000
+
+mission "SA12"
+	landing
+	name "Defeat Wave Twelve"
+	description "You're fighting blindly now..."
+	source "Hub World"
+	destination "Wave Twelve"
+	to offer
+		has "SA11: done"
+	on offer
+		conversation
+			`You're plodding your way through this. Keep going, don't give up!`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Twelve"
+		fleet "Wave Twelve"
+		dialog "You have defeated Wave Twelve. Return to Hub World for a bonus payment and access to Wave Thirteen."
+	on complete
+		event "Link 12-13"
+		payment 100000
+
+mission "SA13"
+	landing
+	name "Defeat Wave Thirteen"
+	description "You can't see from the shrapnel embedding into your windshield..."
+	source "Hub World"
+	destination "Wave Thirteen"
+	to offer
+		has "SA12: done"
+	on offer
+		conversation
+			`If you're not finding it hard at this point, you're cheating. Jk. Unless..?`
+				accept
+	npc kill
+		government "Space Arena"
+		system "Wave Thirteen"
+		fleet "Wave Thirteen"
+		dialog "You have defeated Wave Thirteen. Return to Hub World for a bonus payment and access to Wave Fourteen."
+	on complete
+		event "Link 13-14"
+		payment 100000
+
+
+
