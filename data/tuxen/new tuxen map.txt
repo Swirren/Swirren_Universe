@@ -1,0 +1,3218 @@
+
+galaxy "Tuxen Space"
+	pos 2000 -400
+	sprite ui/sw
+
+system Onhufor
+	pos 2109.19 -536.299
+	government Tuxen
+	habitable 486.68
+	link Viralitos
+	asteroids "small rock" 10 4.4436
+	asteroids "medium rock" 74 8.7584
+	asteroids "large rock" 30 4.2504
+	asteroids "small metal" 1 5.474
+	asteroids "medium metal" 24 3.9284
+	asteroids "large metal" 2 8.5008
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/dust6
+		distance 131.96
+		period 27.4854
+	object
+		sprite planet/lava3
+		distance 326.97
+		period 107.201
+	object
+		sprite planet/rock1
+		distance 986.53
+		period 561.828
+	object
+		sprite planet/gas13
+		distance 2527.37
+		period 2303.78
+		object
+			sprite planet/rock0
+			distance 258
+			period 11.6988
+		object
+			sprite planet/oberon
+			distance 347
+			period 18.2475
+
+system Kuropa
+	pos 2038.13 -707
+	government Tuxen
+	habitable 1505.92
+	link Padtrack
+	asteroids "small rock" 1 4.4308
+	asteroids "medium rock" 14 2.8842
+	asteroids "large rock" 12 2.8842
+	asteroids "large metal" 1 2.508
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		distance 34.5053
+		period 13.8899
+		offset 180
+	object
+		sprite star/k5
+		distance 87.4947
+		period 13.8899
+	object
+		sprite planet/cloud5
+		distance 279.905
+		period 48.2697
+	object
+		sprite planet/lava1
+		distance 502.515
+		period 116.113
+	object
+		sprite planet/gas14
+		distance 1189.27
+		period 422.749
+		object
+			sprite planet/dust5
+			distance 244
+			period 15.5218
+		object
+			sprite planet/io
+			distance 382
+			period 30.4056
+		object
+			sprite planet/rock0
+			distance 489
+			period 44.0374
+	object
+		sprite planet/gas17
+		distance 2090.88
+		period 985.494
+
+system "14 Facets"
+	pos 2026.52 -579.23
+	government Tuxen
+	habitable 486.68
+	link Viralitos
+	asteroids "small rock" 3 6.2764
+	asteroids "medium rock" 31 5.304
+	asteroids "large rock" 6 3.0056
+	asteroids "small metal" 5 2.5194
+	asteroids "medium metal" 26 2.8288
+	asteroids "large metal" 26 3.8012
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/cloud3
+		distance 157.56
+		period 35.8597
+	object
+		sprite planet/desert9
+		distance 378.6
+		period 133.57
+	object
+		sprite planet/gas0
+		distance 1367.85
+		period 917.267
+		object
+			sprite planet/callisto
+			distance 285
+			period 14.1002
+		object
+			sprite planet/lava0
+			distance 439
+			period 26.9559
+		object
+			sprite planet/dust7
+			distance 596
+			period 42.6409
+
+system Eurodystia
+	pos 1975.02 -633.96
+	government Tuxen
+	habitable 1215
+	link Gravinor
+	link Unanori
+	link Chippydot
+	asteroids "small rock" 13 3.402
+	asteroids "medium rock" 18 2.394
+	asteroids "large rock" 65 2.352
+	asteroids "small metal" 27 3.276
+	asteroids "medium metal" 159 5.838
+	asteroids "large metal" 23 5.46
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		distance 10.7778
+		period 10.963
+	object
+		sprite star/m8
+		distance 86.2222
+		period 10.963
+		offset 180
+	object
+		sprite planet/rock5
+		distance 283.472
+		period 54.7694
+	object
+		sprite planet/desert8
+		distance 467.512
+		period 116.001
+	object
+		sprite planet/ocean8
+		distance 814.202
+		period 266.606
+	object
+		sprite planet/rock1
+		distance 1411.09
+		period 608.282
+		object
+			sprite planet/rock0
+			distance 136
+			period 18.4426
+	object
+		sprite planet/gas2
+		distance 3016.34
+		period 1901.05
+
+system Unanori
+	pos 2126.88 -653.548
+	government Tuxen
+	habitable 486.68
+	link Eurodystia
+	link Padtrack
+	asteroids "small rock" 3 1.125
+	asteroids "medium rock" 13 2.475
+	asteroids "large rock" 1 2.7675
+	asteroids "small metal" 38 3.1275
+	asteroids "medium metal" 53 1.5975
+	asteroids "large metal" 73 2.6775
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/cloud8
+		distance 201.84
+		period 51.9935
+	object
+		sprite planet/lava2
+		distance 566.53
+		period 244.496
+	object
+		sprite planet/ice5
+		distance 951.54
+		period 532.205
+		object
+			sprite planet/miranda
+			distance 154
+			period 18.9022
+	object
+		sprite planet/gas5
+		distance 2020.79
+		period 1647.1
+
+system Analogie
+	pos 1925.29 -880.156
+	government Tuxen
+	habitable 719.96
+	link Avytype
+	link Cliptou
+	asteroids "small rock" 18 1.2342
+	asteroids "medium rock" 113 1.3552
+	asteroids "large rock" 16 1.7666
+	asteroids "small metal" 8 1.7182
+	asteroids "medium metal" 62 2.662
+	asteroids "large metal" 5 3.6058
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		distance 37.2621
+		period 18.3845
+	object
+		sprite star/m4
+		distance 77.7379
+		period 18.3845
+		offset 180
+	object
+		sprite planet/desert9
+		distance 235.748
+		period 53.9607
+	object
+		sprite planet/ice4
+		distance 634.108
+		period 238.04
+	object
+		sprite planet/gas1
+		distance 1182.27
+		period 606.01
+		object
+			sprite planet/dust3
+			distance 233
+			period 14.2151
+		object
+			sprite planet/dust1
+			distance 360
+			period 27.3004
+	object
+		sprite planet/neptune
+		distance 1976.88
+		period 1310.31
+		object
+			sprite planet/dust5
+			distance 200
+			period 14.0921
+		object
+			sprite planet/tethys
+			distance 311
+			period 27.3258
+
+system Cliptou
+	pos 1845.73 -834.369
+	government Tuxen
+	habitable 1850
+	link Analogie
+	link Deadsouls
+	asteroids "small rock" 9 2.0944
+	asteroids "medium rock" 10 1.6324
+	asteroids "large rock" 1 3.542
+	asteroids "small metal" 17 3.9116
+	asteroids "medium metal" 14 4.5276
+	asteroids "large metal" 5 4.2504
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		distance 9.34054
+		period 13.4676
+	object
+		sprite star/m8
+		distance 118.659
+		period 13.4676
+		offset 180
+	object
+		sprite planet/ganymede
+		distance 238.899
+		period 34.3397
+	object
+		sprite planet/rock11
+		distance 422.939
+		period 80.8894
+	object
+		sprite planet/lava3
+		distance 712.939
+		period 177.033
+	object
+		sprite planet/ice2
+		distance 1225.94
+		period 399.188
+	object
+		sprite planet/gas6
+		distance 3601.95
+		period 2010.39
+
+system Deadbroke
+	pos 1804.6 -578.414
+	government Tuxen
+	habitable 425.92
+	link Gravinor
+	link Sikpern
+	asteroids "large metal" 1 2.7104
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud3
+		distance 320.81
+		period 111.37
+		object
+			sprite planet/ice0
+			distance 177
+			period 25.8937
+	object
+		sprite planet/callisto
+		distance 660.97
+		period 329.358
+	object
+		sprite planet/dust4
+		distance 910.22
+		period 532.25
+	object
+		sprite planet/rock15
+		distance 1066.63
+		period 675.175
+	object
+		sprite planet/lava7
+		distance 1250.27
+		period 856.844
+	object
+		sprite planet/gas17
+		distance 3721.76
+		period 4400.67
+		object
+			sprite planet/dust7
+			distance 226
+			period 14.5156
+		object
+			sprite planet/ice7
+			distance 352
+			period 28.2155
+
+system Padtrack
+	pos 2086.09 -734.634
+	government Tuxen
+	habitable 486.68
+	Unanori
+	link Avytype
+	link Kuropa
+	asteroids "medium rock" 20 2.6928
+	asteroids "large rock" 13 1.2078
+	asteroids "small metal" 5 1.3464
+	asteroids "medium metal" 19 1.0494
+	asteroids "large metal" 42 1.188
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/gas5
+		distance 527.25
+		period 219.514
+		object
+			sprite planet/dust7
+			distance 247
+			period 12.909
+		object
+			sprite planet/dust3
+			distance 387
+			period 25.3171
+	object
+		sprite planet/rock8
+		distance 1225.01
+		period 777.406
+	object
+		sprite planet/gas17
+		distance 2011.17
+		period 1635.35
+		object
+			sprite planet/rock3
+			distance 218
+			period 13.7518
+
+system Norpast
+	pos 2042.46 -538.875
+	government Tuxen
+	habitable 425.92
+	asteroids "small rock" 1 4.8875
+	asteroids "medium rock" 6 6.0775
+	asteroids "large rock" 1 5.3125
+	asteroids "medium metal" 3 3.9525
+	asteroids "large metal" 2 4.2925
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert0
+		distance 165.49
+		period 41.2623
+	object
+		sprite planet/gas5
+		distance 525.78
+		period 233.67
+	object
+		sprite planet/gas16
+		distance 1040.62
+		period 650.63
+	object
+		sprite planet/gas3
+		distance 1702.62
+		period 1361.67
+		object
+			sprite planet/ice0
+			distance 297
+			period 13.0737
+		object
+			sprite planet/dust3
+			distance 432
+			period 22.9346
+
+system Viralitos
+	pos 2120.15 -592.872
+	government Tuxen
+	habitable 9720
+	link Onhufor
+	link "14 Facets"
+	asteroids "small rock" 67 5.7798
+	asteroids "medium rock" 102 2.964
+	asteroids "large rock" 48 4.7918
+	asteroids "small metal" 22 6.8172
+	asteroids "large metal" 22 3.458
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/b5
+		distance 17.2222
+		period 7.82933
+		offset 180
+	object
+		sprite star/g0
+		distance 137.778
+		period 7.82933
+	object
+		sprite planet/rock5
+		distance 283.538
+		period 19.3706
+	object
+		sprite planet/desert0
+		distance 576.698
+		period 56.1887
+	object
+		sprite planet/gas10
+		distance 1477.7
+		period 230.465
+		object
+			sprite planet/rock7
+			distance 192
+			period 14.0039
+		object
+			sprite planet/oberon
+			distance 309
+			period 28.5914
+		object
+			sprite planet/dust3
+			distance 450
+			period 50.2477
+	object
+		sprite planet/gas8
+		distance 2291.7
+		period 445.105
+
+system 763-001
+	pos 1872.96 -1025.68
+	government Tuxen
+	habitable 2372.76
+	link 763-002
+	link 763-004
+	asteroids "medium rock" 1 2.7302
+	asteroids "large rock" 1 1.0098
+	asteroids "small metal" 2 2.057
+	asteroids "large metal" 3 2.4684
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/desert9
+		distance 160.76
+		period 16.7379
+	object
+		sprite planet/gas11
+		distance 665.8
+		period 141.075
+		object
+			sprite planet/miranda
+			distance 252
+			period 13.1941
+	object
+		sprite planet/gas5
+		distance 1233.21
+		period 355.622
+	object
+		sprite planet/gas1
+		distance 1723.45
+		period 587.531
+		object
+			sprite planet/rock7
+			distance 216
+			period 12.6881
+	object
+		sprite planet/gas4
+		distance 3244.01
+		period 1517.25
+		object
+			sprite planet/rock3
+			distance 257
+			period 14.531
+		object
+			sprite planet/lava0
+			distance 368
+			period 24.8983
+
+system 763-002
+	pos 1807.56 -1071.69
+	government Tuxen
+	habitable 425.92
+	link 763-001
+	link 763-003
+	asteroids "medium rock" 1 5.796
+	asteroids "large rock" 5 7.5072
+	asteroids "small metal" 2 5.6856
+	asteroids "medium metal" 17 4.6368
+	asteroids "large metal" 8 6.0168
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/uranus
+		distance 410
+		period 160.906
+		object
+			sprite planet/ice7
+			distance 227
+			period 14.6121
+	object
+		sprite planet/ice4
+		distance 934.44
+		period 553.634
+		object
+			sprite planet/rock17
+			distance 134
+			period 19.4993
+	object
+		sprite planet/gas1
+		distance 1918.65
+		period 1628.88
+		object
+			sprite planet/tethys
+			distance 215
+			period 12.6001
+		object
+			sprite planet/io
+			distance 291
+			period 19.8406
+
+system 763-003
+	pos 1851.48 -939.455
+	government Tuxen
+	habitable 486.68
+	link 763-002
+	link 763-004
+	asteroids "small rock" 8 5.6628
+	asteroids "medium rock" 7 3.9468
+	asteroids "large rock" 65 3.4892
+	asteroids "small metal" 11 4.2328
+	asteroids "medium metal" 1 4.4616
+	asteroids "large metal" 5 3.4892
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/cloud3
+		distance 315.44
+		period 101.581
+		object
+			sprite planet/lava0
+			distance 156
+			period 21.425
+	object
+		sprite planet/dust7
+		distance 643.65
+		period 296.083
+	object
+		sprite planet/cloud4
+		distance 1084.09
+		period 647.197
+	object
+		sprite planet/desert6
+		distance 1460.98
+		period 1012.52
+		object
+			sprite planet/io
+			distance 155
+			period 20.1059
+	object
+		sprite planet/gas17
+		distance 3813.39
+		period 4269.78
+		object
+			sprite planet/dust3
+			distance 236
+			period 15.4896
+		object
+			sprite planet/dust0
+			distance 311
+			period 23.4322
+
+system 763-004
+	pos 1965.48 -1034.81
+	government Tuxen
+	habitable 4270
+	link 763-003
+	link 763-001
+	asteroids "medium rock" 5 0.952
+	asteroids "large rock" 1 2.346
+	asteroids "small metal" 2 1.887
+	asteroids "medium metal" 5 1.853
+	asteroids "large metal" 1 1.683
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/a5
+		distance 19.76
+		period 9.60167
+		offset 180
+	object
+		sprite star/g5
+		distance 115.24
+		period 9.60167
+	object
+		sprite planet/rock12
+		distance 277.49
+		period 28.2955
+	object
+		sprite planet/lava1
+		distance 483.98
+		period 65.1759
+	object
+		sprite planet/cloud7
+		distance 812.67
+		period 141.813
+		object
+			sprite planet/lava0
+			distance 138
+			period 22.6009
+	object
+		sprite planet/rock9
+		distance 1670.23
+		period 417.84
+	object
+		sprite planet/neptune
+		distance 3015.64
+		period 1013.71
+
+system Gravinor
+	pos 1901.29 -604.653
+	government Tuxen
+	habitable 3645
+	link Deadbroke
+	link Eurodystia
+	asteroids "medium rock" 47 1.881
+	asteroids "large rock" 1 1.767
+	asteroids "small metal" 5 1.4535
+	asteroids "medium metal" 43 3.7335
+	asteroids "large metal" 17 2.052
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/a5
+		period 10
+	object
+		sprite planet/mercury
+		distance 161.69
+		period 13.6218
+	object
+		sprite planet/cloud4
+		distance 377.78
+		period 48.6485
+	object
+		sprite planet/lava5
+		distance 721.67
+		period 128.446
+	object
+		sprite planet/rock18
+		distance 1008.71
+		period 212.256
+	object
+		sprite planet/gas6
+		distance 3865.32
+		period 1592.17
+		object
+			sprite planet/europa
+			distance 259
+			period 10.6467
+		object
+			sprite planet/luna
+			distance 380
+			period 18.9208
+
+system A1'13'5BC
+	pos 2069.47 -905.584
+	government Tuxen
+	habitable 233.28
+	link Divintor
+	link Avytype
+	asteroids "small rock" 2 4.4625
+	asteroids "medium rock" 14 5.0625
+	asteroids "large rock" 1 2.1
+	asteroids "small metal" 10 3.8625
+	asteroids "medium metal" 66 5.3625
+	asteroids "large metal" 16 2.025
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/uranus
+		distance 376.69
+		period 191.469
+		object
+			sprite planet/io
+			distance 233
+			period 15.1952
+	object
+		sprite planet/desert3
+		distance 895.18
+		period 701.434
+	object
+		sprite planet/fog0
+		distance 1253.79
+		period 1162.68
+		object
+			sprite planet/europa
+			distance 183
+			period 18.2623
+	object
+		sprite planet/gas6
+		distance 2104.04
+		period 2527.56
+		object
+			sprite planet/dust3
+			distance 313
+			period 14.1443
+		object
+			sprite planet/dust4
+			distance 412
+			period 21.3605
+
+system Avytype
+	pos 2047.22 -821.653
+	government Tuxen
+	habitable 486.68
+	link Padtrack
+	link Analogie
+	link A1'13'5BC
+	asteroids "large metal" 1 1.995
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/mars
+		distance 146.44
+		period 32.1313
+	object
+		sprite planet/desert6
+		distance 376.48
+		period 132.45
+	object
+		sprite planet/ice4
+		distance 959.29
+		period 538.72
+		object
+			sprite planet/ice7
+			distance 148
+			period 22.6337
+	object
+		sprite planet/gas8
+		distance 1725.38
+		period 1299.47
+	object
+		sprite planet/gas3
+		distance 2357.14
+		period 2074.99
+		object
+			sprite planet/desert4
+			distance 306
+			period 13.6725
+		object
+			sprite planet/dust0
+			distance 414
+			period 21.5162
+
+system Bojatier
+	pos 2263.6 261.192
+	government Tuxen
+	habitable 560.92
+	link "Far Reaches"
+	link Craternot
+	asteroids "medium rock" 7 1.722
+	asteroids "large rock" 16 1.365
+	asteroids "small metal" 12 1.869
+	asteroids "medium metal" 5 1.155
+	asteroids "large metal" 1 2.709
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		distance 27.9184
+		period 21.1007
+		offset 180
+	object
+		sprite star/m8
+		distance 88.0816
+		period 21.1007
+	object
+		sprite planet/rock9
+		distance 229.332
+		period 58.655
+	object
+		sprite planet/europa
+		distance 572.022
+		period 231.062
+	object
+		sprite planet/cloud7
+		distance 909.512
+		period 463.257
+		object
+			sprite planet/rock17
+			distance 114
+			period 16.9693
+	object
+		sprite planet/gas15
+		distance 1896
+		period 1394.34
+
+system Chippydot
+	pos 1845.56 -663.38
+	government Tuxen
+	habitable 625
+	link Eurodystia
+	asteroids "small rock" 14 6.6584
+	asteroids "medium rock" 5 7.9576
+	asteroids "large rock" 3 8.2824
+	asteroids "small metal" 2 12.18
+	asteroids "medium metal" 16 7.6328
+	asteroids "large metal" 6 4.5472
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava1
+		distance 190.41
+		period 42.0392
+	object
+		sprite planet/gas10
+		distance 880.1
+		period 417.751
+		object
+			sprite planet/dust3
+			distance 206
+			period 15.5632
+		object
+			sprite planet/europa
+			distance 320
+			period 30.1316
+		object
+			sprite planet/rock17
+			distance 431
+			period 47.0992
+	object
+		sprite planet/jupiter
+		distance 1747.26
+		period 1168.57
+		object
+			sprite planet/rock7
+			distance 237
+			period 11.4653
+		object
+			sprite planet/ice8
+			distance 321
+			period 18.0725
+
+system Craternot
+	pos 1971.69 164.667
+	government Tuxen
+	habitable 425.92
+	link Bojatier
+	link Joints
+	link Toramaj
+	asteroids "small rock" 94 2.7948
+	asteroids "medium rock" 130 2.6724
+	asteroids "large rock" 33 2.0808
+	asteroids "small metal" 19 1.1832
+	asteroids "medium metal" 31 2.8356
+	asteroids "large metal" 36 2.346
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert10
+		distance 237.21
+		period 70.8101
+	object
+		sprite planet/ice1
+		distance 501.57
+		period 217.717
+	object
+		sprite planet/gas9
+		distance 1109.53
+		period 716.316
+		object
+			sprite planet/luna
+			distance 264
+			period 16.0841
+		object
+			sprite planet/rock0
+			distance 383
+			period 28.1053
+	object
+		sprite planet/gas6
+		distance 2710.49
+		period 2735.07
+		object
+			sprite planet/rock3
+			distance 273
+			period 11.5215
+		object
+			sprite planet/rhea
+			distance 391
+			period 19.7483
+
+system Civdern
+	pos 1889.16 -187.903
+	government Tuxen
+	habitable 233.28
+	asteroids "small rock" 4 5.2432
+	asteroids "medium rock" 4 4.9648
+	asteroids "large rock" 4 4.0368
+	asteroids "medium metal" 11 4.2688
+	asteroids "large metal" 2 5.0576
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock2
+		distance 303
+		period 138.129
+		object
+			sprite planet/tethys
+			distance 143
+			period 18.4647
+	object
+		sprite planet/gas9
+		distance 698.25
+		period 483.212
+	object
+		sprite planet/ice1
+		distance 1275.69
+		period 1193.27
+	object
+		sprite planet/gas13
+		distance 1986.69
+		period 2319.08
+		object
+			sprite planet/rock14
+			distance 276
+			period 12.9442
+		object
+			sprite planet/rock17
+			distance 365
+			period 19.6856
+		object
+			sprite planet/desert4
+			distance 450
+			period 26.9482
+
+system Siverntas
+	pos 1865.57 -52.695
+	government Tuxen
+	habitable 425.92
+	link Toramaj
+	link Waytu
+	asteroids "small rock" 20 4.4
+	asteroids "medium rock" 11 5.2096
+	asteroids "large rock" 14 4.6816
+	asteroids "medium metal" 28 4.048
+	asteroids "large metal" 3 4.2944
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/lava0
+		distance 204.64
+		period 56.739
+	object
+		sprite planet/desert2
+		distance 485.65
+		period 207.435
+	object
+		sprite planet/rock2
+		distance 812.01
+		period 448.475
+	object
+		sprite planet/gas1
+		distance 1906.9
+		period 1613.94
+
+system Divintor
+	pos 1997.46 -995.75
+	government Tuxen
+	habitable 1080
+	link A1'13'5BC
+	asteroids "small rock" 59 4.64
+	asteroids "medium rock" 10 2.624
+	asteroids "large rock" 83 2.432
+	asteroids "small metal" 25 4.672
+	asteroids "medium metal" 22 3.104
+	asteroids "large metal" 10 1.6
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock15
+		distance 166.25
+		period 26.091
+	object
+		sprite planet/europa
+		distance 316.21
+		period 68.4402
+	object
+		sprite planet/gas17
+		distance 764.3
+		period 257.184
+		object
+			sprite planet/dust4
+			distance 231
+			period 15
+	object
+		sprite planet/gas4
+		distance 2505.71
+		period 1526.67
+		object
+			sprite planet/rock0
+			distance 239
+			period 13.0315
+		object
+			sprite planet/dust7
+			distance 351
+			period 23.1931
+
+system Dantimitus
+	pos 2055.34 -90.7967
+	government Tuxen
+	habitable 425.92
+	link Mallis
+	link Fanserk
+	link Galertep
+	asteroids "small metal" 3 2.1735
+	asteroids "medium metal" 1 2.622
+	asteroids "large metal" 1 3.0705
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert1
+		distance 356.64
+		period 130.539
+		object
+			sprite planet/rock14
+			distance 154
+			period 16.5893
+	object
+		sprite planet/ocean3
+		distance 746.93
+		period 395.654
+	object
+		sprite planet/rock13
+		distance 1045.14
+		period 654.874
+		object
+			sprite planet/tethys
+			distance 138
+			period 20.3789
+	object
+		sprite planet/gas9
+		distance 1474.03
+		period 1096.87
+	object
+		sprite planet/rock3
+		distance 4249.07
+		period 5368.3
+
+system Durntor
+	pos 2211 -501.072
+	government Tuxen
+	habitable 625
+	link Jahyip
+	asteroids "small metal" 5 3.213
+	asteroids "large metal" 4 3.888
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/mars
+		distance 215.89
+		period 50.7538
+	object
+		sprite planet/gas7
+		distance 739.89
+		period 322.011
+		object
+			sprite planet/desert4
+			distance 236
+			period 12.8973
+		object
+			sprite planet/oberon
+			distance 365
+			period 24.8067
+	object
+		sprite planet/neptune
+		distance 1829.93
+		period 1252.48
+		object
+			sprite planet/rock7
+			distance 223
+			period 16.5916
+
+system Dynath
+	pos 2050.93 -178.529
+	government Tuxen
+	habitable 625
+	link Mallis
+	link Lantra
+	link Galertep
+	asteroids "small rock" 4 4.8438
+	asteroids "medium rock" 14 3.4362
+	asteroids "large rock" 15 5.2578
+	asteroids "small metal" 3 4.0572
+	asteroids "medium metal" 3 2.5668
+	asteroids "large metal" 1 2.8152
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava3
+		distance 181.25
+		period 39.0424
+	object
+		sprite planet/forest0
+		distance 517.69
+		period 188.462
+	object
+		sprite planet/rock6
+		distance 863.78
+		period 406.186
+		object
+			sprite planet/rock0
+			distance 140
+			period 20.8235
+	object
+		sprite planet/tethys
+		distance 1450.02
+		period 883.448
+	object
+		sprite planet/gas0
+		distance 2650.18
+		period 2182.9
+
+system Estratos
+	pos 2253.23 17.2014
+	government Tuxen
+	habitable 1566.68
+	link Yrinex
+	asteroids "small rock" 35 1.701
+	asteroids "medium rock" 2 2.625
+	asteroids "large rock" 53 1.638
+	asteroids "small metal" 3 2.289
+	asteroids "medium metal" 16 1.89
+	asteroids "large metal" 11 2.331
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		distance 29.2006
+		period 9.21004
+	object
+		sprite star/k0
+		distance 64.7994
+		period 9.21004
+		offset 180
+	object
+		sprite planet/rock19
+		distance 225.799
+		period 34.2889
+	object
+		sprite planet/ice6
+		distance 641.839
+		period 164.327
+	object
+		sprite planet/desert8
+		distance 851.079
+		period 250.914
+	object
+		sprite planet/gas1
+		distance 2272.77
+		period 1094.97
+		object
+			sprite planet/lava0
+			distance 219
+			period 12.9533
+		object
+			sprite planet/desert4
+			distance 311
+			period 21.9208
+		object
+			sprite planet/dust0
+			distance 446
+			period 37.6459
+
+system Exbathic
+	pos 2142.25 -323.012
+	government Tuxen
+	habitable 2201.68
+	link Shunard
+	link Tuxenleaf
+	link Zigfurl
+	asteroids "small rock" 46 2.1672
+	asteroids "medium rock" 214 1.6632
+	asteroids "large rock" 12 2.7216
+	asteroids "small metal" 28 3.3264
+	asteroids "medium metal" 22 2.6712
+	asteroids "large metal" 2 2.016
+	trade Clothing 300
+	trade Electronics 1001
+	trade Equipment 457
+	trade Food 380
+	trade "Heavy Metals" 900
+	trade Industrial 1200
+	trade "Luxury Goods" 1300
+	trade Medical 789
+	trade Metal 300
+	trade Plastic 500
+	object
+		sprite star/f5
+		distance 24.7575
+		period 10.1044
+	object
+		sprite star/k0
+		distance 87.2425
+		period 10.1044
+		offset 180
+	object
+		sprite planet/rock2
+		distance 359.242
+		period 58.0449
+		object
+			sprite planet/callisto
+			distance 151
+			period 20.0356
+	object
+		sprite planet/rock6
+		distance 902.252
+		period 231.034
+		object
+			sprite planet/ice0
+			distance 156
+			period 24.4934
+	object
+		sprite planet/gas17
+		distance 1302.49
+		period 400.724
+	object
+		sprite planet/jupiter
+		distance 2149.18
+		period 849.362
+
+system Fanserk
+	pos 1996.46 -94.4589
+	government Tuxen
+	habitable 486.68
+	link Tantris
+	link Dantimitus
+	link Mallis
+	asteroids "small rock" 10 5.7456
+	asteroids "medium rock" 18 4.6968
+	asteroids "large rock" 1 6.0192
+	asteroids "small metal" 50 3.5568
+	asteroids "medium metal" 129 6.1104
+	asteroids "large metal" 17 4.8792
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/cloud5
+		distance 194.76
+		period 49.282
+	object
+		sprite planet/ice4
+		distance 532.01
+		period 222.494
+		object
+			sprite planet/dust1
+			distance 129
+			period 18.4182
+	object
+		sprite planet/water1
+		distance 922.9
+		period 508.359
+		object
+			sprite planet/dust0
+			distance 139
+			period 14.2256
+	object
+		sprite planet/gas13
+		distance 1363.15
+		period 912.544
+	object
+		sprite planet/jupiter
+		distance 2386.16
+		period 2113.43
+		object
+			sprite planet/rock3
+			distance 281
+			period 14.802
+		object
+			sprite planet/rock0
+			distance 365
+			period 21.913
+		object
+			sprite planet/dust3
+			distance 505
+			period 35.6614
+
+system "Far Reaches"
+	pos 2335.03 334.465
+	government Tuxen
+	habitable 2035
+	link Bojatier
+	link "World's Edge"
+	asteroids "small rock" 8 6.384
+	asteroids "medium rock" 29 7.168
+	asteroids "large rock" 25 4.48
+	asteroids "small metal" 1 4.424
+	asteroids "medium metal" 47 5.432
+	asteroids "large metal" 11 3.696
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		distance 18.7125
+		period 11.5106
+	object
+		sprite star/m0
+		distance 100.287
+		period 11.5106
+		offset 180
+	object
+		sprite planet/rock18
+		distance 301.537
+		period 46.429
+	object
+		sprite planet/rock13
+		distance 624.537
+		period 138.393
+		object
+			sprite planet/ice7
+			distance 135
+			period 19.718
+	object
+		sprite planet/forest2
+		distance 1476.75
+		period 503.196
+		object
+			sprite planet/dust7
+			distance 138
+			period 15.5028
+	object
+		sprite planet/uranus
+		distance 2048.96
+		period 822.389
+
+system Deadsouls
+	pos 1854.89 -788.934
+	government "Shunned Tuxen"
+	habitable 912.6
+	link Cliptou
+	asteroids "small rock" 11 2.38
+	asteroids "medium rock" 19 2.24
+	asteroids "large rock" 2 2.352
+	asteroids "small metal" 6 1.428
+	asteroids "medium metal" 3 1.568
+	asteroids "large metal" 4 3.444
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Shunned Tuxen" 300
+	object
+		sprite star/k0
+		distance 48.5379
+		period 14.0433
+		offset 180
+	object
+		sprite star/k5
+		distance 55.4621
+		period 14.0433
+	object Ritala
+		sprite planet/desert6
+		distance 1611.57
+		period 856.633
+		offset 164.651
+		object
+			sprite planet/tethys
+			distance 163
+			period 21.6824
+
+system Gidap
+	pos 2261.05 -172.912
+	government Tuxen
+	habitable 1715
+	link Zilset
+	link Riscon
+	asteroids "small metal" 4 6
+	asteroids "medium metal" 2 5.6
+	asteroids "large metal" 1 5.65
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		period 10
+	object Ritap
+		sprite planet/lava1
+		distance 5804.91
+		period 4271.9
+		offset 185.758
+	object "Rayward Tuxen Wormhole"
+		sprite planet/tw1
+		distance 4606.05
+		period 3019.4
+		offset nan
+
+system Galertep
+	pos 2079.38 -135.821
+	government Tuxen
+	habitable 486.68
+	link Dantimitus
+	link Dynath
+	link Mallis
+	link Zilset
+	link Toramaj
+	asteroids "small rock" 16 3.1304
+	asteroids "medium rock" 15 2.5116
+	asteroids "large rock" 7 3.0576
+	asteroids "medium metal" 16 2.4388
+	asteroids "large metal" 1 5.096
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava5
+		distance 212.96
+		period 56.3489
+	object
+		sprite planet/forest1
+		distance 528.77
+		period 220.464
+	object
+		sprite planet/forest2
+		distance 898.61
+		period 488.422
+	object
+		sprite planet/ice4
+		distance 1777.5
+		period 1358.79
+		object
+			sprite planet/dust5
+			distance 149
+			period 22.8635
+	object
+		sprite planet/gas7
+		distance 3010.75
+		period 2995.37
+		object
+			sprite planet/europa
+			distance 223
+			period 11.8464
+		object
+			sprite planet/dust0
+			distance 353
+			period 23.5935
+		object
+			sprite planet/ice8
+			distance 444
+			period 33.2817
+
+system Gyrato
+	pos 1751.91 -366.601
+	government Tuxen
+	habitable 625
+	asteroids "small rock" 1 2.2525
+	asteroids "medium rock" 11 4.8025
+	asteroids "large rock" 3 5.95
+	asteroids "medium metal" 2 2.38
+	asteroids "large metal" 2 5.355
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock12
+		distance 275.89
+		period 73.3202
+		object
+			sprite planet/dust4
+			distance 148
+			period 18.7594
+	object
+		sprite planet/cloud7
+		distance 720.45
+		period 309.404
+	object
+		sprite planet/lava0
+		distance 1355.01
+		period 798.057
+	object
+		sprite planet/gas7
+		distance 2553.9
+		period 2065.03
+		object
+			sprite planet/rock0
+			distance 263
+			period 15.1727
+
+system Jahyip
+	pos 2260.61 -369.155
+	government Tuxen
+	habitable 1400
+	link Vorner
+	link Durntor
+	asteroids "small metal" 1 4.41
+	asteroids "medium metal" 5 2.065
+	asteroids "large metal" 6 3.92
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		distance 23.5429
+		period 11.1751
+		offset 180
+	object
+		sprite star/m0
+		distance 79.4571
+		period 11.1751
+	object
+		sprite planet/gas14
+		distance 591.497
+		period 153.789
+		object
+			sprite planet/luna
+			distance 254
+			period 16.4858
+		object
+			sprite planet/dust0
+			distance 391
+			period 31.4865
+	object
+		sprite planet/gas11
+		distance 1721.99
+		period 763.908
+		object
+			sprite planet/dust1
+			distance 259
+			period 13.7476
+		object
+			sprite planet/dust5
+			distance 360
+			period 22.5285
+		object
+			sprite planet/rock17
+			distance 519
+			period 38.9968
+
+system Jihporay
+	pos 1793.48 -411.061
+	government Tuxen
+	habitable 625
+	link Sikpern
+	link "Warden Diamond"
+	link Rebund
+	asteroids "small rock" 13 5.58
+	asteroids "medium rock" 59 8.7
+	asteroids "large rock" 10 4.98
+	asteroids "small metal" 23 5.52
+	asteroids "medium metal" 20 6.06
+	asteroids "large metal" 9 6.96
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock13
+		distance 150.64
+		period 29.5822
+	object
+		sprite planet/desert7
+		distance 348.05
+		period 103.892
+	object
+		sprite planet/gas7
+		distance 1059.34
+		period 551.662
+		object
+			sprite planet/desert4
+			distance 239
+			period 13.144
+		object
+			sprite planet/miranda
+			distance 345
+			period 22.796
+		object
+			sprite planet/luna
+			distance 500
+			period 39.7727
+	object
+		sprite planet/jupiter
+		distance 2212.98
+		period 1665.66
+		object
+			sprite planet/ice7
+			distance 259
+			period 13.0982
+		object
+			sprite planet/dust4
+			distance 407
+			period 25.802
+
+system Joints
+	pos 2082.15 136.702
+	government Tuxen
+	habitable 2372.76
+	link Craternot
+	link Yrinex
+	link Toramaj
+	asteroids "large rock" 1 5.8174
+	asteroids "small metal" 15 3.3524
+	asteroids "medium metal" 3 4.7821
+	asteroids "large metal" 2 4.7328
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/gas5
+		distance 476.61
+		period 85.4433
+		object
+			sprite planet/dust4
+			distance 280
+			period 15.5806
+	object
+		sprite planet/cloud7
+		distance 924.37
+		period 230.782
+	object
+		sprite planet/gas3
+		distance 1572.37
+		period 511.994
+		object
+			sprite planet/desert4
+			distance 283
+			period 12.1603
+		object
+			sprite planet/rhea
+			distance 385
+			period 19.2955
+
+system Lantra
+	pos 1991.56 -181.582
+	government Tuxen
+	habitable 1080
+	link Tantris
+	link Mallis
+	link Dynath
+	asteroids "small rock" 5 2.197
+	asteroids "medium rock" 53 4.9348
+	asteroids "large rock" 3 2.4336
+	asteroids "small metal" 54 2.9068
+	asteroids "medium metal" 61 2.197
+	asteroids "large metal" 105 3.1772
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud3
+		distance 212.41
+		period 37.68
+	object
+		sprite planet/desert3
+		distance 758.66
+		period 254.342
+		object
+			sprite planet/lava0
+			distance 156
+			period 20.3008
+	object
+		sprite planet/gas12
+		distance 1814.91
+		period 941.089
+		object
+			sprite planet/dust4
+			distance 269
+			period 11.5881
+		object
+			sprite planet/ice0
+			distance 409
+			period 21.7255
+		object
+			sprite planet/desert4
+			distance 506
+			period 29.8958
+		object
+			sprite planet/ice7
+			distance 699
+			period 48.5401
+
+system Leapjog
+	pos 1897.23 -328.755
+	government Tuxen
+	habitable 486.68
+	link Tuxenleaf
+	link Yopworn
+	link Rayward
+	asteroids "medium rock" 3 6.0116
+	asteroids "large rock" 2 3.5644
+	asteroids "small metal" 4 6.65
+	asteroids "large metal" 1 5.2136
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Tuxen Interceptors" 300
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice4
+		distance 319.25
+		period 103.427
+		object
+			sprite planet/dust3
+			distance 167
+			period 27.1292
+	object Rigza
+		sprite planet/gas12
+		distance 1235.81
+		period 787.709
+		object
+			sprite planet/rock17
+			distance 270
+			period 11.6528
+		object
+			sprite planet/tethys
+			distance 369
+			period 18.6176
+		object
+			sprite planet/ice8
+			distance 446
+			period 24.7393
+	object
+		sprite planet/uranus
+		distance 2282.02
+		period 1976.59
+		object
+			sprite planet/dust7
+			distance 238
+			period 15.687
+		object
+			sprite planet/io
+			distance 324
+			period 24.9167
+		object
+			sprite planet/oberon
+			distance 484
+			period 45.4927
+
+system Mallis
+	pos 2023.6 -138.834
+	government Tuxen
+	habitable 625
+	link Dantimitus
+	link Tantris
+	link Lantra
+	link Dynath
+	link Fanserk
+	link Galertep
+	asteroids "small rock" 5 2.7216
+	asteroids "medium rock" 73 6.7032
+	asteroids "large rock" 6 6.5016
+	asteroids "small metal" 3 2.52
+	asteroids "medium metal" 5 6.3504
+	asteroids "large metal" 4 6.6024
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/black-hole-core
+		period 1
+	object
+		sprite star/black-hole
+		period 1
+	object Grabtar
+		sprite planet/rock11
+		distance 385.262
+		period 120.991
+		offset 194.601
+
+system Rayward
+	pos 1995.55 -285.356
+	government Tuxen
+	habitable 1715
+	link Leapjog
+	link Tuxenleaf
+	asteroids "small rock" 22 1.4352
+	asteroids "medium rock" 87 1.932
+	asteroids "large rock" 4 2.8152
+	asteroids "small metal" 12 2.7048
+	asteroids "medium metal" 15 1.4076
+	asteroids "large metal" 23 3.726
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Tuxen Warships" 700
+	fleet "Tuxen Interceptors" 300
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/dust7
+		distance 122.09
+		period 13.0301
+	object
+		sprite planet/cloud7
+		distance 322.65
+		period 55.979
+	object Gateway
+		sprite planet/gas16
+		distance 1258.26
+		period 431.105
+		object
+			sprite planet/rock0
+			distance 205
+			period 15.45
+		object
+			sprite planet/rock7
+			distance 304
+			period 27.9002
+	object
+		sprite planet/desert8
+		distance 1831.55
+		period 757.105
+		object
+			sprite planet/ice0
+			distance 143
+			period 21.9336
+	object "Rayward Tuxen Wormhole"
+		sprite planet/tw1
+		distance 2279.29
+		period 2849.84
+
+system Rebund
+	pos 1803.24 -251.441
+	government Tuxen
+	habitable 1715
+	link Zixbefar
+	link Jihporay
+	asteroids "small rock" 58 2.652
+	asteroids "medium rock" 56 4.914
+	asteroids "large rock" 29 5.109
+	asteroids "small metal" 10 2.535
+	asteroids "medium metal" 12 2.379
+	asteroids "large metal" 1 4.953
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/dust6
+		distance 152.24
+		period 18.1435
+	object Rabowa
+		sprite planet/gas4
+		distance 660.45
+		period 163.941
+		object
+			sprite planet/desert4
+			distance 220
+			period 11.5088
+		object
+			sprite planet/oberon
+			distance 336
+			period 21.7223
+	object
+		sprite planet/neptune
+		distance 1215.14
+		period 409.136
+	object
+		sprite planet/gas6
+		distance 2205.43
+		period 1000.39
+		object
+			sprite planet/callisto
+			distance 303
+			period 13.4719
+		object
+			sprite planet/dust1
+			distance 460
+			period 25.2001
+
+system Riscon
+	pos 2248.21 -245.131
+	government Tuxen
+	habitable 625
+	link Gidap
+	link Vorner
+	asteroids "small rock" 14 1.3328
+	asteroids "medium rock" 21 2.1182
+	asteroids "large rock" 39 3.332
+	asteroids "small metal" 33 2.023
+	asteroids "medium metal" 28 1.6422
+	asteroids "large metal" 121 2.499
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	fleet "Tuxen Warships" 1000
+	fleet "Tuxen Interceptors" 200
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/mars
+		distance 151.41
+		period 29.8093
+	object
+		sprite planet/gas13
+		distance 845.45
+		period 393.325
+		object
+			sprite planet/callisto
+			distance 299
+			period 14.5954
+		object
+			sprite planet/luna
+			distance 399
+			period 22.4993
+		object
+			sprite planet/miranda
+			distance 516
+			period 33.0891
+	object Mafawo
+		sprite planet/gas3
+		distance 1867.7
+		period 1291.46
+		object
+			sprite planet/rock17
+			distance 279
+			period 11.9034
+		object
+			sprite planet/europa
+			distance 362
+			period 17.5925
+
+system "Sagittarius A*"
+	pos 112 22
+	government Uninhabited
+	habitable 10000
+	object
+		sprite star/black-hole-core
+		period 1
+	object
+		sprite star/black-hole
+		period 1
+	object Letaga
+		sprite planet/dust6
+		distance 1412.22
+		period 212.281
+		offset 246.404
+	object "Sagittarius Tuxen Wormhole"
+		sprite planet/tw
+		distance 2279.29
+		period 2849.84
+
+system Shunard
+	pos 2116.05 -352.793
+	government Tuxen
+	habitable 1505.92
+	link Tuxenleaf
+	link Exbathic
+	asteroids "large rock" 1 0.847
+	asteroids "medium metal" 2 0.902
+	asteroids "large metal" 2 1.584
+	trade Clothing 300
+	trade Electronics 1001
+	trade Equipment 457
+	trade Food 380
+	trade "Heavy Metals" 900
+	trade Industrial 1200
+	trade "Luxury Goods" 1300
+	trade Medical 789
+	trade Metal 300
+	trade Plastic 500
+	fleet "Tuxen Warships" 200
+	fleet "Tuxen Interceptors" 200
+	object
+		sprite star/g0
+		distance 26.5861
+		period 9.39401
+	object
+		sprite star/k5
+		distance 67.4139
+		period 9.39401
+		offset 180
+	object
+		sprite planet/venus
+		distance 221.664
+		period 34.0174
+	object
+		sprite planet/neptune
+		distance 1076.07
+		period 363.85
+		object
+			sprite planet/desert4
+			distance 197
+			period 13.7763
+		object
+			sprite planet/dust5
+			distance 350
+			period 32.6238
+		object
+			sprite planet/dust1
+			distance 536
+			period 61.8272
+	object Firn
+		sprite planet/gas6
+		distance 2193.32
+		period 1058.8
+
+system Sikpern
+	pos 1837.14 -484.344
+	government Tuxen
+	habitable 745.92
+	link Jihporay
+	link Deadbroke
+	asteroids "small rock" 38 4.8384
+	asteroids "medium rock" 4 3.5952
+	asteroids "large rock" 26 4.536
+	asteroids "small metal" 5 2.016
+	asteroids "medium metal" 67 3.9312
+	asteroids "large metal" 121 4.0656
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		distance 35.607
+		period 11.0747
+	object
+		sprite star/m0
+		distance 47.393
+		period 11.0747
+		offset 180
+	object
+		sprite planet/ice6
+		distance 197.233
+		period 40.568
+	object
+		sprite planet/rock0
+		distance 388.393
+		period 112.104
+	object
+		sprite planet/desert9
+		distance 745.883
+		period 298.346
+	object
+		sprite planet/lava7
+		distance 1437.17
+		period 797.953
+	object
+		sprite planet/gas11
+		distance 3062.42
+		period 2482.06
+
+system Tantris
+	pos 1967.86 -140.436
+	government Tuxen
+	habitable 2201.68
+	link Mallis
+	link Lantra
+	link Fanserk
+	asteroids "small rock" 9 5.52
+	asteroids "medium rock" 124 4.12
+	asteroids "large rock" 35 5.2
+	asteroids "small metal" 108 3.28
+	asteroids "medium metal" 42 4.04
+	asteroids "large metal" 7 3.92
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/f5
+		distance 23.6523
+		period 9.43536
+		offset 180
+	object
+		sprite star/k0
+		distance 83.3477
+		period 9.43536
+	object Pathas
+		sprite planet/rock13
+		distance 641.868
+		period 138.628
+		offset 268.894
+
+system Toramaj
+	pos 2046.95 79.7498
+	government Tuxen
+	habitable 1050.92
+	link Craternot
+	link Joints
+	link Galertep
+	link Siverntas
+	asteroids "small rock" 19 2.448
+	asteroids "medium rock" 9 2.232
+	asteroids "large rock" 27 3.504
+	asteroids "small metal" 6 3.312
+	asteroids "medium metal" 55 1.872
+	asteroids "large metal" 113 2.568
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		distance 36.8808
+		period 10.7112
+	object
+		sprite star/k5
+		distance 54.1192
+		period 10.7112
+		offset 180
+	object
+		sprite planet/cloud0
+		distance 277.809
+		period 57.1341
+	object
+		sprite planet/jupiter
+		distance 610.449
+		period 186.101
+	object
+		sprite planet/tethys
+		distance 1339.7
+		period 605.043
+	object
+		sprite planet/gas3
+		distance 2407.54
+		period 1457.59
+
+system Tuxenleaf
+	pos 2014.5 -323.854
+	government Tuxen
+	habitable 640
+	link Shunard
+	link Exbathic
+	link Zigfurl
+	link Yopworn
+	link Leapjog
+	link Rayward
+	asteroids "small rock" 7 4.422
+	asteroids "medium rock" 20 6.204
+	asteroids "large rock" 3 9.702
+	asteroids "large metal" 7 6.336
+	trade Clothing 300
+	trade Electronics 1001
+	trade Equipment 457
+	trade Food 380
+	trade "Heavy Metals" 900
+	trade Industrial 1200
+	trade "Luxury Goods" 1300
+	trade Medical 789
+	trade Metal 300
+	trade Plastic 500
+	fleet "Tuxen Warships" 600
+	fleet "Tuxen Interceptors" 500
+	object
+		sprite star/m0
+		distance 52
+		period 16.7695
+		offset 180
+	object
+		sprite star/m0
+		distance 52
+		period 16.7695
+	object L'nux
+		sprite planet/tuxenburg
+		distance 598.033
+		period 231.237
+		offset 351.621
+	object "Sagittarius Tuxen Wormhole"
+		sprite planet/tw
+		distance 2279.29
+		period 2849.84
+
+system Vorner
+	pos 2277.53 -320.673
+	government Tuxen
+	habitable 233.28
+	link Riscon
+	link Jahyip
+	asteroids "medium rock" 1 5.796
+	asteroids "large rock" 5 7.5072
+	asteroids "small metal" 2 5.6856
+	asteroids "medium metal" 17 4.6368
+	asteroids "large metal" 8 6.0168
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock6
+		distance 157.44
+		period 51.7361
+	object
+		sprite planet/uranus
+		distance 725.44
+		period 511.71
+		object
+			sprite planet/ice7
+			distance 227
+			period 14.6121
+	object
+		sprite planet/gas10
+		distance 1371.13
+		period 1329.66
+	object
+		sprite planet/jupiter
+		distance 2222.69
+		period 2744.35
+		object
+			sprite planet/tethys
+			distance 234
+			period 11.2483
+		object
+			sprite planet/rock0
+			distance 328
+			period 18.6669
+		object
+			sprite planet/io
+			distance 452
+			period 30.1974
+
+system "Warden Diamond"
+	pos 1933.97 -474.374
+	government Confederacy
+	habitable 1080
+	link Jihporay
+	asteroids "small rock" 6 5.0692
+	asteroids "large rock" 2 4.3355
+	asteroids "small metal" 6 3.335
+	asteroids "large metal" 3 8.6043
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		period 10
+	object Lilith
+		sprite planet/forest0
+		distance 357.439
+		period 82.2529
+		offset 39.6443
+	object Charon
+		sprite planet/gas5
+		distance 686.439
+		period 218.903
+		offset 204.535
+	object Cerberus
+		sprite planet/gas17
+		distance 1072.44
+		period 427.471
+		offset 225.4
+	object Medusa
+		sprite planet/gas11
+		distance 1459.44
+		period 678.621
+		offset 315.535
+
+system Waytu
+	pos 1837 -161.249
+	government Tuxen
+	habitable 425.92
+	link Zixbefar
+	link Siverntas
+	asteroids "small rock" 8 2.599
+	asteroids "large rock" 7 1.863
+	asteroids "small metal" 9 2.576
+	asteroids "medium metal" 44 2.484
+	asteroids "large metal" 3 2.737
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice2
+		distance 147.16
+		period 34.6004
+	object
+		sprite planet/dust6
+		distance 506.05
+		period 220.641
+	object
+		sprite planet/rock18
+		distance 944.05
+		period 562.197
+	object
+		sprite planet/neptune
+		distance 2535.29
+		period 2474.22
+		object
+			sprite planet/ice8
+			distance 212
+			period 15.3793
+		object
+			sprite planet/rock17
+			distance 336
+			period 30.6861
+
+system "World's Edge"
+	pos 2467.14 391.352
+	government Uninhabited
+	habitable 659.2
+	link "Far Reaches"
+	asteroids "small rock" 43 1.2376
+	asteroids "medium rock" 6 1.9474
+	asteroids "large rock" 20 1.092
+	asteroids "small metal" 21 1.092
+	asteroids "medium metal" 7 1.2376
+	asteroids "large metal" 24 1.729
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/k5
+		distance 29.0184
+		period 11.5684
+	object
+		sprite star/m4
+		distance 52.9816
+		period 11.5684
+		offset 180
+	object
+		sprite planet/cloud4
+		distance 235.992
+		period 56.4802
+	object
+		sprite planet/lava7
+		distance 437.802
+		period 142.714
+	object
+		sprite planet/gas14
+		distance 1336.05
+		period 760.828
+		object
+			sprite planet/rhea
+			distance 232
+			period 14.391
+		object
+			sprite planet/rock7
+			distance 336
+			period 25.0823
+	object
+		sprite planet/gas12
+		distance 2861.26
+		period 2384.45
+		object
+			sprite planet/desert4
+			distance 264
+			period 11.2665
+		object
+			sprite planet/dust0
+			distance 398
+			period 20.855
+	object Desolation
+		sprite planet/europa
+		distance 3685.1
+		period 3485.18
+
+system Yopworn
+	pos 1929.07 -357.037
+	government Tuxen
+	habitable 135
+	link Tuxenleaf
+	link Leapjog
+	asteroids "small rock" 58 1.2528
+	asteroids "medium rock" 26 3.0888
+	asteroids "large rock" 26 2.0736
+	asteroids "small metal" 17 1.5552
+	asteroids "medium metal" 51 2.3544
+	asteroids "large metal" 3 2.8296
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/rhea
+		distance 125.64
+		period 48.4825
+	object
+		sprite planet/rock11
+		distance 308.45
+		period 186.496
+	object
+		sprite planet/rock15
+		distance 548.66
+		period 442.434
+	object
+		sprite planet/gas11
+		distance 842.5
+		period 841.876
+	object
+		sprite planet/gas4
+		distance 2607.66
+		period 4584.26
+		object
+			sprite planet/rock14
+			distance 233
+			period 12.5439
+
+system Yrinex
+	pos 2185.53 205.824
+	government Tuxen
+	habitable 858.28
+	link Estratos
+	link Joints
+	asteroids "small rock" 30 2.8391
+	asteroids "medium rock" 26 2.5201
+	asteroids "large rock" 13 3.9556
+	asteroids "small metal" 30 2.1054
+	asteroids "medium metal" 6 4.7212
+	asteroids "large metal" 8 1.595
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g5
+		distance 23.9183
+		period 11.2712
+		offset 180
+	object
+		sprite star/m4
+		distance 64.0817
+		period 11.2712
+	object
+		sprite planet/rock9
+		distance 222.082
+		period 45.1871
+	object
+		sprite planet/ocean9
+		distance 694.922
+		period 250.12
+		object
+			sprite planet/luna
+			distance 162
+			period 21.1096
+	object
+		sprite planet/gas15
+		distance 1524.13
+		period 812.417
+	object
+		sprite planet/gas13
+		distance 2395.49
+		period 1600.8
+		object
+			sprite planet/ice0
+			distance 268
+			period 12.3855
+		object
+			sprite planet/rock17
+			distance 390
+			period 21.7424
+		object
+			sprite planet/ice7
+			distance 528
+			period 34.25
+
+system Zigfurl
+	pos 2113.44 -294.73
+	government Tuxen
+	habitable 625
+	link Exbathic
+	link Tuxenleaf
+	asteroids "medium rock" 2 3.6288
+	asteroids "large rock" 1 2.6352
+	asteroids "medium metal" 25 6.048
+	asteroids "large metal" 1 6.0048
+	trade Clothing 300
+	trade Electronics 1001
+	trade Equipment 457
+	trade Food 380
+	trade "Heavy Metals" 900
+	trade Industrial 1200
+	trade "Luxury Goods" 1300
+	trade Medical 789
+	trade Metal 300
+	trade Plastic 500
+	object
+		sprite star/g5
+		period 10
+	object Farwap
+		sprite planet/lava2
+		distance 197.25
+		period 44.3247
+	object
+		sprite planet/ice5
+		distance 489.29
+		period 173.169
+	object
+		sprite planet/gas5
+		distance 1077.65
+		period 566.026
+		object
+			sprite planet/europa
+			distance 250
+			period 13.1449
+		object
+			sprite planet/io
+			distance 383
+			period 24.9256
+	object
+		sprite planet/gas7
+		distance 2034.09
+		period 1467.83
+		object
+			sprite planet/ice0
+			distance 260
+			period 14.9139
+
+system Zilset
+	pos 2175.95 -140.564
+	government Tuxen
+	habitable 1080
+	link Gidap
+	link Galertep
+	asteroids "small rock" 1 2.2382
+	asteroids "medium rock" 42 2.3826
+	asteroids "large rock" 41 3.6822
+	asteroids "small metal" 24 4.1515
+	asteroids "medium metal" 32 4.7652
+	asteroids "large metal" 11 4.9096
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/dust6
+		distance 175.44
+		period 28.284
+	object
+		sprite planet/gas1
+		distance 791.05
+		period 270.803
+		object
+			sprite planet/dust7
+			distance 219
+			period 12.9533
+		object
+			sprite planet/desert4
+			distance 334
+			period 24.3969
+	object
+		sprite planet/gas16
+		distance 1954.41
+		period 1051.65
+		object
+			sprite planet/rock0
+			distance 182
+			period 12.9242
+		object
+			sprite planet/oberon
+			distance 268
+			period 23.094
+		object
+			sprite planet/dust3
+			distance 352
+			period 34.7625
+		object
+			sprite planet/rock3
+			distance 502
+			period 59.2042
+
+system Zixbefar
+	pos 1862.24 -224.102
+	government Tuxen
+	habitable 233.28
+	link Waytu
+	link Rebund
+	asteroids "large rock" 1 4.7725
+	asteroids "large metal" 2 7.245
+	trade Clothing 0
+	trade Electronics 0
+	trade Equipment 0
+	trade Food 0
+	trade "Heavy Metals" 0
+	trade Industrial 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	trade Plastic 0
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/cloud3
+		distance 212.41
+		period 81.0744
+	object
+		sprite planet/ganymede
+		distance 436.1
+		period 238.507
+	object
+		sprite planet/lava3
+		distance 690.46
+		period 475.148
+	object
+		sprite planet/titan
+		distance 1448.95
+		period 1444.45
+	object
+		sprite planet/neptune
+		distance 2431.79
+		period 3140.58
+
+planet Desolation
+	attributes uninhabited
+	landscape land/sea7
+	description `This dark and stormy planet is the discovery of a rogue Tuxen scout. His only recorded response was: "This is where the last of the universe resides." The scout's ship crashed on the way back home, allowing no further explanation of what he could have meant. You feel like you need to leave before you suffer a similar fate`
+	security 0
+
+planet Farwap
+	landscape land/bwerner8
+	description `This planet is too close for any Tuxen (or any species, really) to live on. Thus, it is only used for Tuxen scientific experiments on hot weather, something of a popular subject for them.`
+	bribe 0
+
+planet Firn
+	landscape land/snow2
+	description `This chilly world is a Tuxen vacation planet.`
+	spaceport `The spaceport here has been hastily set up to accomodate humans, thanks to your efforts in getting the wormhole stabilized. It includes a small room off the main area with heaters and a vending machine, full of Tuxen delicacies. Which are mostly varieties of fish.`
+	bribe 0
+
+planet Gateway
+	landscape land/snow10
+	description `This planet serves as a guard for the Tuxen homeworld and surrounding systems. Only certified people are allowed to pass through the local wormhole, made possible by a special Tuxen technology.`
+	spaceport `The spaceport is designed with Tuxen in mind. And only the Tuxen in mind. The whole floor is ice, which means attempting to walk anywhere is a challenge. Human-sized penguins are sliding everywhere, yet nobody is bumping into each other. Except for you, into the Tuxen.`
+	bribe 0
+
+planet L'nux
+	attributes tuxen
+	landscape land/myrabella3
+	description `This is one of the many prospering Tuxen worlds. As their worlds are so spread out, they provide most of their outfits on every planet they inhabit.`
+	spaceport `The spaceport resembles an ancient department store. You park your ship outside, then walk in, amazed by all the different shops and services that they provide.`
+	shipyard Tuxen
+	outfitter Tuxen
+	bribe 0
+	security 1
+
+planet Letaga
+	attributes tuxen tuxenbegin uninhabited
+	landscape land/lava0
+	music ambient/loop4
+	description `This planet seems to be in complete ruin. But the damage done to it could only be artificial. Evidently, some species had to have lived here at one point, but now no trace of civilization exists. What happened here?`
+	security 0
+
+planet Mafawo
+	landscape land/forest3
+	description `This is the world where the Tuxen grow the colossal branches for their Leaf warships. As such, it is the host to the rest of Tuxen manufacturing as well, for the convienience which all Tuxen love.`
+	spaceport `The spaceport is full of advertisements for the Leaf and other Tuxen outfits.`
+	shipyard Tuxen
+	outfitter Tuxen
+	bribe 0
+
+planet Pathas
+	attributes tuxen
+	landscape ""
+
+planet Rabowa
+	attributes uninhabited tuxen
+	landscape land/desert8-sfiera
+	description `This is a lonely world stuck out in the middle of nowhere, set up exclusively as a refueling station.`
+	spaceport `The spaceport includes a few small service robots that clean the spaceport up when needed. In the distance, mining robots work to harvest fuel to refill the fuel tanks.`
+	bribe 0
+
+planet "Rayward Tuxen Wormhole"
+	attributes "requires: spacebender"
+	landscape ""
+
+planet Rigza
+	landscape land/desert3
+	description `This is an unusually hot world for the Tuxen to live on. As such, only the risk-takers of the species live here.`
+	spaceport `The spaceport has human-sized refridgeration units, to cool off. You hope that they won't think you're being rude by not getting in one.`
+	bribe 0
+
+planet Ritala
+	landscape land/fields4
+	description `This planet houses the shunned Tuxen. They have been able, in their absence, to invent outfits that their southern counterparts would be ashamed of.`
+	spaceport `The spaceport is surprisingly normal for a world with rogue aliens. It has modest-looking merchant shops and even a shipyard for the Tuxen ships they have been able to capture.`
+	shipyard `"Shunned Tuxen"`
+	outfitter `"Shunned Tuxen"`
+	bribe 0
+
+planet Ritap
+	attributes uninhabited tuxen
+	landscape land/desert0
+	description `This is technically a Tuxen world, but it is so far out from its sun that no species could possibly want to live here.`
+	security 0
+
+planet "Sagittarius Tuxen Wormhole"
+	attributes "requires: nuclear keystone"
+	landscape ""
+

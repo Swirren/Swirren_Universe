@@ -297,7 +297,7 @@ person "Swiren"
 	phrase
 			"I'm too lazy to write any more responses."
 	phrase
-			"Find me @ swiftrender#8897! Let me know if you found this message; include a screenshot if you can!"		
+			"Find me @Swirren#8897! Let me know if you found this message; include a screenshot if you can!"		
 	phrase
 			"It's time to kick bubblegum and chew ass. And I'm all out of-- wait, that's not right..."
 	phrase

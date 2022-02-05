@@ -1,5 +1,6 @@
 outfit "Biochemical Identifier"
 	category "Special"
+	cost 0
 	thumbnail "outfit/biochemical identifier"
 	"identifier" 1
 	description "This identifier latches onto a specific part of the Spacebender and allows access through certain Tuxen wormholes."
@@ -16,10 +17,10 @@ outfit "Biocooler"
 	description "Even though the Tuxen outfits are organic and extremely efficient, thus giving off virtually no heat, some artificial outfits might give off more heat than what a ship can handle."
 
 outfit "Tuxen Spacebender"
-	category "Systems"
+	category "Special"
 	licenses
 		Tuxen
-	cost 10000000
+	cost 0
 	thumbnail "outfit/spacebender"
 	"mass" 1
 	"outfit space" -1
@@ -29,6 +30,7 @@ outfit "Tuxen Spacebender"
 
 outfit "Tuxen License"
 	category "Special"
+	cost 0
 	thumbnail "outfit/tuxen license"
 	description "After reconciling the Tuxen with their shunned counterparts, the Tuxen authorities have seen it fit that you be allowed to purchase their technology and ships."
 
@@ -44,7 +46,7 @@ outfit "Windscoop"
 	description "This specially designed ramscoop works by filtering solar wind into your fuel tanks."
 
 outfit "Nuclear Keystone"
-	category "Systems"
+	category "Special"
 	cost 0
 	thumbnail "outfit/nuclear keystone"
 	"mass" 1

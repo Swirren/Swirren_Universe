@@ -1,5 +1,19 @@
 # Note - I recommend turning Word Wrap off, to make viewing the change heirarchy easier.
 
+v1.7.1
+	Changes
+		Map
+			Fixed some stray naming issues that would spawn systems in the middle of the map.
+
+v1.7
+	Notes
+		After a long time away, I'm back for some amount of time.
+	Changes
+		Map
+			Renamed some systems. Naming one "2" was a very dumb choice.
+		Outfits
+			Changed values of some Special type outfits.
+
 v1.6.13
 	Additions
 		Sound
