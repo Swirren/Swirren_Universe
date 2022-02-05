@@ -14,7 +14,7 @@ To start the whole process, land on Letaga in the Sagittarius A system.
 
 	Space Arena
 
-Space Arena is a unique, never-seen-before utilization of Endless Sky mission and fleet mechanics. It consists of a hub world, and eighteen battle systems. To start, land on the Hub world in the Hub World system, located SE of Sagittarius A. There will be a pop-up asking if you'd like to start the arena. If you say yes, you're in for a treat. 
+Space Arena is a utilization of Endless Sky mission and fleet mechanics. It consists of a hub world, and eighteen battle systems. To start, land on the Hub world in the Hub World system, located SE of Sagittarius A. There will be a pop-up asking if you'd like to start the arena. If you say yes, you're in for a treat. 
 
 The contents include fighting a certain amount of enemies (listed in 'waves') and attempting to finish them all off. In my personal testing, I used an unmodded tester ship (ship details listed at the end of this document) and no other ship.
 
