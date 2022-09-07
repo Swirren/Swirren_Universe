@@ -1,2 +1,2 @@
-This plugin was made by Gabe Simar, aka Swiren. While Endless Sky and this plugin are open-source, and therefore free for public modifications and distributions, please credit me in any potential usage and/or redistribution of this plugin (it took a lot of work!). Thanks, and enjoy!
+This plugin was made by Swirren. While Endless Sky and this plugin are open-source, and therefore free for public modifications and distributions, please credit me in any potential usage and/or redistribution of this plugin (it took a lot of work!). Thanks, and enjoy!
 Please view the README.txt file located in the root folder of this plugin for extensive details.
